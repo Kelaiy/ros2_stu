@@ -14,6 +14,7 @@
         <visual>
             <geometry>
                 <box size="${camera_x} ${camera_y} ${camera_z}"/>
+                
             </geometry>
         </visual>
         <collision>
