@@ -1,0 +1,38 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:13[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:29:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint[m[K[m[K’, but argument 5 has type ‘[01m[K[01;34m[Kint64_t[m[K’ {aka ‘[01m[K[01;34m[Klong int[m[K’}[m[K [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+   29 |       RCLCPP_INFO(this->get_logger(),[01;32m[K"[m[K[01;32m[Kw[m[K[01;32m[Kh[m[K[01;32m[Ke[m[K[01;32m[Ke[m[K[01;32m[Kl[m[K[01;32m[Ks[m[K[01;32m[K [m[K[01;32m[K=[m[K[01;32m[K [m[K[01;32m[K%[m[K[01;32m[Kd[m[K[01;32m[K"[m[K,[01;34m[Kp[m[K[01;34m[K3[m[K[01;34m[K.[m[K[01;34m[Ka[m[K[01;34m[Ks[m[K[01;34m[K_[m[K[01;34m[Ki[m[K[01;34m[Kn[m[K[01;34m[Kt[m[K[01;34m[K([m[K[01;34m[K)[m[K);
+      |                                      [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                             [01;34m[K|[m[K
+      |                                                             [01;34m[Kint64_t {aka long int}[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:29:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |       RCLCPP_INFO(this->get_logger(),"wheels = [01;32m[K%[m[K[01;32m[Kd[m[K",p3.as_int());
+      |                                                [01;32m[K~[m[K[01;32m[K^[m[K
+      |                                                 [01;32m[K|[m[K
+      |                                                 [01;32m[Kint[m[K
+      |                                                [32m[K%ld[m[K
+[100%] [1m[32mLinking CXX executable demo0_param[0m
+[100%] Built target demo0_param
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.xml

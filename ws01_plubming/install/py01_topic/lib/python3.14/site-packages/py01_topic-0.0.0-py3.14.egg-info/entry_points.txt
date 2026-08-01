@@ -1,0 +1,5 @@
+[console_scripts]
+demo01_listener_sty_py = py01_topic.demo01_listener_sty_py:main
+demo01_talker_sty_py = py01_topic.demo01_talker_sty_py:main
+demo02_listener_stu_py = py01_topic.demo02_listener_stu_py:main
+demo02_talker_stu_py = py01_topic.demo02_talker_stu_py:main

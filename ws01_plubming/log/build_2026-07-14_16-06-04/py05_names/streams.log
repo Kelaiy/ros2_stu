@@ -1,0 +1,35 @@
+[0.768s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py05_names': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/install.log --single-version-externally-managed install_data
+[1.050s] running egg_info
+[1.070s] creating ../../build/py05_names/py05_names.egg-info
+[1.070s] writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+[1.071s] writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+[1.071s] writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+[1.071s] writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+[1.071s] writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+[1.071s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[1.114s] reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[1.114s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[1.115s] running build
+[1.115s] running build_py
+[1.115s] creating /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+[1.115s] copying py05_names/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+[1.115s] copying py05_names/demo1_names_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+[1.116s] copying py05_names/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+[1.116s] running install
+[1.120s] running install_lib
+[1.140s] creating /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names
+[1.140s] copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names
+[1.140s] copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names
+[1.140s] copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names/demo1_names_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names
+[1.141s] byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names/__init__.py to __init__.cpython-314.pyc
+[1.141s] byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names/demo1_names_py.py to demo1_names_py.cpython-314.pyc
+[1.141s] running install_data
+[1.142s] creating /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/share/ament_index/resource_index/packages
+[1.142s] copying resource/py05_names -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/share/ament_index/resource_index/packages
+[1.142s] copying package.xml -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/share/py05_names
+[1.142s] running install_egg_info
+[1.165s] Copying ../../build/py05_names/py05_names.egg-info to /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names-0.0.0-py3.14.egg-info
+[1.165s] running install_scripts
+[1.273s] Installing demo1_names_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/py05_names
+[1.273s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/install.log'
+[1.316s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py05_names' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/install.log --single-version-externally-managed install_data

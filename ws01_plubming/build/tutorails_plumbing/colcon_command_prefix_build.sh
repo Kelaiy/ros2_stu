@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/share/py04_param/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic/share/cpp01_topic/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action/share/cpp03_action/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/share/py01_topic/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/share/py02_seriver/package.sh"
+. "/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/share/py03_action/package.sh"

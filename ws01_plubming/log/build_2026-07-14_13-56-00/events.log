@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (-) JobUnselected: {'identifier': 'base_interfeces'}
+[0.000567] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000599] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000623] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000644] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000664] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000686] (-) JobUnselected: {'identifier': 'py02_seriver'}
+[0.000705] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000726] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000745] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000942] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/cpp05_names_uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/demo1_names.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/test.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/edit_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/rebuild_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/list_install_components.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/install.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/install/local.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names/CMakeFiles/install/strip.dir

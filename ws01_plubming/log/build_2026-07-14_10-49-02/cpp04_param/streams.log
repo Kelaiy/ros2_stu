@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param -- -j16 -l16
+[0.050s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.283s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.305s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.310s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.491s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.600s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.600s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/include>
+[0.600s] -- Configured cppcheck exclude dirs and/or files: 
+[0.600s] -- Added test 'lint_cmake' to check CMake code style
+[0.601s] -- Added test 'uncrustify' to check C / C++ code style
+[0.601s] -- Configured uncrustify additional arguments: 
+[0.602s] -- Added test 'xmllint' to check XML markup files
+[0.602s] -- Configuring done (0.6s)
+[0.622s] -- Generating done (0.0s)
+[0.645s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param
+[0.687s] [ 33%] [32mBuilding CXX object CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o[0m
+[0.687s] [ 33%] [32mBuilding CXX object CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o[0m
+[0.711s] [ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+[3.022s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[3.022s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-vexing-parse-Wvexing-parse]8;;[m[K]
+[3.022s]    36 |       rclcpp::ParameterValue value[01;35m[K()[m[K;
+[3.023s]       |                                   [01;35m[K^~[m[K
+[3.023s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.023s]    36 |       rclcpp::ParameterValue value[01;36m[K()[m[K;
+[3.023s]       |                                   [01;36m[K^~[m[K
+[3.023s]       |                                   [31m[K--[m[K
+[3.023s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.048s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:[m[K In constructor ‘[01m[KParamClient::[01;32m[KParamClient[m[K()[m[K’:
+[3.048s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:22:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.048s]    22 |     [01;31m[K}[m[K
+[3.048s]       |     [01;31m[K^[m[K
+[3.073s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:[m[K In constructor ‘[01m[KParamServer::[01;32m[KParamServer[m[K()[m[K’:
+[3.073s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:22:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.073s]    22 |     [01;31m[K}[m[K
+[3.073s]       |     [01;31m[K^[m[K
+[4.217s] gmake[2]: *** [CMakeFiles/demo1_param_client.dir/build.make:79：CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o] 错误 1
+[4.218s] gmake[1]: *** [CMakeFiles/Makefile2:191：CMakeFiles/demo1_param_client.dir/all] 错误 2
+[4.218s] gmake[1]: *** 正在等待未完成的任务....
+[4.223s] gmake[2]: *** [CMakeFiles/demo1_param_server.dir/build.make:79：CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o] 错误 1
+[4.224s] gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/demo1_param_server.dir/all] 错误 2
+[4.307s] [ 66%] [1m[32mLinking CXX executable demo0_param[0m
+[4.437s] [ 66%] Built target demo0_param
+[4.439s] gmake: *** [Makefile:146：all] 错误 2
+[4.444s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param -- -j16 -l16

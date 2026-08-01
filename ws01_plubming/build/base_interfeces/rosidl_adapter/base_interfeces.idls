@@ -1,0 +1,5 @@
+/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:msg/Student.idl
+/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Addints.idl
+/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Distance.idl
+/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Progress.idl
+/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Nav.idl

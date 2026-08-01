@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param
+[ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:24:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   24 |       rclcpp::Parameter [01;31m[Kp1[m[K("height",1.68);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:23:25:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |       rclcpp::Parameter [01;36m[Kp1[m[K("car_name","tiger");
+      |                         [01;36m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:25:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   25 |       rclcpp::Parameter [01;31m[Kp1[m[K("wheels",4);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:23:25:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |       rclcpp::Parameter [01;36m[Kp1[m[K("car_name","tiger");
+      |                         [01;36m[K^~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:13[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:28:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kp2[m[K’ was not declared in this scope; did you mean ‘[01m[Kp1[m[K’?
+   28 |       RCLCPP_INFO(this->get_logger(),"height = %.2f",[01;31m[Kp2[m[K.as_double());
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:29:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kp3[m[K’ was not declared in this scope; did you mean ‘[01m[Kp1[m[K’?
+   29 |       RCLCPP_INFO(this->get_logger(),"wheels = %d",[01;31m[Kp3[m[K.as_int());
+      |                                                    [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/demo0_param.dir/build.make:79：CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo0_param.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

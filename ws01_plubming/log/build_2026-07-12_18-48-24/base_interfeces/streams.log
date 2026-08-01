@@ -1,0 +1,17 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces -- -j16 -l16
+[0.048s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.158s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rosidl_adapter: 5.2.0 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.199s] [31mCMake Error at /opt/ros/lyrical/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.199s]   rosidl_generate_interfaces() the passed file 'aciton/Progress.action'
+[0.200s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.200s]   '/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces'
+[0.200s] Call Stack (most recent call first):
+[0.200s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.200s] 
+[0.200s] [0m
+[0.200s] -- Configuring incomplete, errors occurred!
+[0.204s] gmake: *** [Makefile:1099：cmake_check_build_system] 错误 1
+[0.207s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces -- -j16 -l16

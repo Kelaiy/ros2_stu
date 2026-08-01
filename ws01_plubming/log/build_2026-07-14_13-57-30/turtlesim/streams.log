@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim -- -j16 -l16
+[0.076s] [100%] Built target turtlesim_node
+[0.091s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim -- -j16 -l16
+[0.103s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim
+[0.113s] -- Install configuration: ""
+[0.113s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/lib/turtlesim/turtlesim_node
+[0.113s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[0.113s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/environment/path.sh
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/environment/path.dsv
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/local_setup.bash
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/local_setup.fish
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/local_setup.sh
+[0.114s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/local_setup.zsh
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/local_setup.dsv
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/package.dsv
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[0.115s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/turtlesim/share/turtlesim/package.xml
+[0.117s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim

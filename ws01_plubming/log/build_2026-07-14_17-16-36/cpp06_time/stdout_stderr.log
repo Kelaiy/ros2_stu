@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o[0m
+[100%] [1m[32mLinking CXX executable demo1_timer[0m
+[100%] Built target demo1_timer
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/lib/cpp06_time/demo1_timer
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/lib/cpp06_time/demo1_timer" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/package.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/package.xml

@@ -1,0 +1,51 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)
+-- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)
+-- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+-- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise
+[ 50%] [32mBuilding CXX object CMakeFiles/exer1_pub_sub.dir/src/exer1_pub_sub.cpp.o[0m
+[100%] [1m[32mLinking CXX executable exer1_pub_sub[0m
+[100%] Built target exer1_pub_sub
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub" to ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch/exer1_pub_sub_launch.py
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.fish
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.xml

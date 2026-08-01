@@ -1,0 +1,7 @@
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_server.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfeces/srv/add_ints.hpp: 没有那个文件或目录
+   13 | #include [01;31m[K"base_interfeces/srv/add_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo1_server.dir/build.make:79：CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo1_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

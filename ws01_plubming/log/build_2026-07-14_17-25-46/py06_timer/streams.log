@@ -1,0 +1,28 @@
+[0.817s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py06_timer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_timer build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/install.log --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.124s] writing ../../build/py06_timer/py06_timer.egg-info/PKG-INFO
+[1.124s] writing dependency_links to ../../build/py06_timer/py06_timer.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/py06_timer/py06_timer.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/py06_timer/py06_timer.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/py06_timer/py06_timer.egg-info/top_level.txt
+[1.170s] reading manifest file '../../build/py06_timer/py06_timer.egg-info/SOURCES.txt'
+[1.171s] writing manifest file '../../build/py06_timer/py06_timer.egg-info/SOURCES.txt'
+[1.171s] running build
+[1.171s] running build_py
+[1.171s] copying py06_timer/deme1_timer_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build/lib/py06_timer
+[1.171s] copying py06_timer/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build/lib/py06_timer
+[1.171s] copying py06_timer/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build/lib/py06_timer
+[1.172s] running install
+[1.175s] running install_lib
+[1.196s] copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build/lib/py06_timer/deme1_timer_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages/py06_timer
+[1.197s] byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages/py06_timer/deme1_timer_py.py to deme1_timer_py.cpython-314.pyc
+[1.197s] running install_data
+[1.198s] copying resource/py06_timer -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/share/ament_index/resource_index/packages
+[1.198s] copying package.xml -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/share/py06_timer
+[1.198s] running install_egg_info
+[1.219s] removing '/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages/py06_timer-0.0.0-py3.14.egg-info' (and everything under it)
+[1.219s] Copying ../../build/py06_timer/py06_timer.egg-info to /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages/py06_timer-0.0.0-py3.14.egg-info
+[1.220s] running install_scripts
+[1.332s] Installing deme1_timer_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/py06_timer
+[1.332s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/install.log'
+[1.366s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py06_timer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_timer build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py06_timer/install.log --single-version-externally-managed install_data

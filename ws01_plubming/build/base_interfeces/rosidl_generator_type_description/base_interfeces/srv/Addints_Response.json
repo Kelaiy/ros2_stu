@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfeces/srv/Addints_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfeces/srv/Addints_Response",
+      "hash_string": "RIHS01_23974ad8fac5329915e9fe6a862ba8c93707d2a759e51c2756bfeb0509f2d466"
+    }
+  ]
+}

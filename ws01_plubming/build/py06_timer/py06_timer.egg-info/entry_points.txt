@@ -1,0 +1,2 @@
+[console_scripts]
+deme1_timer_py = py06_timer.deme1_timer_py:main

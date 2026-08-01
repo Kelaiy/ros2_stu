@@ -1,0 +1,30 @@
+[0.782s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py02_seriver': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_seriver build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.086s] writing ../../build/py02_seriver/py02_seriver.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/py02_seriver/py02_seriver.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/py02_seriver/py02_seriver.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/py02_seriver/py02_seriver.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/py02_seriver/py02_seriver.egg-info/top_level.txt
+[1.132s] reading manifest file '../../build/py02_seriver/py02_seriver.egg-info/SOURCES.txt'
+[1.133s] writing manifest file '../../build/py02_seriver/py02_seriver.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.134s] running build_py
+[1.134s] copying py02_seriver/demo1_client_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+[1.134s] copying py02_seriver/demo1_server_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+[1.134s] copying py02_seriver/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+[1.135s] copying py02_seriver/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+[1.135s] running install
+[1.141s] running install_lib
+[1.160s] copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver/demo1_client_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver
+[1.161s] byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver/demo1_client_py.py to demo1_client_py.cpython-314.pyc
+[1.161s] running install_data
+[1.161s] copying resource/py02_seriver -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/share/ament_index/resource_index/packages
+[1.162s] copying package.xml -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/share/py02_seriver
+[1.162s] running install_egg_info
+[1.183s] removing '/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver-0.0.0-py3.14.egg-info' (and everything under it)
+[1.184s] Copying ../../build/py02_seriver/py02_seriver.egg-info to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver-0.0.0-py3.14.egg-info
+[1.185s] running install_scripts
+[1.297s] Installing demo1_client_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/py02_seriver
+[1.297s] Installing demo1_server_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/py02_seriver
+[1.297s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/install.log'
+[1.338s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/src/py02_seriver' returned '0': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_seriver build --build-base /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build install --record /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/install.log --single-version-externally-managed install_data

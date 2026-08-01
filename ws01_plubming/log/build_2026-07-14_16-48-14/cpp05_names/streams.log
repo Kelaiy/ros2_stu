@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names -- -j16 -l16
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_names.dir/src/demo1_names.cpp.o[0m
+[2.332s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp05_names/src/demo1_names.cpp:23:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.332s]    23 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpub_[m[K
+[2.332s]       |                                                         [01;31m[K^~~~[m[K
+[2.333s]       |                                                             [32m[K;[m[K
+[4.051s] gmake[2]: *** [CMakeFiles/demo1_names.dir/build.make:79：CMakeFiles/demo1_names.dir/src/demo1_names.cpp.o] 错误 1
+[4.051s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_names.dir/all] 错误 2
+[4.051s] gmake: *** [Makefile:146：all] 错误 2
+[4.054s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names -- -j16 -l16

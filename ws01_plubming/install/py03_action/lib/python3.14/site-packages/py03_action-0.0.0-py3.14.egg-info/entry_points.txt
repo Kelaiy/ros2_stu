@@ -1,0 +1,3 @@
+[console_scripts]
+demo1_action_client_py = py03_action.demo1_action_client_py:main
+demo1_action_server_py = py03_action.demo1_action_server_py:main

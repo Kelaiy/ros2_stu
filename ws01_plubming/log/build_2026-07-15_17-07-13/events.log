@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'base_interfeces'}
+[0.000805] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000880] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000981] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001007] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001032] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001053] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001074] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001094] (-) JobUnselected: {'identifier': 'py02_seriver'}
+[0.001128] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001150] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001171] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.001275] (-) JobUnselected: {'identifier': 'py06_timer'}
+[0.001298] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.001321] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict({'base_interfeces': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces'})}
+[0.001351] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.019834] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.020428] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.020927] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', '--', '-j16', '-l16'], 'cwd': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hzc', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'PTYXIS_VERSION': '50.1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/hzc', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/hzc/桌面/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '4654', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5286', 'BUNDLED_DEBUGPY_PATH': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19702', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'hzc', 'MANAGERPIDFDID': '33077', 'JOURNAL_STREAM': '10:23496', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '51046', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/hzc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/ros/lyrical/opt/gz_tools_vendor/bin', 'INVOCATION_ID': '581ee3669f5449aba54c83cf779fa7de', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'd13f2d179e2e148347413bef6a09f3fd', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c7871354202af115.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzc/.config/Code/User/workspaceStorage/9c9dac5a9bd332c3190c44c5f18f1af4/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVGPR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-25001b8754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical'}), 'shell': False}
+[0.056541] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.099813] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.297988] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[0.300211] (-) TimerEvent: {}
+[0.319011] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[0.323556] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[0.333750] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.344434] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400334] (-) TimerEvent: {}
+[0.409053] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[0.410866] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.440303] (cpp07_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500442] (-) TimerEvent: {}
+[0.509865] (cpp07_exercise) StdoutLine: {'line': b'-- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)\n'}
+[0.571950] (cpp07_exercise) StdoutLine: {'line': b'-- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)\n'}
+[0.591765] (cpp07_exercise) StdoutLine: {'line': b'-- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)\n'}
+[0.600575] (-) TimerEvent: {}
+[0.623763] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)\n'}
+[0.632365] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[0.700685] (-) TimerEvent: {}
+[0.746518] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.746712] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/include>\n'}
+[0.746812] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.748442] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.748610] (cpp07_exercise) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.748739] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.748856] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.748974] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.749088] (cpp07_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.749445] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.749583] (cpp07_exercise) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.767831] (cpp07_exercise) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.800810] (-) TimerEvent: {}
+[0.802185] (cpp07_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise\n'}
+[0.871347] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer1_pub_sub.dir/src/exer1_pub_sub.cpp.o\x1b[0m\n'}
+[0.901030] (-) TimerEvent: {}
+[1.001441] (-) TimerEvent: {}
+[1.101801] (-) TimerEvent: {}
+[1.202197] (-) TimerEvent: {}
+[1.302558] (-) TimerEvent: {}
+[1.402932] (-) TimerEvent: {}
+[1.503223] (-) TimerEvent: {}
+[1.603552] (-) TimerEvent: {}
+[1.703845] (-) TimerEvent: {}
+[1.804132] (-) TimerEvent: {}
+[1.904431] (-) TimerEvent: {}
+[2.004763] (-) TimerEvent: {}
+[2.105126] (-) TimerEvent: {}
+[2.205477] (-) TimerEvent: {}
+[2.305833] (-) TimerEvent: {}
+[2.406152] (-) TimerEvent: {}
+[2.506453] (-) TimerEvent: {}
+[2.606759] (-) TimerEvent: {}
+[2.707058] (-) TimerEvent: {}
+[2.807361] (-) TimerEvent: {}
+[2.907658] (-) TimerEvent: {}
+[3.007956] (-) TimerEvent: {}
+[3.108243] (-) TimerEvent: {}
+[3.208540] (-) TimerEvent: {}
+[3.308824] (-) TimerEvent: {}
+[3.409143] (-) TimerEvent: {}
+[3.509448] (-) TimerEvent: {}
+[3.609748] (-) TimerEvent: {}
+[3.710059] (-) TimerEvent: {}
+[3.810411] (-) TimerEvent: {}
+[3.910702] (-) TimerEvent: {}
+[4.011044] (-) TimerEvent: {}
+[4.111343] (-) TimerEvent: {}
+[4.211627] (-) TimerEvent: {}
+[4.311925] (-) TimerEvent: {}
+[4.412242] (-) TimerEvent: {}
+[4.512541] (-) TimerEvent: {}
+[4.612852] (-) TimerEvent: {}
+[4.713116] (-) TimerEvent: {}
+[4.813397] (-) TimerEvent: {}
+[4.913688] (-) TimerEvent: {}
+[5.014028] (-) TimerEvent: {}
+[5.114311] (-) TimerEvent: {}
+[5.214610] (-) TimerEvent: {}
+[5.314912] (-) TimerEvent: {}
+[5.415190] (-) TimerEvent: {}
+[5.515498] (-) TimerEvent: {}
+[5.615784] (-) TimerEvent: {}
+[5.716094] (-) TimerEvent: {}
+[5.816432] (-) TimerEvent: {}
+[5.916737] (-) TimerEvent: {}
+[6.017037] (-) TimerEvent: {}
+[6.117348] (-) TimerEvent: {}
+[6.217659] (-) TimerEvent: {}
+[6.317973] (-) TimerEvent: {}
+[6.418268] (-) TimerEvent: {}
+[6.518570] (-) TimerEvent: {}
+[6.618864] (-) TimerEvent: {}
+[6.719147] (-) TimerEvent: {}
+[6.819456] (-) TimerEvent: {}
+[6.919718] (-) TimerEvent: {}
+[7.020001] (-) TimerEvent: {}
+[7.120275] (-) TimerEvent: {}
+[7.220558] (-) TimerEvent: {}
+[7.320839] (-) TimerEvent: {}
+[7.421116] (-) TimerEvent: {}
+[7.521426] (-) TimerEvent: {}
+[7.621694] (-) TimerEvent: {}
+[7.721988] (-) TimerEvent: {}
+[7.822264] (-) TimerEvent: {}
+[7.922530] (-) TimerEvent: {}
+[8.022799] (-) TimerEvent: {}
+[8.123077] (-) TimerEvent: {}
+[8.223413] (-) TimerEvent: {}
+[8.323707] (-) TimerEvent: {}
+[8.423986] (-) TimerEvent: {}
+[8.524261] (-) TimerEvent: {}
+[8.624581] (-) TimerEvent: {}
+[8.724878] (-) TimerEvent: {}
+[8.825203] (-) TimerEvent: {}
+[8.881504] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable exer1_pub_sub\x1b[0m\n'}
+[8.925307] (-) TimerEvent: {}
+[9.025622] (-) TimerEvent: {}
+[9.125937] (-) TimerEvent: {}
+[9.226225] (-) TimerEvent: {}
+[9.253694] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer1_pub_sub\n'}
+[9.270435] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[9.271544] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[9.283738] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise'], 'cwd': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hzc', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'PTYXIS_VERSION': '50.1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/hzc', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/hzc/桌面/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '4654', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5286', 'BUNDLED_DEBUGPY_PATH': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19702', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'hzc', 'MANAGERPIDFDID': '33077', 'JOURNAL_STREAM': '10:23496', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '51046', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/hzc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/ros/lyrical/opt/gz_tools_vendor/bin', 'INVOCATION_ID': '581ee3669f5449aba54c83cf779fa7de', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'd13f2d179e2e148347413bef6a09f3fd', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c7871354202af115.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzc/.config/Code/User/workspaceStorage/9c9dac5a9bd332c3190c44c5f18f1af4/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVGPR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-25001b8754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical'}), 'shell': False}
+[9.294781] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.295064] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub\n'}
+[9.300893] (cpp07_exercise) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub" to ""\n'}
+[9.301313] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[9.301493] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch/exer1_pub_sub_launch.py\n'}
+[9.301888] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[9.302075] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[9.302250] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[9.302369] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[9.302503] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[9.302625] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[9.302725] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[9.302814] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.fish\n'}
+[9.302902] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[9.302985] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[9.303066] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[9.303157] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[9.303234] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[9.303318] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[9.303422] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[9.303548] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[9.305040] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[9.325719] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[9.326626] (-) TimerEvent: {}
+[9.326713] (-) EventReactorShutdown: {}

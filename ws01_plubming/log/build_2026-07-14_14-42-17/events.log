@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000906] (-) JobUnselected: {'identifier': 'base_interfeces'}
+[0.001032] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.001115] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.001161] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001233] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001338] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001395] (-) JobUnselected: {'identifier': 'py02_seriver'}
+[0.001543] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001597] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001836] (tutorails_plumbing) JobQueued: {'identifier': 'tutorails_plumbing', 'dependencies': OrderedDict({'base_interfeces': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces', 'cpp02_service': '/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service', 'cpp04_param': '/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param', 'py04_param': '/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param', 'cpp01_topic': '/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic', 'cpp03_action': '/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action', 'py01_topic': '/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic', 'py02_seriver': '/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver', 'py03_action': '/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action'})}
+[0.002068] (tutorails_plumbing) JobStarted: {'identifier': 'tutorails_plumbing'}
+[0.017318] (tutorails_plumbing) JobEnded: {'identifier': 'tutorails_plumbing', 'rc': 1}
+[0.028000] (-) EventReactorShutdown: {}

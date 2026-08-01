@@ -1,0 +1,2 @@
+Invoking command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16
+Invoked command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16

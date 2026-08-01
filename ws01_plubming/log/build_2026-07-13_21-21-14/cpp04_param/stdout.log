@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+[100%] [1m[32mLinking CXX executable demo0_param[0m
+[100%] Built target demo0_param
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.xml

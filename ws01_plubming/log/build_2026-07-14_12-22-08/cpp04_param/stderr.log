@@ -1,0 +1,7 @@
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::[01;32m[Kupdate_param[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   62 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo1_param_client.dir/build.make:79：CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:191：CMakeFiles/demo1_param_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

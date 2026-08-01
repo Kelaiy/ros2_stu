@@ -1,0 +1,5 @@
+source;share/pkg01_hello_cpp/local_setup.bash
+source;share/pkg01_hello_cpp/local_setup.dsv
+source;share/pkg01_hello_cpp/local_setup.fish
+source;share/pkg01_hello_cpp/local_setup.sh
+source;share/pkg01_hello_cpp/local_setup.zsh

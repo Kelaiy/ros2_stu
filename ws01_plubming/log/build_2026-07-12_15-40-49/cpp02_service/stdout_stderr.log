@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[ 75%] Built target demo1_client
+In file included from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_server.cpp:13[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/addints.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfeces/srv/detail/addints__struct.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K"base_interfeces/srv/detail/addints__struct.hpp"[m[K  // IWYU pragma: export
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo1_server.dir/build.make:79：CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo1_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

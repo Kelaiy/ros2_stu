@@ -1,0 +1,48 @@
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:78:58:[m[K [01;31m[Kerror: [m[Kextended character ； is not valid in an identifier
+   78 |         RCLCPP_ERROR(client->get_logger(),"服务响应失败")[01;31m[K；[m[K
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:11[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:[m[K In member function ‘[01m[Kbool ExerClient::[01;32m[Kconnect_server[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:29:47:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   29 |                 RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","节点被强制退出")[m[K);
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:26[m[K:
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:29:47:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   29 |                 RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","节点被强制退出")[m[K);
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:29:47:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   29 |                 RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","节点被强制退出")[m[K);
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:29:47:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   29 |                 RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","节点被强制退出")[m[K);
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:29:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   29 |                 [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp","节点被强制退出"));
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, const char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:78:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K；[m[K’
+   78 |         RCLCPP_ERROR(client->get_logger(),"服务响应失败")[01;31m[K；[m[K
+      |                                                          [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:78:58:[m[K [01;31m[Kerror: [m[K‘[01m[K；[m[K’ was not declared in this scope
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:[m[K In member function ‘[01m[Kbool ExerClient::[01;32m[Kconnect_server[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:34:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-return-type-Wreturn-type]8;;[m[K]
+   34 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/exer1_client.dir/build.make:79：CMakeFiles/exer1_client.dir/src/exer1_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/exer1_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

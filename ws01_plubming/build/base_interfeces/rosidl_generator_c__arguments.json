@@ -1,0 +1,70 @@
+{
+  "package_name": "base_interfeces",
+  "output_dir": "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_c/base_interfeces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:msg/Student.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Addints.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Distance.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Progress.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Nav.idl"
+  ],
+  "ros_interface_files": [
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces/msg/Student.msg",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces/srv/Addints.srv",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces/srv/Distance.srv",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces/action/Progress.action",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces/action/Nav.action"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/python3.14/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/msg/Student.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/srv/Addints.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/srv/Distance.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/action/Progress.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/action/Nav.idl",
+    "/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Student.idl:/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces/msg/Student.json",
+    "srv/Addints.idl:/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces/srv/Addints.json",
+    "srv/Distance.idl:/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces/srv/Distance.json",
+    "action/Progress.idl:/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces/action/Progress.json",
+    "action/Nav.idl:/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces/action/Nav.json"
+  ]
+}

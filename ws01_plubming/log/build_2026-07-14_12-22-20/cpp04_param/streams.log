@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param -- -j16 -l16
+[0.083s] [ 66%] Built target demo0_param
+[0.083s] [ 66%] Built target demo1_param_server
+[0.102s] [ 83%] [32mBuilding CXX object CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o[0m
+[4.211s] [100%] [1m[32mLinking CXX executable demo1_param_client[0m
+[4.360s] [100%] Built target demo1_param_client
+[4.377s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param -- -j16 -l16
+[4.389s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param
+[4.398s] -- Install configuration: ""
+[4.399s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param
+[4.399s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo1_param_client
+[4.400s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo1_param_client" to ""
+[4.400s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo1_param_server
+[4.400s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[4.400s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.sh
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.bash
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.fish
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.sh
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[4.401s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[4.401s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.dsv
+[4.402s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[4.402s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[4.402s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[4.402s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.xml
+[4.404s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param

@@ -1,0 +1,48 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time
+[0.083s] -- The C compiler identification is GNU 15.2.0
+[0.160s] -- The CXX compiler identification is GNU 15.2.0
+[0.169s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.419s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.521s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.552s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.771s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.781s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.979s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.146s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.146s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/include>
+[2.147s] -- Configured cppcheck exclude dirs and/or files: 
+[2.149s] -- Added test 'lint_cmake' to check CMake code style
+[2.152s] -- Added test 'uncrustify' to check C / C++ code style
+[2.153s] -- Configured uncrustify additional arguments: 
+[2.155s] -- Added test 'xmllint' to check XML markup files
+[2.161s] -- Configuring done (2.1s)
+[2.172s] -- Generating done (0.0s)
+[2.194s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time
+[2.202s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time
+[2.203s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16
+[2.264s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o[0m
+[2.577s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:30:69:[m[K [01;31m[Kerror: [m[Kextended character ； is not valid in an identifier
+[2.578s]    30 |             RCLCPP_INFO(this->get_logger(),"----------------------")[01;31m[K；[m[K
+[2.578s]       |                                                                     [01;31m[K^[m[K
+[4.491s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:[m[K In member function ‘[01m[Kvoid MyNode::[01;32m[Kdemo_rate[m[K()[m[K’:
+[4.491s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:30:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K；[m[K’
+[4.491s]    30 |             RCLCPP_INFO(this->get_logger(),"----------------------")[01;31m[K；[m[K
+[4.491s]       |                                                                     [01;31m[K^~[m[K
+[4.497s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:30:69:[m[K [01;31m[Kerror: [m[K‘[01m[K；[m[K’ was not declared in this scope
+[5.584s] gmake[2]: *** [CMakeFiles/demo1_timer.dir/build.make:79：CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o] 错误 1
+[5.584s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_timer.dir/all] 错误 2
+[5.584s] gmake: *** [Makefile:146：all] 错误 2
+[5.588s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16

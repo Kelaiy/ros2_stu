@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

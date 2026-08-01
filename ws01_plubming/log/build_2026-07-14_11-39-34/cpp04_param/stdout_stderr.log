@@ -1,0 +1,23 @@
+[ 66%] Built target demo0_param
+[ 66%] Built target demo1_param_client
+[100%] Built target demo1_param_server
+-- Install configuration: ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo0_param
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo1_param_client
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/lib/cpp04_param/demo1_param_server
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/environment/path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.bash
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.fish
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.zsh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param/share/cpp04_param/package.xml

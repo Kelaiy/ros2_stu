@@ -1,0 +1,39 @@
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:11[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:[m[K In member function ‘[01m[Kbool AddIntsClient::[01;32m[Kconnect_server[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:31:43:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   31 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","服务器连接中")[m[K)
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:26[m[K:
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:31:43:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   31 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","服务器连接中")[m[K)
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:31:43:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   31 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","服务器连接中")[m[K)
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:31:43:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::[01;32m[Kget_logger[m[K(const std::string&)[m[K’
+   31 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger("rclcpp","服务器连接中")[m[K)
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logger.hpp:108:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  108 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:31:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   31 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp","服务器连接中"))
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   32 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo1_client.dir/build.make:79：CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/demo1_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

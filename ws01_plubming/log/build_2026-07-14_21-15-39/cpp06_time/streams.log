@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o[0m
+[3.525s] [100%] [1m[32mLinking CXX executable demo1_timer[0m
+[3.672s] [100%] Built target demo1_timer
+[3.687s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16
+[3.699s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time
+[3.709s] -- Install configuration: ""
+[3.709s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/lib/cpp06_time/demo1_timer
+[3.710s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/lib/cpp06_time/demo1_timer" to ""
+[3.710s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[3.710s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[3.710s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[3.710s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/path.sh
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.bash
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.fish
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.sh
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[3.711s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/package.dsv
+[3.711s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[3.712s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[3.712s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[3.712s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time/share/cpp06_time/package.xml
+[3.713s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time

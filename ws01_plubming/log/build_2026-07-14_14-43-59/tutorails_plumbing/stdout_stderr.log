@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/package.xml

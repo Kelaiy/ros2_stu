@@ -1,0 +1,9 @@
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/tutorails_plumbing_uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/test.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/edit_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/rebuild_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/list_install_components.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/install.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/install/local.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/tutorails_plumbing/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o[0m
+[ 75%] [1m[32mLinking CXX executable demo1_server[0m
+[ 75%] Built target demo1_server

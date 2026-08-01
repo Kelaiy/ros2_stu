@@ -1,0 +1,17 @@
+{
+  "package_name": "base_interfeces",
+  "output_dir": "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_generator_type_description/base_interfeces",
+  "idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:msg/Student.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Addints.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Distance.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Progress.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Nav.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/"
+  ]
+}

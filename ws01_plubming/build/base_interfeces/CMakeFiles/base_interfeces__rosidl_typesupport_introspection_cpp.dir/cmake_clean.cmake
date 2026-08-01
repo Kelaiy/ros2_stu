@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/link.d"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/nav__type_support.cpp.o"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/nav__type_support.cpp.o.d"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/progress__type_support.cpp.o"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/progress__type_support.cpp.o.d"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/msg/detail/student__type_support.cpp.o"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/msg/detail/student__type_support.cpp.o.d"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/addints__type_support.cpp.o"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/addints__type_support.cpp.o.d"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/distance__type_support.cpp.o"
+  "CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/distance__type_support.cpp.o.d"
+  "libbase_interfeces__rosidl_typesupport_introspection_cpp.pdb"
+  "libbase_interfeces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/nav__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/nav__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/progress__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/msg/detail/student__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/addints__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/distance__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/distance__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

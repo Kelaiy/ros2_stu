@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfeces/action/Progress_Result",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfeces/action/Progress_Result",
+      "hash_string": "RIHS01_18297cf86914ef69e3bfe22ac8be5a1265d8c54a6c27a33ffe6397fc710c0565"
+    }
+  ]
+}

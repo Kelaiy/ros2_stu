@@ -1,0 +1,10 @@
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, const char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-variable-Wunused-variable]8;;[m[K]
+   32 |     float [01;35m[Kgoal_x[m[K = atof(argv[1]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:33:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-variable-Wunused-variable]8;;[m[K]
+   33 |     float [01;35m[Kgoal_y[m[K = atof(argv[2]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer1_client.cpp:34:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-variable-Wunused-variable]8;;[m[K]
+   34 |     float [01;35m[Kgoal_theta[m[K = atof(argv[3]);
+      |           [01;35m[K^~~~~~~~~~[m[K

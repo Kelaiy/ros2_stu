@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp04_param
+[ 33%] [32mBuilding CXX object CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-vexing-parse-Wvexing-parse]8;;[m[K]
+   36 |       rclcpp::ParameterValue value[01;35m[K()[m[K;
+      |                                   [01;35m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+   36 |       rclcpp::ParameterValue value[01;36m[K()[m[K;
+      |                                   [01;36m[K^~[m[K
+      |                                   [31m[K--[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:36:35:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:[m[K In constructor ‘[01m[KParamClient::[01;32m[KParamClient[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_client.cpp:22:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   22 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:[m[K In constructor ‘[01m[KParamServer::[01;32m[KParamServer[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:22:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   22 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo1_param_client.dir/build.make:79：CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:191：CMakeFiles/demo1_param_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/demo1_param_server.dir/build.make:79：CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/demo1_param_server.dir/all] 错误 2
+[ 66%] [1m[32mLinking CXX executable demo0_param[0m
+[ 66%] Built target demo0_param
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,9 @@
+[ 50%] Built target demo01_action_client
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfeces::action::Progress> >)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:101:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  101 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:79：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

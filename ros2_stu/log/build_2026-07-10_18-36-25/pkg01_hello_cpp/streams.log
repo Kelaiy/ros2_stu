@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16
+[0.089s] [ 50%] Built target hello2
+[0.089s] [ 75%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[3.440s] [100%] [1m[32mLinking CXX executable hello[0m
+[3.550s] [100%] Built target hello
+[3.566s] Invoked command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16
+[3.577s] Invoking command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp
+[3.588s] -- Install configuration: ""
+[3.588s] -- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello
+[3.589s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello" to ""
+[3.589s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello2
+[3.589s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_hello_cpp
+[3.589s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_hello_cpp
+[3.589s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.sh
+[3.589s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.dsv
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.sh
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.dsv
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.bash
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.fish
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.sh
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.zsh
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.dsv
+[3.590s] -- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.dsv
+[3.590s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/packages/pkg01_hello_cpp
+[3.591s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig.cmake
+[3.591s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig-version.cmake
+[3.591s] -- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.xml
+[3.592s] Invoked command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp

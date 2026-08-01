@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:61 (target_include_directories):
+  Cannot specify include directories for target
+  "exer1_clexer2_action_clientient" which is not built by this project.
+
+[0m
+gmake: *** [Makefile:349：cmake_check_build_system] 错误 1

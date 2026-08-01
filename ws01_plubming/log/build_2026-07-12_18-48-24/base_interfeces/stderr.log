@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/lyrical/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'aciton/Progress.action'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces'
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1099：cmake_check_build_system] 错误 1

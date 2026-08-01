@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/cmake_install.cmake",
+		"/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/base_interfeces__py/cmake_install.cmake",
+		"/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/base_interfeces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

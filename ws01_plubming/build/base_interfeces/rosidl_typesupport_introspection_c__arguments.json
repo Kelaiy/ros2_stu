@@ -1,0 +1,45 @@
+{
+  "package_name": "base_interfeces",
+  "output_dir": "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_typesupport_introspection_c/base_interfeces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:msg/Student.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Addints.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:srv/Distance.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Progress.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces:action/Nav.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/msg/Student.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/srv/Addints.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/srv/Distance.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/action/Progress.idl",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces/rosidl_adapter/base_interfeces/action/Nav.idl",
+    "/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o[0m
+[2.327s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[2.328s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp06_time/src/demo1_timer.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.328s]    14 |     [01;31m[K}[m[K
+[2.328s]       |     [01;31m[K^[m[K
+[3.417s] gmake[2]: *** [CMakeFiles/demo1_timer.dir/build.make:79：CMakeFiles/demo1_timer.dir/src/demo1_timer.cpp.o] 错误 1
+[3.417s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_timer.dir/all] 错误 2
+[3.417s] gmake: *** [Makefile:146：all] 错误 2
+[3.422s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp06_time -- -j16 -l16

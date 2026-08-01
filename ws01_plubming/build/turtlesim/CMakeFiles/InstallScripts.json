@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

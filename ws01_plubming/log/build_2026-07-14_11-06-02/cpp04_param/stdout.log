@@ -1,0 +1,5 @@
+[ 33%] Built target demo0_param
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_param_client.dir/src/demo1_param_client.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o[0m
+[ 83%] [1m[32mLinking CXX executable demo1_param_client[0m
+[ 83%] Built target demo1_param_client

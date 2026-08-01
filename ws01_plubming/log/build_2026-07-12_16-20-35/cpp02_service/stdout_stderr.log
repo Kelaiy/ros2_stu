@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o[0m
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:11[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, const char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   28 |         [01;31m[KRCLCPP_INFO[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |         [01;31m[KRCLCPP_INFO[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   28 |         [01;31m[KRCLCPP_INFO[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   28 |         [01;31m[KRCLCPP_INFO[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_client.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   28 |         [01;31m[KRCLCPP_INFO[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo1_client.dir/build.make:79：CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/demo1_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 75%] [1m[32mLinking CXX executable demo1_server[0m
+[ 75%] Built target demo1_server
+gmake: *** [Makefile:146：all] 错误 2

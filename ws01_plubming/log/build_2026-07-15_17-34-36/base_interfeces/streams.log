@@ -1,0 +1,364 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces -- -j16 -l16
+[0.050s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.157s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.196s] -- Found rosidl_adapter: 5.2.0 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[1.040s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.041s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.050s] -- Configuring done (1.0s)
+[1.104s] -- Generating done (0.1s)
+[1.126s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces
+[1.167s] [  3%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[1.167s] [  3%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[1.407s] [  3%] Built target base_interfeces__rosidl_generator_type_description
+[1.420s] [  4%] [1m[34mGenerating C code for ROS interfaces[0m
+[1.435s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[1.483s] [  6%] Built target base_interfeces__rs
+[2.085s] [  6%] Built target base_interfeces__cpp
+[2.195s] [  9%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/action/detail/progress__type_support.c.o[0m
+[2.196s] [  9%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/action/detail/progress__description.c.o[0m
+[2.196s] [ 10%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/action/detail/progress__functions.c.o[0m
+[2.196s] [ 12%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/msg/detail/student__description.c.o[0m
+[2.196s] [ 13%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/msg/detail/student__functions.c.o[0m
+[2.197s] [ 15%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/addints__description.c.o[0m
+[2.197s] [ 16%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/msg/detail/student__type_support.c.o[0m
+[2.197s] [ 18%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/addints__functions.c.o[0m
+[2.198s] [ 20%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/addints__type_support.c.o[0m
+[2.198s] [ 21%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/distance__description.c.o[0m
+[2.198s] [ 23%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/distance__functions.c.o[0m
+[2.198s] [ 24%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_c.dir/rosidl_generator_c/base_interfeces/srv/detail/distance__type_support.c.o[0m
+[2.360s] [ 26%] [1m[32mLinking C shared library libbase_interfeces__rosidl_generator_c.so[0m
+[2.406s] [ 26%] Built target base_interfeces__rosidl_generator_c
+[2.419s] [ 33%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.419s] [ 33%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.419s] [ 33%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.419s] [ 33%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.420s] [ 33%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.421s] [ 35%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.831s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfeces/action/progress__type_support.cpp.o[0m
+[2.832s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfeces/srv/addints__type_support.cpp.o[0m
+[2.833s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfeces/msg/student__type_support.cpp.o[0m
+[2.853s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfeces/action/progress__type_support.cpp.o[0m
+[2.853s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfeces/srv/addints__type_support.cpp.o[0m
+[2.853s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfeces/msg/student__type_support.cpp.o[0m
+[2.901s] [ 46%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfeces/srv/distance__type_support.cpp.o[0m
+[2.967s] [ 47%] [1m[32mLinking CXX shared library libbase_interfeces__rosidl_typesupport_c.so[0m
+[3.004s] [ 49%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/addints__type_support.cpp.o[0m
+[3.005s] [ 50%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/msg/detail/student__type_support.cpp.o[0m
+[3.005s] [ 52%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/srv/detail/distance__type_support.cpp.o[0m
+[3.006s] [ 53%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfeces/action/detail/progress__type_support.cpp.o[0m
+[3.039s] [ 53%] Built target base_interfeces__rosidl_typesupport_c
+[3.106s] [ 56%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfeces/action/detail/progress__type_support.c.o[0m
+[3.106s] [ 56%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfeces/msg/detail/student__type_support.c.o[0m
+[3.109s] [ 58%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfeces/srv/detail/addints__type_support.c.o[0m
+[3.185s] [ 60%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfeces/srv/detail/distance__type_support.c.o[0m
+[3.255s] [ 61%] [1m[32mLinking C shared library libbase_interfeces__rosidl_typesupport_introspection_c.so[0m
+[3.312s] [ 61%] Built target base_interfeces__rosidl_typesupport_introspection_c
+[3.459s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfeces/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[3.460s] [ 64%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfeces/srv/detail/dds_fastrtps/addints__type_support.cpp.o[0m
+[3.462s] [ 66%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfeces/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[3.600s] [ 67%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfeces/srv/distance__type_support.cpp.o[0m
+[3.645s] [ 69%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfeces/msg/detail/student__type_support_c.cpp.o[0m
+[3.647s] [ 70%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfeces/action/detail/progress__type_support_c.cpp.o[0m
+[4.097s] [ 72%] [1m[32mLinking CXX shared library libbase_interfeces__rosidl_typesupport_introspection_cpp.so[0m
+[4.215s] [ 72%] Built target base_interfeces__rosidl_typesupport_introspection_cpp
+[4.266s] [ 73%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfeces/srv/detail/dds_fastrtps/distance__type_support.cpp.o[0m
+[4.277s] [ 75%] [1m[32mLinking CXX shared library libbase_interfeces__rosidl_typesupport_cpp.so[0m
+[4.384s] [ 75%] Built target base_interfeces__rosidl_typesupport_cpp
+[4.394s] [ 78%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfeces/srv/detail/addints__type_support_c.cpp.o[0m
+[4.395s] [ 78%] [32mBuilding CXX object CMakeFiles/base_interfeces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfeces/srv/detail/distance__type_support_c.cpp.o[0m
+[4.988s] [ 80%] [1m[32mLinking CXX shared library libbase_interfeces__rosidl_typesupport_fastrtps_c.so[0m
+[5.006s] [ 81%] [1m[32mLinking CXX shared library libbase_interfeces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.078s] [ 81%] Built target base_interfeces__rosidl_typesupport_fastrtps_c
+[5.106s] [ 81%] Built target base_interfeces__rosidl_typesupport_fastrtps_cpp
+[5.131s] [ 81%] Built target base_interfeces
+[5.157s] [ 83%] [1m[34mGenerating Python code for ROS interfaces[0m
+[6.473s] [ 83%] Built target base_interfeces__py
+[6.511s] [ 86%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_py.dir/rosidl_generator_py/base_interfeces/srv/_distance_s.c.o[0m
+[6.512s] [ 86%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_py.dir/rosidl_generator_py/base_interfeces/srv/_addints_s.c.o[0m
+[6.512s] [ 87%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_py.dir/rosidl_generator_py/base_interfeces/msg/_student_s.c.o[0m
+[6.513s] [ 89%] Built target ament_cmake_python_sync_base_interfeces
+[6.513s] [ 89%] [32mBuilding C object CMakeFiles/base_interfeces__rosidl_generator_py.dir/rosidl_generator_py/base_interfeces/action/_progress_s.c.o[0m
+[6.755s] [ 90%] [1m[32mLinking C shared library libbase_interfeces__rosidl_generator_py.so[0m
+[6.796s] running egg_info
+[6.815s] [ 90%] Built target base_interfeces__rosidl_generator_py
+[6.819s] writing base_interfeces.egg-info/PKG-INFO
+[6.820s] writing dependency_links to base_interfeces.egg-info/dependency_links.txt
+[6.820s] writing top-level names to base_interfeces.egg-info/top_level.txt
+[6.851s] [ 95%] [32mBuilding C object CMakeFiles/base_interfeces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.851s] [ 95%] [32mBuilding C object CMakeFiles/base_interfeces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.851s] [ 95%] [32mBuilding C object CMakeFiles/base_interfeces_s__rosidl_typesupport_c.dir/rosidl_generator_py/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.898s] reading manifest file 'base_interfeces.egg-info/SOURCES.txt'
+[6.898s] writing manifest file 'base_interfeces.egg-info/SOURCES.txt'
+[6.956s] [ 95%] Built target ament_cmake_python_build_base_interfeces_egg
+[7.011s] [ 98%] [1m[32mLinking C shared module rosidl_generator_py/base_interfeces/base_interfeces_s__rosidl_typesupport_introspection_c.so[0m
+[7.011s] [ 98%] [1m[32mLinking C shared module rosidl_generator_py/base_interfeces/base_interfeces_s__rosidl_typesupport_c.so[0m
+[7.019s] [100%] [1m[32mLinking C shared module rosidl_generator_py/base_interfeces/base_interfeces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.053s] [100%] Built target base_interfeces_s__rosidl_typesupport_introspection_c
+[7.053s] [100%] Built target base_interfeces_s__rosidl_typesupport_c
+[7.065s] [100%] Built target base_interfeces_s__rosidl_typesupport_fastrtps_c
+[7.084s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces -- -j16 -l16
+[7.099s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces
+[7.109s] -- Install configuration: ""
+[7.109s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/ament_index/resource_index/rosidl_interfaces/base_interfeces
+[7.110s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/msg/Student.json
+[7.110s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Addints.json
+[7.110s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Distance.json
+[7.110s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/action/Progress.json
+[7.111s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.111s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.111s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/progress.h
+[7.111s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.111s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__functions.c
+[7.112s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__description.c
+[7.112s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__functions.h
+[7.113s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__type_support.h
+[7.113s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__type_support.c
+[7.113s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__struct.h
+[7.113s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.113s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/distance.h
+[7.113s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__functions.h
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__type_support.h
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__functions.c
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__functions.h
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__struct.h
+[7.114s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__struct.h
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__description.c
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__type_support.c
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__description.c
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__functions.c
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__type_support.h
+[7.115s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__type_support.c
+[7.116s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/addints.h
+[7.116s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.116s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/rosidl_generator_c__visibility_control.h
+[7.116s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.116s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__functions.h
+[7.117s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__functions.c
+[7.117s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__struct.h
+[7.117s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__description.c
+[7.117s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__type_support.h
+[7.118s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__type_support.c
+[7.118s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/student.h
+[7.118s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/library_path.sh
+[7.118s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/library_path.dsv
+[7.118s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_generator_c.so
+[7.119s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_generator_c.so" to ""
+[7.119s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.120s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.120s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.120s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[7.120s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.120s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.120s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__rosidl_typesupport_fastrtps_c.h
+[7.121s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__rosidl_typesupport_fastrtps_c.h
+[7.121s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.121s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.121s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[7.122s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.122s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_fastrtps_c.so
+[7.123s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.123s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.123s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.123s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.124s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__rosidl_typesupport_introspection_c.h
+[7.124s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__type_support.c
+[7.124s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.124s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.124s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__rosidl_typesupport_introspection_c.h
+[7.124s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__type_support.c
+[7.126s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__rosidl_typesupport_introspection_c.h
+[7.126s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__type_support.c
+[7.126s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.126s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.126s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__rosidl_typesupport_introspection_c.h
+[7.126s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__type_support.c
+[7.126s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.127s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_introspection_c.so
+[7.127s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_introspection_c.so" to ""
+[7.127s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_c.so
+[7.127s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_c.so" to ""
+[7.127s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.127s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.127s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/progress.hpp
+[7.128s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.128s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__type_support.hpp
+[7.128s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__traits.hpp
+[7.128s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__struct.hpp
+[7.128s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__builder.hpp
+[7.129s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.129s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/addints.hpp
+[7.129s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.129s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__type_support.hpp
+[7.129s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__struct.hpp
+[7.129s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__traits.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__type_support.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__struct.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__builder.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__traits.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__builder.hpp
+[7.133s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/distance.hpp
+[7.133s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/student.hpp
+[7.134s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__struct.hpp
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__type_support.hpp
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__traits.hpp
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__builder.hpp
+[7.134s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.134s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.134s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.134s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/dds_fastrtps
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.135s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp
+[7.135s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__rosidl_typesupport_fastrtps_cpp.hpp
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/dds_fastrtps
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.135s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.136s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.136s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[7.136s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/dds_fastrtps
+[7.136s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_fastrtps_cpp.so
+[7.136s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.136s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces
+[7.136s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action
+[7.136s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail
+[7.136s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__type_support.cpp
+[7.137s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[7.137s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv
+[7.137s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail
+[7.137s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__type_support.cpp
+[7.137s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__type_support.cpp
+[7.137s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/distance__rosidl_typesupport_introspection_cpp.hpp
+[7.137s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp
+[7.138s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg
+[7.138s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail
+[7.138s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__type_support.cpp
+[7.138s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[7.138s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_introspection_cpp.so
+[7.140s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.140s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_cpp.so
+[7.141s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_typesupport_cpp.so" to ""
+[7.141s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/pythonpath.sh
+[7.142s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/pythonpath.dsv
+[7.142s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_fastrtps_c.so
+[7.143s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.143s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_introspection_c.so
+[7.144s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.144s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_c.so
+[7.144s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_c.so" to ""
+[7.145s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_generator_py.so
+[7.146s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/libbase_interfeces__rosidl_generator_py.so" to ""
+[7.146s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/ament_index/resource_index/rust_packages/base_interfeces
+[7.146s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust
+[7.146s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src
+[7.146s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/action
+[7.146s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/action/rmw.rs
+[7.146s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/srv
+[7.146s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/srv/rmw.rs
+[7.147s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/action.rs
+[7.147s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/msg.rs
+[7.147s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/srv.rs
+[7.147s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/lib.rs
+[7.148s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/msg
+[7.148s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/src/msg/rmw.rs
+[7.148s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/build.rs
+[7.148s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/rust/Cargo.toml
+[7.148s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/msg/Student.idl
+[7.148s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Addints.idl
+[7.149s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Distance.idl
+[7.149s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/action/Progress.idl
+[7.149s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/msg/Student.msg
+[7.149s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Addints.srv
+[7.149s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/srv/Distance.srv
+[7.150s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/action/Progress.action
+[7.150s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/ament_index/resource_index/package_run_dependencies/base_interfeces
+[7.150s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/ament_index/resource_index/parent_prefix_path/base_interfeces
+[7.150s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/ament_prefix_path.sh
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/ament_prefix_path.dsv
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/path.sh
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/environment/path.dsv
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/local_setup.bash
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/local_setup.fish
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/local_setup.sh
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/local_setup.zsh
+[7.151s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/local_setup.dsv
+[7.152s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/package.dsv
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/ament_index/resource_index/packages/base_interfeces
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_generator_cExport.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_generator_cExport-noconfig.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_introspection_cExport.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_cExport.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_cExport-noconfig.cmake
+[7.152s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_generator_cppExport.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_introspection_cppExport.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_cppExport.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfeces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_generator_pyExport.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/export_base_interfeces__rosidl_generator_pyExport-noconfig.cmake
+[7.153s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces-0.0.0-py3.14.egg-info
+[7.153s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces-0.0.0-py3.14.egg-info/dependency_links.txt
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces-0.0.0-py3.14.egg-info/PKG-INFO
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces-0.0.0-py3.14.egg-info/top_level.txt
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces-0.0.0-py3.14.egg-info/SOURCES.txt
+[7.154s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_introspection_c.c
+[7.154s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action/_progress.py
+[7.154s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action/__init__.py
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action/_progress_s.c
+[7.155s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_addints_s.c
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_addints.py
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_distance_s.c
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_distance.py
+[7.155s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/__init__.py
+[7.156s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_introspection_c.so
+[7.156s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_c.c
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/py.typed
+[7.157s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_fastrtps_c.so
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/__init__.py
+[7.157s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/base_interfeces_s__rosidl_typesupport_c.so
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/_base_interfeces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.157s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg/_student_s.c
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg/_student.py
+[7.157s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg/__init__.py
+[7.237s] Listing '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces'...
+[7.238s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/__init__.py'...
+[7.238s] Listing '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action'...
+[7.238s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action/__init__.py'...
+[7.238s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/action/_progress.py'...
+[7.238s] Listing '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg'...
+[7.238s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg/__init__.py'...
+[7.239s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/msg/_student.py'...
+[7.239s] Listing '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv'...
+[7.239s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/__init__.py'...
+[7.239s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_addints.py'...
+[7.239s] Compiling '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages/base_interfeces/srv/_distance.py'...
+[7.248s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/rosidl_cmake-extras.cmake
+[7.248s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.248s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/ament_cmake_export_targets-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfecesConfig.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake/base_interfecesConfig-version.cmake
+[7.249s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/package.xml
+[7.253s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/base_interfeces

@@ -1,0 +1,2 @@
+[console_scripts]
+demo1_names_py = py05_names.demo1_names_py:main

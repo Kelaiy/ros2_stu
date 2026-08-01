@@ -1,0 +1,63 @@
+[ 50%] Built target demo01_action_client
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 | :GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const [01;31m[KProgress[m[K::goal>){
+      |                                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | esponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::goal[01;31m[K>[m[K){
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 | :GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const [01;31m[KProgress[m[K::goal>){
+      |                                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | esponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::goal[01;31m[K>[m[K){
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 | :GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const [01;31m[KProgress[m[K::goal>){
+      |                                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | esponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::goal[01;31m[K>[m[K){
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 | :GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const [01;31m[KProgress[m[K::goal>){
+      |                                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | esponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::goal[01;31m[K>[m[K){
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:82:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   45 |     rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,[01;31m[Kstd[m[K::shared_ptr<const Progress::goal>){
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 | :GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const [01;31m[KProgress[m[K::goal>){
+      |                                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:98:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   45 | ction::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<[01;31m[Kconst[m[K Progress::goal>){
+      |                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:98:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:82:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+   45 |     rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,[01;31m[Kstd[m[K::shared_ptr<const Progress::goal>){
+      |                                                                                  [01;31m[K^~~[m[K
+      |                                                                                     [32m[K<>[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:82:[m[K [01;36m[Knote: [m[Kor use ‘[01m[Kauto[m[K’ for an abbreviated function template
+In file included from [01m[K/usr/include/c++/15/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/15/memory:82[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:19[m[K:
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:394:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  394 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ProgressActionServer::[01;32m[Khandle_goal[m[K(...)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:45:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   45 |     rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,std::shared_ptr<const Progress::goal>){
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::[01;32m[Khandle_cancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfeces::action::Progress> >)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:54:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   54 | celResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::[01;32m[Khandle_accepted[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfeces::action::Progress> >)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp03_action/src/demo01_action_server.cpp:62:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   62 |     void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:79：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,7 @@
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp05_names/src/demo1_names.cpp:23:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   23 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpub_[m[K
+      |                                                         [01;31m[K^~~~[m[K
+      |                                                             [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/demo1_names.dir/build.make:79：CMakeFiles/demo1_names.dir/src/demo1_names.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_names.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

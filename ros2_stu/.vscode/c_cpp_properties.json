@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "ROS",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/lyrical/include/**",
+                "/usr/include/**"
+            ],
+            "defines": [
+                "ROS_PACKAGE_NAME=\"${workspaceFolderBasename}\""
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

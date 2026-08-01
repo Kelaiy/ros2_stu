@@ -1,0 +1,5 @@
+source;share/cpp07_exercise/local_setup.bash
+source;share/cpp07_exercise/local_setup.dsv
+source;share/cpp07_exercise/local_setup.fish
+source;share/cpp07_exercise/local_setup.sh
+source;share/cpp07_exercise/local_setup.zsh

@@ -1,0 +1,24 @@
+[ 50%] Built target hello2
+[ 75%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[100%] [1m[32mLinking CXX executable hello[0m
+[100%] Built target hello
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello" to ""
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello2
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_hello_cpp
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_hello_cpp
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.sh
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.bash
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.fish
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.sh
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.zsh
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.dsv
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/packages/pkg01_hello_cpp
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig.cmake
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig-version.cmake
+-- Up-to-date: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.xml

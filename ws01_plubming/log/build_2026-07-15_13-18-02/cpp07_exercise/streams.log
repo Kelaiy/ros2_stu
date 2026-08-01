@@ -1,0 +1,69 @@
+[0.017s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise
+[0.084s] -- The C compiler identification is GNU 15.2.0
+[0.156s] -- The CXX compiler identification is GNU 15.2.0
+[0.173s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.299s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.418s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.157s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.231s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.254s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.430s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.437s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.605s] -- Found turtlesim: 1.10.9 (/opt/ros/lyrical/share/turtlesim/cmake)
+[1.607s] -- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)
+[1.676s] -- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[1.721s] -- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)
+[1.741s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.887s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.887s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/include>
+[1.887s] -- Configured cppcheck exclude dirs and/or files: 
+[1.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.887s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.891s] -- Added test 'lint_cmake' to check CMake code style
+[1.891s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.893s] -- Added test 'uncrustify' to check C / C++ code style
+[1.893s] -- Configured uncrustify additional arguments: 
+[1.895s] -- Added test 'xmllint' to check XML markup files
+[1.900s] -- Configuring done (1.9s)
+[1.914s] -- Generating done (0.0s)
+[1.945s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise
+[1.954s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise
+[1.955s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise -- -j16 -l16
+[2.016s] [ 50%] [32mBuilding CXX object CMakeFiles/exer1_pub_sub.dir/src/exer1_pub_sub.cpp.o[0m
+[5.449s] [100%] [1m[32mLinking CXX executable exer1_pub_sub[0m
+[5.579s] [100%] Built target exer1_pub_sub
+[5.593s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise -- -j16 -l16
+[5.605s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise
+[5.614s] -- Install configuration: ""
+[5.614s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub
+[5.615s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/lib/cpp07_exercise/exer1_pub_sub" to ""
+[5.615s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch
+[5.615s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/launch/exer1_pub_sub_launch.py
+[5.615s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[5.615s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.fish
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[5.616s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[5.617s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[5.617s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[5.617s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[5.617s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[5.617s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[5.620s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise

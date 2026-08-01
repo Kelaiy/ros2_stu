@@ -1,0 +1,31 @@
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:11[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:[m[K In constructor ‘[01m[KExer2ActionServer::[01;32m[KExer2ActionServer[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   19 |         RCLCPP_INFO(this->get_logger().[01;31m[K"动作服务端"[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   19 |         RCLCPP_INFO(this->get_logger().[01;31m[K"动作服务端"[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   19 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   19 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exer2_action_server.dir/build.make:79：CMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:293：CMakeFiles/exer2_action_server.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

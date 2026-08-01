@@ -1,0 +1,72 @@
+[0.018s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise -- -j16 -l16
+[0.051s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.265s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.284s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.371s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.460s] -- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)
+[0.514s] -- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)
+[0.533s] -- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.563s] -- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)
+[0.571s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.681s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.681s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/include>
+[0.681s] -- Configured cppcheck exclude dirs and/or files: 
+[0.681s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.681s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.682s] -- Added test 'lint_cmake' to check CMake code style
+[0.682s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.683s] -- Added test 'uncrustify' to check C / C++ code style
+[0.683s] -- Configured uncrustify additional arguments: 
+[0.683s] -- Added test 'xmllint' to check XML markup files
+[0.684s] -- Configuring done (0.6s)
+[0.723s] -- Generating done (0.0s)
+[0.767s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise
+[0.808s] [ 20%] [32mBuilding CXX object CMakeFiles/exer2_action_client.dir/src/exer2_action_client.cpp.o[0m
+[0.808s] [ 20%] [32mBuilding CXX object CMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o[0m
+[0.827s] [ 40%] [32mBuilding CXX object CMakeFiles/exer1_client.dir/src/exer1_client.cpp.o[0m
+[0.827s] [ 40%] [32mBuilding CXX object CMakeFiles/exer1_server.dir/src/exer1_server.cpp.o[0m
+[0.827s] [ 50%] [1m[32mLinking CXX executable exer1_pub_sub[0m
+[1.257s] [ 60%] Built target exer1_pub_sub
+[3.230s] In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.230s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+[3.230s]                  from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:11[m[K:
+[3.230s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:[m[K In constructor ‘[01m[KExer2ActionServer::[01;32m[KExer2ActionServer[m[K()[m[K’:
+[3.231s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[3.231s]    19 |         RCLCPP_INFO(this->get_logger().[01;31m[K"动作服务端"[m[K);
+[3.231s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[3.231s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.231s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+[3.231s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.231s] In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[3.232s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[3.232s]    19 |         RCLCPP_INFO(this->get_logger().[01;31m[K"动作服务端"[m[K);
+[3.232s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[3.232s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[3.232s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.232s]    19 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+[3.232s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[3.232s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[3.232s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+[3.232s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.233s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.233s]    19 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+[3.233s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[3.233s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.233s]    19 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger()."动作服务端");
+[3.233s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.384s] gmake[2]: *** [CMakeFiles/exer2_action_server.dir/build.make:79：CMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o] 错误 1
+[4.384s] gmake[1]: *** [CMakeFiles/Makefile2:293：CMakeFiles/exer2_action_server.dir/all] 错误 2
+[4.385s] gmake[1]: *** 正在等待未完成的任务....
+[4.398s] [ 70%] [1m[32mLinking CXX executable exer2_action_client[0m
+[4.539s] [ 70%] Built target exer2_action_client
+[5.419s] [ 80%] [1m[32mLinking CXX executable exer1_client[0m
+[5.603s] [ 80%] Built target exer1_client
+[8.987s] [ 90%] [1m[32mLinking CXX executable exer1_server[0m
+[9.355s] [ 90%] Built target exer1_server
+[9.357s] gmake: *** [Makefile:146：all] 错误 2
+[9.361s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise -- -j16 -l16

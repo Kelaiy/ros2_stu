@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service
+[0.085s] -- The C compiler identification is GNU 15.2.0
+[0.158s] -- The CXX compiler identification is GNU 15.2.0
+[0.166s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.206s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.276s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.296s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.470s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.477s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.640s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.781s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.781s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/include>
+[1.782s] -- Configured cppcheck exclude dirs and/or files: 
+[1.784s] -- Added test 'lint_cmake' to check CMake code style
+[1.786s] -- Added test 'uncrustify' to check C / C++ code style
+[1.786s] -- Configured uncrustify additional arguments: 
+[1.788s] -- Added test 'xmllint' to check XML markup files
+[1.792s] -- Configuring done (1.8s)
+[1.805s] -- Generating done (0.0s)
+[1.828s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service
+[1.837s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service
+[1.838s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[1.895s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o[0m
+[1.895s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[2.209s] In file included from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_server.cpp:13[m[K:
+[2.209s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/addints.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfeces/srv/detail/addints__struct.hpp: 没有那个文件或目录
+[2.209s]     7 | #include [01;31m[K"base_interfeces/srv/detail/addints__struct.hpp"[m[K  // IWYU pragma: export
+[2.210s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.210s] compilation terminated.
+[2.219s] gmake[2]: *** [CMakeFiles/demo1_server.dir/build.make:79：CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o] 错误 1
+[2.219s] gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo1_server.dir/all] 错误 2
+[2.220s] gmake[1]: *** 正在等待未完成的任务....
+[5.222s] [ 75%] [1m[32mLinking CXX executable demo1_client[0m
+[5.363s] [ 75%] Built target demo1_client
+[5.365s] gmake: *** [Makefile:146：all] 错误 2
+[5.369s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16

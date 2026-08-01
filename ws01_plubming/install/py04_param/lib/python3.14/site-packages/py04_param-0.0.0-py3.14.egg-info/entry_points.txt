@@ -1,0 +1,3 @@
+[console_scripts]
+demo0_param = py04_param.demo0_param:main
+demo1_param_server = py04_param.demo1_param_server:main

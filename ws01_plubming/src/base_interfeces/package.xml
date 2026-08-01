@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>base_interfeces</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="hzc@todo.todo">hzc</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- action构建工具依赖 -->
+  <buildtool_depend>rosidl_core_generators</buildtool_depend>
+  <depend>action_msgs</depend>
+  
+
+  <!-- 下面三个是msg srv的依赖 -->
+  <!-- 编译依赖 -->
+  <build_depend>rosidl_core_generators</build_depend>
+  <!-- 执行依赖 -->
+  <exec_depend>rosidl_core_runtime</exec_depend>
+  <!-- 声明当前包所属的功能包组 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

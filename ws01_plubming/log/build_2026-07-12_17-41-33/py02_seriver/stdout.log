@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/py02_seriver/py02_seriver.egg-info/PKG-INFO
+writing dependency_links to ../../build/py02_seriver/py02_seriver.egg-info/dependency_links.txt
+writing entry points to ../../build/py02_seriver/py02_seriver.egg-info/entry_points.txt
+writing requirements to ../../build/py02_seriver/py02_seriver.egg-info/requires.txt
+writing top-level names to ../../build/py02_seriver/py02_seriver.egg-info/top_level.txt
+reading manifest file '../../build/py02_seriver/py02_seriver.egg-info/SOURCES.txt'
+writing manifest file '../../build/py02_seriver/py02_seriver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py02_seriver/demo1_client_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+copying py02_seriver/demo1_server_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+copying py02_seriver/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+copying py02_seriver/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver
+running install
+running install_lib
+copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver/demo1_client_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver
+copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/build/lib/py02_seriver/demo1_server_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver
+byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver/demo1_client_py.py to demo1_client_py.cpython-314.pyc
+byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver/demo1_server_py.py to demo1_server_py.cpython-314.pyc
+running install_data
+copying resource/py02_seriver -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/share/py02_seriver
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py02_seriver/py02_seriver.egg-info to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages/py02_seriver-0.0.0-py3.14.egg-info
+running install_scripts
+Installing demo1_client_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/py02_seriver
+Installing demo1_server_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/py02_seriver
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws01_plubming/build/py02_seriver/install.log'

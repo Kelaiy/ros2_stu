@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:24:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   24 |       rclcpp::Parameter [01;31m[Kp1[m[K("height",1.68);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:23:25:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |       rclcpp::Parameter [01;36m[Kp1[m[K("car_name","tiger");
+      |                         [01;36m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:25:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Parameter p1[m[K’
+   25 |       rclcpp::Parameter [01;31m[Kp1[m[K("wheels",4);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:23:25:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Parameter p1[m[K’ previously declared here
+   23 |       rclcpp::Parameter [01;36m[Kp1[m[K("car_name","tiger");
+      |                         [01;36m[K^~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:13[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:28:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kp2[m[K’ was not declared in this scope; did you mean ‘[01m[Kp1[m[K’?
+   28 |       RCLCPP_INFO(this->get_logger(),"height = %.2f",[01;31m[Kp2[m[K.as_double());
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo0_param.cpp:29:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kp3[m[K’ was not declared in this scope; did you mean ‘[01m[Kp1[m[K’?
+   29 |       RCLCPP_INFO(this->get_logger(),"wheels = %d",[01;31m[Kp3[m[K.as_int());
+      |                                                    [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/demo0_param.dir/build.make:79：CMakeFiles/demo0_param.dir/src/demo0_param.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo0_param.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

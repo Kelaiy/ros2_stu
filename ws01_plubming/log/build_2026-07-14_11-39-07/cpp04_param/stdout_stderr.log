@@ -1,0 +1,13 @@
+[ 33%] Built target demo1_param_client
+[ 66%] Built target demo0_param
+[ 83%] [32mBuilding CXX object CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o[0m
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:12[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::[01;32m[Kdel_param[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp04_param/src/demo1_param_server.cpp:38:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   38 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"被删除height吗?%d",this->has_parameter("height"));
+      |       [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo1_param_server.dir/build.make:79：CMakeFiles/demo1_param_server.dir/src/demo1_param_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/demo1_param_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

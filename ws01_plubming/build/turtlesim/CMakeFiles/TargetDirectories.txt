@@ -1,0 +1,10 @@
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/turtlesim_uninstall.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/turtlesim_node.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/test.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/edit_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/rebuild_cache.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/list_install_components.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/install.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/install/local.dir
+/home/hzc/linux/ros2/stu/ws01_plubming/build/turtlesim/CMakeFiles/install/strip.dir

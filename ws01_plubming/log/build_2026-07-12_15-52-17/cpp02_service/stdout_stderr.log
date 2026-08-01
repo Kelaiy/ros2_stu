@@ -1,0 +1,25 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[ 75%] Built target demo1_client
+[100%] [1m[32mLinking CXX executable demo1_server[0m
+[100%] Built target demo1_server
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_server
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_server" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.xml

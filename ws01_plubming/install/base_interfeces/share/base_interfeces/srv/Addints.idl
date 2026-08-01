@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfeces/srv/Addints.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfeces {
+  module srv {
+    @verbatim (language="comment", text=
+      "服务接口定义文档")
+    struct Addints_Request {
+      int32 num1;
+
+      int32 num2;
+    };
+    struct Addints_Response {
+      int32 sum;
+    };
+  };
+};

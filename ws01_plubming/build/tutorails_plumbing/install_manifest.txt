@@ -1,0 +1,16 @@
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.fish
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing/share/tutorails_plumbing/package.xml

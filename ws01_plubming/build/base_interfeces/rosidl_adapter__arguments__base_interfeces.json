@@ -1,0 +1,10 @@
+{
+  "package_name": "base_interfeces",
+  "non_idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces:msg/Student.msg",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces:srv/Addints.srv",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces:srv/Distance.srv",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces:action/Progress.action",
+    "/home/hzc/linux/ros2/stu/ws01_plubming/src/base_interfeces:action/Nav.action"
+  ]
+}

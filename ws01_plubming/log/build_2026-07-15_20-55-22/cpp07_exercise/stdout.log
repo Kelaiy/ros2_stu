@@ -1,0 +1,5 @@
+[ 33%] Built target exer1_pub_sub
+[ 50%] [32mBuilding CXX object CMakeFiles/exer1_server.dir/src/exer1_server.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/exer1_client.dir/src/exer1_client.cpp.o[0m
+[ 83%] [1m[32mLinking CXX executable exer1_server[0m
+[ 83%] Built target exer1_server

@@ -1,0 +1,5 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: 找不到 -lstd_msgs: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo1_names.dir/build.make:168：demo1_names] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_names.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

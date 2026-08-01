@@ -1,0 +1,52 @@
+[0.028s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[0.062s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.306s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.329s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.413s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)
+[0.596s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.709s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.709s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/include>
+[0.709s] -- Configured cppcheck exclude dirs and/or files: 
+[0.710s] -- Added test 'lint_cmake' to check CMake code style
+[0.711s] -- Added test 'uncrustify' to check C / C++ code style
+[0.711s] -- Configured uncrustify additional arguments: 
+[0.711s] -- Added test 'xmllint' to check XML markup files
+[0.712s] -- Configuring done (0.7s)
+[0.734s] -- Generating done (0.0s)
+[0.769s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service
+[0.833s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o[0m
+[0.833s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[6.910s] [ 75%] [1m[32mLinking CXX executable demo1_server[0m
+[7.006s] [100%] [1m[32mLinking CXX executable demo1_client[0m
+[7.118s] [100%] Built target demo1_server
+[7.252s] [100%] Built target demo1_client
+[7.268s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[7.270s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service
+[7.280s] -- Install configuration: ""
+[7.280s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_server
+[7.282s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_server" to ""
+[7.282s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client
+[7.283s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client" to ""
+[7.283s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[7.284s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[7.284s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[7.284s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.sh
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.bash
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.fish
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.sh
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[7.285s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.dsv
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[7.285s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[7.286s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.xml
+[7.288s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service

@@ -1,0 +1,28 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_client.dir/src/demo1_client.cpp.o[0m
+[0.080s] [ 75%] Built target demo1_server
+[4.422s] [100%] [1m[32mLinking CXX executable demo1_client[0m
+[4.573s] [100%] Built target demo1_client
+[4.587s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[4.599s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service
+[4.609s] -- Install configuration: ""
+[4.609s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_server
+[4.609s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client
+[4.611s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/lib/cpp02_service/demo1_client" to ""
+[4.611s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[4.613s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[4.613s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[4.613s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[4.614s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.sh
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.bash
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.fish
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.sh
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[4.615s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.dsv
+[4.615s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[4.616s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[4.616s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[4.616s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service/share/cpp02_service/package.xml
+[4.616s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service

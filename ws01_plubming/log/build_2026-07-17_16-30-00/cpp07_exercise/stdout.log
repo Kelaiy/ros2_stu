@@ -1,0 +1,5 @@
+[ 50%] Built target exer2_action_client
+[ 50%] [32mBuilding CXX object CMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o[0m
+[ 50%] Built target exer1_pub_sub
+[ 70%] Built target exer1_client
+[ 90%] Built target exer1_server

@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o[0m
+[0.100s] [ 75%] Built target demo1_client
+[0.402s] In file included from [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp02_service/src/demo1_server.cpp:13[m[K:
+[0.402s] [01m[K/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/include/base_interfeces/base_interfeces/srv/addints.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfeces/srv/detail/addints__struct.hpp: 没有那个文件或目录
+[0.402s]     7 | #include [01;31m[K"base_interfeces/srv/detail/addints__struct.hpp"[m[K  // IWYU pragma: export
+[0.402s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.402s] compilation terminated.
+[0.409s] gmake[2]: *** [CMakeFiles/demo1_server.dir/build.make:79：CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o] 错误 1
+[0.409s] gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/demo1_server.dir/all] 错误 2
+[0.410s] gmake: *** [Makefile:146：all] 错误 2
+[0.414s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service -- -j16 -l16

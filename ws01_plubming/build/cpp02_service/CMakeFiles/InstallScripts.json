@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp02_service/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[100%] [1m[32mLinking CXX executable hello[0m
+[100%] Built target hello
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/lib/pkg01_hello_cpp/hello" to ""
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_hello_cpp
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_hello_cpp
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.sh
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/environment/path.dsv
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.bash
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.fish
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.sh
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.zsh
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.dsv
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/ament_index/resource_index/packages/pkg01_hello_cpp
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig.cmake
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/cmake/pkg01_hello_cppConfig-version.cmake
+-- Installing: /home/hzc/linux/ros2/ros2_stu/install/pkg01_hello_cpp/share/pkg01_hello_cpp/package.xml

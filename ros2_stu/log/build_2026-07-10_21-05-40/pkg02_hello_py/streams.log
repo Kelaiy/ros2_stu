@@ -1,0 +1,35 @@
+[0.806s] Invoking command in '/home/hzc/linux/ros2/ros2_stu/src/pkg02_hello_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_hello_py build --build-base /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build install --record /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/install.log --single-version-externally-managed install_data
+[1.086s] running egg_info
+[1.107s] creating ../../build/pkg02_hello_py/pkg02_hello_py.egg-info
+[1.107s] writing ../../build/pkg02_hello_py/pkg02_hello_py.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../build/pkg02_hello_py/pkg02_hello_py.egg-info/dependency_links.txt
+[1.107s] writing entry points to ../../build/pkg02_hello_py/pkg02_hello_py.egg-info/entry_points.txt
+[1.108s] writing requirements to ../../build/pkg02_hello_py/pkg02_hello_py.egg-info/requires.txt
+[1.108s] writing top-level names to ../../build/pkg02_hello_py/pkg02_hello_py.egg-info/top_level.txt
+[1.108s] writing manifest file '../../build/pkg02_hello_py/pkg02_hello_py.egg-info/SOURCES.txt'
+[1.152s] reading manifest file '../../build/pkg02_hello_py/pkg02_hello_py.egg-info/SOURCES.txt'
+[1.153s] writing manifest file '../../build/pkg02_hello_py/pkg02_hello_py.egg-info/SOURCES.txt'
+[1.153s] running build
+[1.153s] running build_py
+[1.153s] creating /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py
+[1.153s] copying pkg02_hello_py/hello.py -> /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py
+[1.154s] copying pkg02_hello_py/__init__.py -> /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py
+[1.154s] copying pkg02_hello_py/py.typed -> /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py
+[1.154s] running install
+[1.158s] running install_lib
+[1.178s] creating /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py
+[1.181s] copying /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py/hello.py -> /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py
+[1.181s] copying /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py/py.typed -> /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py
+[1.181s] copying /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build/lib/pkg02_hello_py/__init__.py -> /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py
+[1.181s] byte-compiling /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py/hello.py to hello.cpython-314.pyc
+[1.181s] byte-compiling /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py/__init__.py to __init__.cpython-314.pyc
+[1.181s] running install_data
+[1.181s] creating /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/share/ament_index/resource_index/packages
+[1.181s] copying resource/pkg02_hello_py -> /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/share/ament_index/resource_index/packages
+[1.181s] copying package.xml -> /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/share/pkg02_hello_py
+[1.181s] running install_egg_info
+[1.201s] Copying ../../build/pkg02_hello_py/pkg02_hello_py.egg-info to /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages/pkg02_hello_py-0.0.0-py3.14.egg-info
+[1.202s] running install_scripts
+[1.308s] Installing hello script to /home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/pkg02_hello_py
+[1.309s] writing list of installed files to '/home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/install.log'
+[1.350s] Invoked command in '/home/hzc/linux/ros2/ros2_stu/src/pkg02_hello_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/ros2_stu/install/pkg02_hello_py/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_hello_py build --build-base /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/build install --record /home/hzc/linux/ros2/ros2_stu/build/pkg02_hello_py/install.log --single-version-externally-managed install_data

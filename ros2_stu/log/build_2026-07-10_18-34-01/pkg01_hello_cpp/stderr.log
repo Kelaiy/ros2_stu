@@ -1,0 +1,7 @@
+[01m[K/home/hzc/linux/ros2/ros2_stu/src/pkg01_hello_cpp/src/hello.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, const char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/ros2_stu/src/pkg01_hello_cpp/src/hello.cpp:33:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   33 | int main([01;35m[Kint argc[m[K, const char** argv) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/hzc/linux/ros2/ros2_stu/src/pkg01_hello_cpp/src/hello.cpp:33:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   33 | int main(int argc, [01;35m[Kconst char** argv[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~[m[K

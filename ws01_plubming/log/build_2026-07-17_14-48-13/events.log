@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (-) JobUnselected: {'identifier': 'base_interfeces'}
+[0.000510] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000538] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000563] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000586] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000608] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000627] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000647] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000666] (-) JobUnselected: {'identifier': 'py02_seriver'}
+[0.000687] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000706] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000726] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.000745] (-) JobUnselected: {'identifier': 'py06_timer'}
+[0.000765] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000786] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict({'base_interfeces': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces'})}
+[0.000816] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.016796] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.017282] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.017703] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', '--', '-j16', '-l16'], 'cwd': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hzc', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/hzc', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/hzc/桌面/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '8660', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '9110', 'BUNDLED_DEBUGPY_PATH': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10560', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'hzc', 'MANAGERPIDFDID': '1276', 'JOURNAL_STREAM': '10:42255', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '63199', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/hzc/.local/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/hzc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/ros/lyrical/opt/gz_tools_vendor/bin', 'INVOCATION_ID': '82aa1b54e1cd4595a852be20f3dd1dd9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c7871354202af115.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzc/.config/Code/User/workspaceStorage/9c9dac5a9bd332c3190c44c5f18f1af4/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VDJJS3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-25001b8754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces:/home/hzc/linux/ros2/stu/ws01_plubming/install/tutorails_plumbing:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp07_exercise:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp06_time:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp02_service:/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp01_topic:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws01_plubming/install/py06_timer:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/opt/ros/lyrical'}), 'shell': False}
+[0.051515] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.099853] (-) TimerEvent: {}
+[0.200158] (-) TimerEvent: {}
+[0.265314] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[0.284666] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[0.288979] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[0.297917] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300256] (-) TimerEvent: {}
+[0.308390] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.369998] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[0.371385] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.397411] (cpp07_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400361] (-) TimerEvent: {}
+[0.461129] (cpp07_exercise) StdoutLine: {'line': b'-- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)\n'}
+[0.500473] (-) TimerEvent: {}
+[0.514321] (cpp07_exercise) StdoutLine: {'line': b'-- Found base_interfeces: 0.0.0 (/home/hzc/linux/ros2/stu/ws01_plubming/install/base_interfeces/share/base_interfeces/cmake)\n'}
+[0.533560] (cpp07_exercise) StdoutLine: {'line': b'-- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)\n'}
+[0.563568] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)\n'}
+[0.571321] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[0.600575] (-) TimerEvent: {}
+[0.681386] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.681638] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/include>\n'}
+[0.681778] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.681948] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.682107] (cpp07_exercise) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.682358] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.683068] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.683735] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.683836] (cpp07_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.684151] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.685053] (cpp07_exercise) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.700684] (-) TimerEvent: {}
+[0.723916] (cpp07_exercise) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.767335] (cpp07_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp07_exercise\n'}
+[0.800792] (-) TimerEvent: {}
+[0.808861] (cpp07_exercise) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/exer2_action_client.dir/src/exer2_action_client.cpp.o\x1b[0m\n'}
+[0.809138] (cpp07_exercise) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o\x1b[0m\n'}
+[0.827443] (cpp07_exercise) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/exer1_client.dir/src/exer1_client.cpp.o\x1b[0m\n'}
+[0.827657] (cpp07_exercise) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/exer1_server.dir/src/exer1_server.cpp.o\x1b[0m\n'}
+[0.827761] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[1m\x1b[32mLinking CXX executable exer1_pub_sub\x1b[0m\n'}
+[0.900917] (-) TimerEvent: {}
+[1.001282] (-) TimerEvent: {}
+[1.101624] (-) TimerEvent: {}
+[1.201967] (-) TimerEvent: {}
+[1.257514] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer1_pub_sub\n'}
+[1.302096] (-) TimerEvent: {}
+[1.402450] (-) TimerEvent: {}
+[1.502759] (-) TimerEvent: {}
+[1.603071] (-) TimerEvent: {}
+[1.703390] (-) TimerEvent: {}
+[1.803775] (-) TimerEvent: {}
+[1.904088] (-) TimerEvent: {}
+[2.004402] (-) TimerEvent: {}
+[2.104709] (-) TimerEvent: {}
+[2.205040] (-) TimerEvent: {}
+[2.305388] (-) TimerEvent: {}
+[2.405762] (-) TimerEvent: {}
+[2.506142] (-) TimerEvent: {}
+[2.606467] (-) TimerEvent: {}
+[2.706813] (-) TimerEvent: {}
+[2.807206] (-) TimerEvent: {}
+[2.907582] (-) TimerEvent: {}
+[3.007943] (-) TimerEvent: {}
+[3.108311] (-) TimerEvent: {}
+[3.208676] (-) TimerEvent: {}
+[3.230386] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[3.230673] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173\x1b[m\x1b[K,\n'}
+[3.230819] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:11\x1b[m\x1b[K:\n'}
+[3.230957] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KExer2ActionServer::\x1b[01;32m\x1b[KExer2ActionServer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.231102] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[3.231379] (cpp07_exercise) StderrLine: {'line': b'   19 |         RCLCPP_INFO(this->get_logger().\x1b[01;31m\x1b[K"\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf"\x1b[m\x1b[K);\n'}
+[3.231523] (cpp07_exercise) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.231675] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.231832] (cpp07_exercise) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger()."\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf");\n'}
+[3.231993] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.232156] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22\x1b[m\x1b[K:\n'}
+[3.232324] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[3.232424] (cpp07_exercise) StderrLine: {'line': b'   19 |         RCLCPP_INFO(this->get_logger().\x1b[01;31m\x1b[K"\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf"\x1b[m\x1b[K);\n'}
+[3.232510] (cpp07_exercise) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.232591] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[3.232684] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.232795] (cpp07_exercise) StderrLine: {'line': b'   19 |         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger()."\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf");\n'}
+[3.232879] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.232958] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.233074] (cpp07_exercise) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger()."\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf");\n'}
+[3.233166] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.233273] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.233359] (cpp07_exercise) StderrLine: {'line': b'   19 |         \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger()."\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf");\n'}
+[3.233437] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.233520] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws01_plubming/src/cpp07_exercise/src/exer2_action_server.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.233639] (cpp07_exercise) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger()."\xe5\x8a\xa8\xe4\xbd\x9c\xe6\x9c\x8d\xe5\x8a\xa1\xe7\xab\xaf");\n'}
+[3.233758] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.308788] (-) TimerEvent: {}
+[3.409116] (-) TimerEvent: {}
+[3.509474] (-) TimerEvent: {}
+[3.609821] (-) TimerEvent: {}
+[3.710144] (-) TimerEvent: {}
+[3.810457] (-) TimerEvent: {}
+[3.910780] (-) TimerEvent: {}
+[4.011084] (-) TimerEvent: {}
+[4.111388] (-) TimerEvent: {}
+[4.211713] (-) TimerEvent: {}
+[4.312010] (-) TimerEvent: {}
+[4.384905] (cpp07_exercise) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exer2_action_server.dir/build.make:79\xef\xbc\x9aCMakeFiles/exer2_action_server.dir/src/exer2_action_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.385184] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:293\xef\xbc\x9aCMakeFiles/exer2_action_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.385327] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[4.398675] (cpp07_exercise) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX executable exer2_action_client\x1b[0m\n'}
+[4.412074] (-) TimerEvent: {}
+[4.512345] (-) TimerEvent: {}
+[4.539209] (cpp07_exercise) StdoutLine: {'line': b'[ 70%] Built target exer2_action_client\n'}
+[4.612469] (-) TimerEvent: {}
+[4.712758] (-) TimerEvent: {}
+[4.813084] (-) TimerEvent: {}
+[4.913372] (-) TimerEvent: {}
+[5.013677] (-) TimerEvent: {}
+[5.113945] (-) TimerEvent: {}
+[5.214243] (-) TimerEvent: {}
+[5.314534] (-) TimerEvent: {}
+[5.414840] (-) TimerEvent: {}
+[5.420182] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] \x1b[1m\x1b[32mLinking CXX executable exer1_client\x1b[0m\n'}
+[5.514985] (-) TimerEvent: {}
+[5.603466] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] Built target exer1_client\n'}
+[5.615071] (-) TimerEvent: {}
+[5.715329] (-) TimerEvent: {}
+[5.815621] (-) TimerEvent: {}
+[5.915934] (-) TimerEvent: {}
+[6.016233] (-) TimerEvent: {}
+[6.116522] (-) TimerEvent: {}
+[6.216857] (-) TimerEvent: {}
+[6.317130] (-) TimerEvent: {}
+[6.417432] (-) TimerEvent: {}
+[6.517704] (-) TimerEvent: {}
+[6.617990] (-) TimerEvent: {}
+[6.718283] (-) TimerEvent: {}
+[6.818569] (-) TimerEvent: {}
+[6.918866] (-) TimerEvent: {}
+[7.019149] (-) TimerEvent: {}
+[7.119453] (-) TimerEvent: {}
+[7.219726] (-) TimerEvent: {}
+[7.319987] (-) TimerEvent: {}
+[7.420284] (-) TimerEvent: {}
+[7.520575] (-) TimerEvent: {}
+[7.620865] (-) TimerEvent: {}
+[7.721144] (-) TimerEvent: {}
+[7.821419] (-) TimerEvent: {}
+[7.921681] (-) TimerEvent: {}
+[8.021957] (-) TimerEvent: {}
+[8.122279] (-) TimerEvent: {}
+[8.222563] (-) TimerEvent: {}
+[8.322839] (-) TimerEvent: {}
+[8.423173] (-) TimerEvent: {}
+[8.523479] (-) TimerEvent: {}
+[8.623786] (-) TimerEvent: {}
+[8.724077] (-) TimerEvent: {}
+[8.824408] (-) TimerEvent: {}
+[8.924717] (-) TimerEvent: {}
+[8.987548] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] \x1b[1m\x1b[32mLinking CXX executable exer1_server\x1b[0m\n'}
+[9.024836] (-) TimerEvent: {}
+[9.125179] (-) TimerEvent: {}
+[9.225475] (-) TimerEvent: {}
+[9.325778] (-) TimerEvent: {}
+[9.355766] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] Built target exer1_server\n'}
+[9.357472] (cpp07_exercise) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.360120] (cpp07_exercise) CommandEnded: {'returncode': 2}
+[9.375579] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 2}
+[9.386330] (-) EventReactorShutdown: {}

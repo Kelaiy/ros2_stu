@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16
+[0.046s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.046s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.046s]   contain a literal, direct call to the project() command.  Add a line of
+[0.046s]   code such as
+[0.047s] 
+[0.047s]     project(ProjectName)
+[0.047s] 
+[0.047s]   near the top of the file, but after cmake_minimum_required().
+[0.047s] 
+[0.047s]   CMake is pretending there is a "project(Project)" command on the first
+[0.047s]   line.
+[0.047s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.047s] [0m
+[0.048s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.048s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.048s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.048s]   both commands.
+[0.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.048s] [0m
+[0.054s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.260s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.279s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.283s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.358s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.359s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.449s] [31mCMake Error at CMakeLists.txt:26 (install):
+[0.450s]   install TARGETS given target "hello2" which does not exist.
+[0.450s] 
+[0.450s] [0m
+[0.450s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.545s] [31mCMake Error at /opt/ros/lyrical/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.545s]   ament_package_xml() package name 'pkg01_hello_cpp' in '/package.xml' does
+[0.545s]   not match current PROJECT_NAME 'Project'.  You must call project() with the
+[0.545s]   same package name before.
+[0.545s] Call Stack (most recent call first):
+[0.545s]   /opt/ros/lyrical/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.545s]   CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)
+[0.545s] 
+[0.546s] [0m
+[0.546s] -- Configuring incomplete, errors occurred!
+[0.551s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.553s] Invoked command in '/home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/ros2_stu/build/pkg01_hello_cpp -- -j16 -l16

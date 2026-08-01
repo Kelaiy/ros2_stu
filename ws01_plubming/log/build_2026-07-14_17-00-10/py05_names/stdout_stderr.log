@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py05_names/__init__.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+copying py05_names/demo1_names_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+copying py05_names/py.typed -> /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names
+running install
+running install_lib
+copying /home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/build/lib/py05_names/demo1_names_py.py -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names
+byte-compiling /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names/demo1_names_py.py to demo1_names_py.cpython-314.pyc
+running install_data
+copying resource/py05_names -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/share/py05_names
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py05_names/py05_names.egg-info to /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/python3.14/site-packages/py05_names-0.0.0-py3.14.egg-info
+running install_scripts
+Installing demo1_names_py script to /home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names/lib/py05_names
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws01_plubming/build/py05_names/install.log'

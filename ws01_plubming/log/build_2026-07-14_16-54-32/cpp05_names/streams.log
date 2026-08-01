@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names -- -j16 -l16
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_names.dir/src/demo1_names.cpp.o[0m
+[4.771s] [100%] [1m[32mLinking CXX executable demo1_names[0m
+[4.937s] [100%] Built target demo1_names
+[4.955s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names -- -j16 -l16
+[4.967s] Invoking command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names
+[4.977s] -- Install configuration: ""
+[4.977s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/lib/cpp05_names/demo1_names
+[4.979s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/lib/cpp05_names/demo1_names" to ""
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/launch
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/launch/demo3_names_launch.yaml
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/launch/demo1_names_launch.py
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/launch/demo2_names_launch.xml
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[4.979s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/environment/path.sh
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/local_setup.bash
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/local_setup.fish
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/local_setup.sh
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[4.980s] -- Installing: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/package.dsv
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[4.980s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[4.981s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[4.981s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws01_plubming/install/cpp05_names/share/cpp05_names/package.xml
+[4.982s] Invoked command in '/home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws01_plubming/install/py05_names:/home/hzc/linux/ros2/stu/ws01_plubming/install/py01_topic:/home/hzc/linux/ros2/stu/ws01_plubming/install/py04_param:/home/hzc/linux/ros2/stu/ws01_plubming/install/py03_action:/home/hzc/linux/ros2/stu/ws01_plubming/install/py02_seriver:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws01_plubming/build/cpp05_names

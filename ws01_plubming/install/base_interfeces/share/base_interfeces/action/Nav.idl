@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from base_interfeces/action/Nav.action
+// generated code does not contain a copyright notice
+
+
+module base_interfeces {
+  module action {
+    @verbatim (language="comment", text=
+      "请求数据")
+    struct Nav_Goal {
+      float goal_x;
+
+      float goal_y;
+
+      float goal_theta;
+    };
+    @verbatim (language="comment", text=
+      "最终响应")
+    struct Nav_Result {
+      float tutle_x;
+
+      float tutle_y;
+
+      float tutle_thrta;
+    };
+    @verbatim (language="comment", text=
+      "连续反馈")
+    struct Nav_Feedback {
+      float distance;
+    };
+  };
+};

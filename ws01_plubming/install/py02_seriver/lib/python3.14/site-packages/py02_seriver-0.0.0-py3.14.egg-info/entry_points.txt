@@ -1,0 +1,3 @@
+[console_scripts]
+demo1_client_py = py02_seriver.demo1_client_py:main
+demo1_server_py = py02_seriver.demo1_server_py:main
