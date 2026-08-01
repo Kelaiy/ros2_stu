@@ -68,6 +68,7 @@
                 </geometry>
                 <material name="black"/>
                 <origin rpy="${PI/2} 0.0 0.0"/>
+                
             </visual>
             <collision>
                 <geometry>
