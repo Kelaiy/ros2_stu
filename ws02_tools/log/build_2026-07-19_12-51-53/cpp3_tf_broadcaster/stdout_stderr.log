@@ -1,0 +1,122 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:[m[K In constructor ‘[01m[KTFStatic::[01;32m[KTFStatic[m[K(char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:21:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     TFStatic([01;35m[Kchar * argv[][m[K):Node("tf_static_node_cpp"){
+      |              [01;35m[K~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/15/bits/stl_tempbuf.h:61[m[K,
+                 from [01m[K/usr/include/c++/15/memory:68[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:13[m[K:
+/usr/include/c++/15/bits/stl_construct.h: In instantiation of ‘[01m[Kconstexpr void std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}][m[K[m[K’:
+[01m[K/usr/include/c++/15/bits/alloc_traits.h:805:19:[m[K   required from ‘[01m[Kstatic constexpr void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = TFStatic; _Args = {const char**&}; allocator_type = std::allocator<void>][m[K[m[K’
+  805 |         { [01;36m[Kstd::_Construct(__p, std::forward<_Args>(__args)...)[m[K; }
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:606:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char**&}; _Tp = TFStatic; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  606 |           [01;36m[Kallocator_traits<_Alloc>::construct(__a, _M_ptr(),[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+  607 | [01;36m[K              std::forward<_Args>(__args)...)[m[K; // might throw
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:969:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = TFStatic; _Alloc = std::allocator<void>; _Args = {const char**&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  969 |           auto __pi = [01;36m[K::new (__mem)[m[K
+      |                       [01;36m[K^~~~~~~~~~~~~[m[K
+  970 | [01;36m[K            _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:1719:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+ 1719 |         : _M_ptr(), [01;36m[K_M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)[m[K
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:463:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic][m[K[m[K’
+  463 |         : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                  [01;36m[K^[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:1007:14:[m[K   required from ‘[01m[Kstd::shared_ptr<std::_NonArray<_Tp> > std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}; _NonArray<_Tp> = TFStatic][m[K[m[K’
+ 1007 |       return [01;36m[Kshared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},[m[K
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1008 | [01;36m[K                             std::forward<_Args>(__args)...)[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:65:44:[m[K   required from here
+   65 |     rclcpp::spin([01;36m[Kstd::make_shared<TFStatic>(argv)[m[K);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/stl_construct.h:129:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kconstruct_at(TFStatic*&, const char**&)[m[K’
+  129 |           [01;31m[Kstd::construct_at(__p, std::forward<_Args>(__args)...)[m[K;
+      |           [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/stl_construct.h:129:28:[m[K [01;36m[Knote: [m[Kthere is 1 candidate
+[01m[K/usr/include/c++/15/bits/stl_construct.h:96:5:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class _Tp, class ... _Args>  requires !(is_unbounded_array_v<_Tp>) && requires{::new(void*(0)) _Tp;} constexpr _Tp* std::[01;32m[Kconstruct_at[m[K(_Tp*, _Args&& ...)[m[K’
+   96 |     [01;36m[Kconstruct_at[m[K(_Tp* __location, _Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/stl_construct.h:96:5:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/c++/15/bits/stl_construct.h:96:5:[m[K [01;36m[Knote: [m[Kconstraints not satisfied
+/usr/include/c++/15/bits/stl_construct.h: In substitution of ‘[01m[Ktemplate<class _Tp, class ... _Args>  requires !(is_unbounded_array_v<_Tp>) && requires{::new(void*(0)) _Tp;} constexpr _Tp* std::[01;32m[Kconstruct_at[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}][m[K[m[K’:
+[01m[K/usr/include/c++/15/bits/stl_construct.h:129:21:[m[K   required from ‘[01m[Kconstexpr void std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}][m[K[m[K’
+  129 |           [01;36m[Kstd::construct_at(__p, std::forward<_Args>(__args)...)[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/alloc_traits.h:805:19:[m[K   required from ‘[01m[Kstatic constexpr void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = TFStatic; _Args = {const char**&}; allocator_type = std::allocator<void>][m[K[m[K’
+  805 |         { [01;36m[Kstd::_Construct(__p, std::forward<_Args>(__args)...)[m[K; }
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:606:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char**&}; _Tp = TFStatic; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  606 |           [01;36m[Kallocator_traits<_Alloc>::construct(__a, _M_ptr(),[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+  607 | [01;36m[K              std::forward<_Args>(__args)...)[m[K; // might throw
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:969:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = TFStatic; _Alloc = std::allocator<void>; _Args = {const char**&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  969 |           auto __pi = [01;36m[K::new (__mem)[m[K
+      |                       [01;36m[K^~~~~~~~~~~~~[m[K
+  970 | [01;36m[K            _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:1719:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+ 1719 |         : _M_ptr(), [01;36m[K_M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)[m[K
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:463:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic][m[K[m[K’
+  463 |         : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                  [01;36m[K^[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:1007:14:[m[K   required from ‘[01m[Kstd::shared_ptr<std::_NonArray<_Tp> > std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}; _NonArray<_Tp> = TFStatic][m[K[m[K’
+ 1007 |       return [01;36m[Kshared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},[m[K
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1008 | [01;36m[K                             std::forward<_Args>(__args)...)[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:65:44:[m[K   required from here
+   65 |     rclcpp::spin([01;36m[Kstd::make_shared<TFStatic>(argv)[m[K);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/stl_construct.h:96:5:[m[K   required by the constraints of ‘[01m[Ktemplate<class _Tp, class ... _Args>  requires !(is_unbounded_array_v<_Tp>) && requires{::new(void*(0)) _Tp;} constexpr _Tp* std::[01;32m[Kconstruct_at[m[K(_Tp*, _Args&& ...)[m[K’
+[01m[K/usr/include/c++/15/bits/stl_construct.h:94:10:[m[K   in requirements  [with _Tp = TFStatic; _Args = {const char**&}]
+[01m[K/usr/include/c++/15/bits/stl_construct.h:94:21:[m[K [01;36m[Knote: [m[Kthe required expression ‘[01m[K::new(void*(0)) _Tp[m[K’ is invalid
+   94 |       && requires { [01;36m[K::new((void*)0) _Tp(std::declval<_Args>()...)[m[K; }
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/c++/15/bits/stl_construct.h: In instantiation of ‘[01m[Kconstexpr void std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}][m[K[m[K’:
+[01m[K/usr/include/c++/15/bits/alloc_traits.h:805:19:[m[K   required from ‘[01m[Kstatic constexpr void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = TFStatic; _Args = {const char**&}; allocator_type = std::allocator<void>][m[K[m[K’
+  805 |         { [01;36m[Kstd::_Construct(__p, std::forward<_Args>(__args)...)[m[K; }
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:606:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char**&}; _Tp = TFStatic; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  606 |           [01;36m[Kallocator_traits<_Alloc>::construct(__a, _M_ptr(),[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+  607 | [01;36m[K              std::forward<_Args>(__args)...)[m[K; // might throw
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:969:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = TFStatic; _Alloc = std::allocator<void>; _Args = {const char**&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+  969 |           auto __pi = [01;36m[K::new (__mem)[m[K
+      |                       [01;36m[K^~~~~~~~~~~~~[m[K
+  970 | [01;36m[K            _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr_base.h:1719:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+ 1719 |         : _M_ptr(), [01;36m[K_M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)[m[K
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:463:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char**&}; _Tp = TFStatic][m[K[m[K’
+  463 |         : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                  [01;36m[K^[m[K
+[01m[K/usr/include/c++/15/bits/shared_ptr.h:1007:14:[m[K   required from ‘[01m[Kstd::shared_ptr<std::_NonArray<_Tp> > std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = TFStatic; _Args = {const char**&}; _NonArray<_Tp> = TFStatic][m[K[m[K’
+ 1007 |       return [01;36m[Kshared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},[m[K
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1008 | [01;36m[K                             std::forward<_Args>(__args)...)[m[K;
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:65:44:[m[K   required from here
+   65 |     rclcpp::spin([01;36m[Kstd::make_shared<TFStatic>(argv)[m[K);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kset ‘[01m[K-fconcepts-diagnostics-depth=[m[K’ to at least 2 for more detail
+[01m[K/usr/include/c++/15/bits/stl_construct.h:133:7:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[K[01;32m[Kconst char**[m[K[m[K’ to ‘[01m[K[01;34m[Kchar**[m[K[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  133 |       [01;32m[K:[m[K[01;32m[K:[m[K[01;32m[Kn[m[K[01;32m[Ke[m[K[01;32m[Kw[m[K[01;32m[K([m[K[01;32m[Ks[m[K[01;32m[Kt[m[K[01;32m[Ka[m[K[01;32m[Kt[m[K[01;32m[Ki[m[K[01;32m[Kc[m[K[01;32m[K_[m[K[01;32m[Kc[m[K[01;32m[Ka[m[K[01;32m[Ks[m[K[01;32m[Kt[m[K[01;32m[K<[m[K[01;32m[Kv[m[K[01;32m[Ko[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[K*[m[K[01;32m[K>[m[K[01;32m[K([m[K[01;32m[K_[m[K[01;32m[K_[m[K[01;32m[Kp[m[K[01;32m[K)[m[K[01;32m[K)[m[K[01;32m[K [m[K[01;32m[K_[m[K[01;32m[KT[m[K[01;32m[Kp[m[K[01;32m[K([m[K[01;32m[Ks[m[K[01;32m[Kt[m[K[01;32m[Kd[m[K[01;32m[K:[m[K[01;32m[K:[m[K[01;32m[Kf[m[K[01;32m[Ko[m[K[01;32m[Kr[m[K[01;32m[Kw[m[K[01;32m[Ka[m[K[01;32m[Kr[m[K[01;32m[Kd[m[K[01;32m[K<[m[K[01;32m[K_[m[K[01;32m[KA[m[K[01;32m[Kr[m[K[01;32m[Kg[m[K[01;32m[Ks[m[K[01;32m[K>[m[K[01;32m[K([m[K[01;32m[K_[m[K[01;32m[K_[m[K[01;32m[Ka[m[K[01;32m[Kr[m[K[01;32m[Kg[m[K[01;32m[Ks[m[K[01;32m[K)[m[K[01;32m[K.[m[K[01;32m[K.[m[K[01;32m[K.[m[K[01;32m[K)[m[K;
+      |       [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+      |       [01;32m[K|[m[K
+      |       [01;32m[Kconst char**[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:21:21:[m[K [01;36m[Knote: [m[Kinitializing argument 1 of ‘[01m[KTFStatic::[01;32m[KTFStatic[m[K(char**)[m[K’
+   21 |     TFStatic([01;34m[Kc[m[K[01;34m[Kh[m[K[01;34m[Ka[m[K[01;34m[Kr[m[K[01;34m[K [m[K[01;34m[K*[m[K[01;34m[K [m[K[01;34m[Ka[m[K[01;34m[Kr[m[K[01;34m[Kg[m[K[01;34m[Kv[m[K[01;34m[K[[m[K[01;34m[K][m[K):Node("tf_static_node_cpp"){
+      |              [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+gmake[2]: *** [CMakeFiles/demo1_tf_static.dir/build.make:79：CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_static.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

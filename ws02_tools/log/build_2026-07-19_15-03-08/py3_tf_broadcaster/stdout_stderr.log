@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/PKG-INFO
+writing dependency_links to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/dependency_links.txt
+writing entry points to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/entry_points.txt
+writing requirements to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/requires.txt
+writing top-level names to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/top_level.txt
+reading manifest file '../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/SOURCES.txt'
+writing manifest file '../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py3_tf_broadcaster/demo2_tf_dynamic_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+copying py3_tf_broadcaster/demo1_tf_static_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+copying py3_tf_broadcaster/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+copying py3_tf_broadcaster/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+running install
+running install_lib
+copying /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster/demo2_tf_dynamic_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster
+byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster/demo2_tf_dynamic_py.py to demo2_tf_dynamic_py.cpython-314.pyc
+running install_data
+copying resource/py3_tf_broadcaster -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/share/py3_tf_broadcaster
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster-0.0.0-py3.14.egg-info
+running install_scripts
+Installing demo1_tf_static_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/py3_tf_broadcaster
+Installing demo2_tf_dynamic_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/py3_tf_broadcaster
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/install.log'

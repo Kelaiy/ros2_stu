@@ -1,0 +1,62 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster
+[0.078s] -- The C compiler identification is GNU 15.2.0
+[0.155s] -- The CXX compiler identification is GNU 15.2.0
+[0.164s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.414s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.193s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.275s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.299s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.488s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.495s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.558s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.681s] -- Found tf2: 0.45.7 (/opt/ros/lyrical/share/tf2/cmake)
+[1.737s] -- Found tf2_ros: 0.45.7 (/opt/ros/lyrical/share/tf2_ros/cmake)
+[1.925s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.082s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/include>
+[2.082s] -- Configured cppcheck exclude dirs and/or files: 
+[2.084s] -- Added test 'lint_cmake' to check CMake code style
+[2.086s] -- Added test 'uncrustify' to check C / C++ code style
+[2.087s] -- Configured uncrustify additional arguments: 
+[2.089s] -- Added test 'xmllint' to check XML markup files
+[2.093s] -- Configuring done (2.1s)
+[2.108s] -- Generating done (0.0s)
+[2.141s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster
+[2.154s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster
+[2.155s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[2.214s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o[0m
+[5.538s] [100%] [1m[32mLinking CXX executable demo1_tf_static[0m
+[5.693s] [100%] Built target demo1_tf_static
+[5.710s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[5.723s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster
+[5.732s] -- Install configuration: ""
+[5.732s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo1_tf_static
+[5.733s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo1_tf_static" to ""
+[5.733s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp3_tf_broadcaster
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp3_tf_broadcaster
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.sh
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.dsv
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.sh
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.dsv
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.bash
+[5.734s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.fish
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.sh
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.zsh
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.dsv
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.dsv
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/packages/cpp3_tf_broadcaster
+[5.735s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig.cmake
+[5.736s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig-version.cmake
+[5.736s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.xml
+[5.738s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster

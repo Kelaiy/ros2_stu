@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo
+[0.120s] -- The C compiler identification is GNU 15.2.0
+[0.218s] -- The CXX compiler identification is GNU 15.2.0
+[0.230s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.451s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.382s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.382s]   By not providing "Findros2.cmake" in CMAKE_MODULE_PATH this project has
+[1.383s]   asked CMake to find a package configuration file provided by "ros2", but
+[1.383s]   CMake did not find one.
+[1.383s] 
+[1.383s]   Could not find a package configuration file provided by "ros2" with any of
+[1.383s]   the following names:
+[1.383s] 
+[1.383s]     ros2Config.cmake
+[1.383s]     ros2-config.cmake
+[1.383s] 
+[1.383s]   Add the installation prefix of "ros2" to CMAKE_PREFIX_PATH or set
+[1.383s]   "ros2_DIR" to a directory containing one of the above files.  If "ros2"
+[1.384s]   provides a separate development package or SDK, be sure it has been
+[1.384s]   installed.
+[1.384s] 
+[1.384s] [0m
+[1.385s] -- Configuring incomplete, errors occurred!
+[1.391s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo

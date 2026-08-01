@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (-) JobUnselected: {'identifier': 'cpp1_launch'}
+[0.000411] (-) JobUnselected: {'identifier': 'cpp2_rosbag'}
+[0.000438] (-) JobUnselected: {'identifier': 'cpp3_tf_broadcaster'}
+[0.000538] (-) JobUnselected: {'identifier': 'cpp4_tf_listener'}
+[0.000564] (-) JobUnselected: {'identifier': 'cpp5_exercise'}
+[0.000693] (-) JobUnselected: {'identifier': 'py1_launch'}
+[0.000725] (-) JobUnselected: {'identifier': 'py2_rosbag'}
+[0.000744] (-) JobUnselected: {'identifier': 'py3_tf_broadcaster'}
+[0.000773] (-) JobUnselected: {'identifier': 'py4_tf_listener'}
+[0.000800] (-) JobUnselected: {'identifier': 'py5_exercise'}
+[0.000826] (-) EventReactorShutdown: {}

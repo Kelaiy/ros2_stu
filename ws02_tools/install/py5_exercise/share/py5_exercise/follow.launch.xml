@@ -1,0 +1,22 @@
+<launch>
+    <!-- 声明变量 -->
+    <arg name="t_name" default="turtle2"/>
+    <!-- 1.turtlesim_node创建 -->
+    <node pkg="turtlesim" exec="turtlesim_node"/>
+    <!-- 2.乌龟生成节点 -->
+    <node pkg="py5_exercise" exec="exer1_spawn_py" name="spawn1">
+        <param name="x" value="1.0"/>
+        <param name="y" value="3.0"/>
+        <param name="turtle_name" value="$(var t_name)"/>
+    </node>
+    <!-- 3.广播俩只乌龟坐标变换 -->
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="bro1"/>
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="bro2">
+        <param name="turtle" value="$(var t_name)"/>
+    </node>
+    <!-- 4.实现坐标变换 -->
+    <node pkg="py5_exercise" exec="exer3_tf_listener_py">
+        <param name="father_frame" value="$(var t_name)"/>
+        <param name="child_frame" value="turtle1"/>
+    </node>
+</launch>

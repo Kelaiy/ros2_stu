@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

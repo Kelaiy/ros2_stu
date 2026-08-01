@@ -1,0 +1,2 @@
+source;share/cpp7_gazebo/environment/ament_prefix_path.sh
+source;share/cpp7_gazebo/environment/path.sh

@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000422] (-) JobUnselected: {'identifier': 'cpp1_launch'}
+[0.000704] (-) JobUnselected: {'identifier': 'cpp2_rosbag'}
+[0.000739] (-) JobUnselected: {'identifier': 'cpp3_tf_broadcaster'}
+[0.000768] (-) JobUnselected: {'identifier': 'py1_launch'}
+[0.000794] (-) JobUnselected: {'identifier': 'py2_rosbag'}
+[0.000828] (-) JobUnselected: {'identifier': 'py3_tf_broadcaster'}
+[0.000893] (-) JobUnselected: {'identifier': 'py4_tf_listener'}
+[0.000952] (cpp4_tf_listener) JobQueued: {'identifier': 'cpp4_tf_listener', 'dependencies': OrderedDict()}
+[0.000997] (cpp4_tf_listener) JobStarted: {'identifier': 'cpp4_tf_listener'}
+[0.012370] (cpp4_tf_listener) JobProgress: {'identifier': 'cpp4_tf_listener', 'progress': 'cmake'}
+[0.012883] (cpp4_tf_listener) JobProgress: {'identifier': 'cpp4_tf_listener', 'progress': 'build'}
+[0.013797] (cpp4_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener', '--', '-j16', '-l16'], 'cwd': '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hzc', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/hzc', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/hzc/linux/ros2/stu/ws02_tools/src', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/hzc/桌面/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '4635', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5082', 'BUNDLED_DEBUGPY_PATH': '/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9099', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws02_tools/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'hzc', 'MANAGERPIDFDID': '57650', 'JOURNAL_STREAM': '10:40011', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '58731', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/hzc/.local/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/hzc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/home/hzc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin', 'INVOCATION_ID': 'de5be51a940a4605b10e9f77ae379c24', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzc/.config/Code/User/workspaceStorage/7b63fed2e755669094cd04b1cc1bdacf/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4Z8R3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-374c15b440.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical'}), 'shell': False}
+[0.090785] (cpp4_tf_listener) StdoutLine: {'line': b'[ 50%] Built target demo1_tf_listener\n'}
+[0.099859] (-) TimerEvent: {}
+[0.103543] (cpp4_tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo2_msg_filter.dir/src/demo2_msg_filter.cpp.o\x1b[0m\n'}
+[0.199968] (-) TimerEvent: {}
+[0.300291] (-) TimerEvent: {}
+[0.400592] (-) TimerEvent: {}
+[0.477476] (cpp4_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:15\x1b[m\x1b[K:\n'}
+[0.477722] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.477849] (cpp4_tf_listener) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[0.477952] (cpp4_tf_listener) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.500705] (-) TimerEvent: {}
+[0.601021] (-) TimerEvent: {}
+[0.701332] (-) TimerEvent: {}
+[0.801643] (-) TimerEvent: {}
+[0.901916] (-) TimerEvent: {}
+[1.002233] (-) TimerEvent: {}
+[1.102535] (-) TimerEvent: {}
+[1.203039] (-) TimerEvent: {}
+[1.303373] (-) TimerEvent: {}
+[1.403707] (-) TimerEvent: {}
+[1.504030] (-) TimerEvent: {}
+[1.604322] (-) TimerEvent: {}
+[1.704627] (-) TimerEvent: {}
+[1.804921] (-) TimerEvent: {}
+[1.905238] (-) TimerEvent: {}
+[2.005530] (-) TimerEvent: {}
+[2.105852] (-) TimerEvent: {}
+[2.206157] (-) TimerEvent: {}
+[2.306446] (-) TimerEvent: {}
+[2.406732] (-) TimerEvent: {}
+[2.507020] (-) TimerEvent: {}
+[2.607298] (-) TimerEvent: {}
+[2.707571] (-) TimerEvent: {}
+[2.720761] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTFPointListener::\x1b[01;32m\x1b[KTFPointListener\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.721018] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:37:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Subscriber<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::subscribe(TFPointListener*, const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.721132] (cpp4_tf_listener) StderrLine: {'line': b'   37 |         \x1b[01;31m\x1b[Kpoint_sub.subscribe(this,"pont")\x1b[m\x1b[K;\n'}
+[2.721228] (cpp4_tf_listener) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.721322] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:37:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthere are 7 candidates\n'}
+[2.721428] (cpp4_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:17\x1b[m\x1b[K:\n'}
+[2.721538] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:238:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 1: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT> void message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeT*, const std::string&, const rclcpp::QoS&) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.721650] (cpp4_tf_listener) StderrLine: {'line': b'  238 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.721755] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.721861] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:238:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 3 arguments, 2 provided\n'}
+[2.721981] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:246:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 2: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT> void message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(std::shared_ptr<_Yp>, const std::string&, const rclcpp::QoS&) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722091] (cpp4_tf_listener) StderrLine: {'line': b'  246 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.722199] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.722302] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:246:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 3 arguments, 2 provided\n'}
+[2.722408] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:295:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 3: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT> void message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(NodeT*, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722531] (cpp4_tf_listener) StderrLine: {'line': b'  295 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.722631] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.722731] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:295:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 4 arguments, 2 provided\n'}
+[2.722831] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:304:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 4: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT> void message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(std::shared_ptr<_Yp>, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722954] (cpp4_tf_listener) StderrLine: {'line': b'  304 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.723069] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.723165] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:304:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 4 arguments, 2 provided\n'}
+[2.723268] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:230:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 5: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(message_filters::SubscriberBase::RequiredInterfaces, const std::string&, const rclcpp::QoS&) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; message_filters::SubscriberBase::RequiredInterfaces = rclcpp::node_interfaces::NodeInterfaces<rclcpp::node_interfaces::NodeParametersInterface, rclcpp::node_interfaces::NodeTopicsInterface>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.723377] (cpp4_tf_listener) StderrLine: {'line': b'  230 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.723478] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.723579] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:230:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 3 arguments, 2 provided\n'}
+[2.723676] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:263:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 6: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K(message_filters::SubscriberBase::RequiredInterfaces, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; message_filters::SubscriberBase::RequiredInterfaces = rclcpp::node_interfaces::NodeInterfaces<rclcpp::node_interfaces::NodeParametersInterface, rclcpp::node_interfaces::NodeTopicsInterface>; std::string = std::__cxx11::basic_string<char>; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.723788] (cpp4_tf_listener) StderrLine: {'line': b'  263 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K(\n'}
+[2.723882] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.723993] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:263:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 4 arguments, 2 provided\n'}
+[2.724097] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:315:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate 7: \xe2\x80\x98\x1b[01m\x1b[Kvoid message_filters::Subscriber<M>::\x1b[01;32m\x1b[Ksubscribe\x1b[m\x1b[K() \x1b[35m\x1b[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.724199] (cpp4_tf_listener) StderrLine: {'line': b'  315 |   void \x1b[01;36m\x1b[Ksubscribe\x1b[m\x1b[K() override\n'}
+[2.724296] (cpp4_tf_listener) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.724402] (cpp4_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:315:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate expects 0 arguments, 2 provided\n'}
+[2.807680] (-) TimerEvent: {}
+[2.907986] (-) TimerEvent: {}
+[3.008309] (-) TimerEvent: {}
+[3.108609] (-) TimerEvent: {}
+[3.208950] (-) TimerEvent: {}
+[3.309256] (-) TimerEvent: {}
+[3.409565] (-) TimerEvent: {}
+[3.509887] (-) TimerEvent: {}
+[3.610281] (-) TimerEvent: {}
+[3.710701] (-) TimerEvent: {}
+[3.811013] (-) TimerEvent: {}
+[3.911315] (-) TimerEvent: {}
+[4.011624] (-) TimerEvent: {}
+[4.111918] (-) TimerEvent: {}
+[4.212259] (-) TimerEvent: {}
+[4.312567] (-) TimerEvent: {}
+[4.412866] (-) TimerEvent: {}
+[4.513225] (-) TimerEvent: {}
+[4.613532] (-) TimerEvent: {}
+[4.713862] (-) TimerEvent: {}
+[4.814156] (-) TimerEvent: {}
+[4.914475] (-) TimerEvent: {}
+[5.014784] (-) TimerEvent: {}
+[5.115033] (-) TimerEvent: {}
+[5.215320] (-) TimerEvent: {}
+[5.315618] (-) TimerEvent: {}
+[5.415901] (-) TimerEvent: {}
+[5.516262] (-) TimerEvent: {}
+[5.616600] (-) TimerEvent: {}
+[5.653117] (cpp4_tf_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo2_msg_filter.dir/build.make:79\xef\xbc\x9aCMakeFiles/demo2_msg_filter.dir/src/demo2_msg_filter.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.653507] (cpp4_tf_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:188\xef\xbc\x9aCMakeFiles/demo2_msg_filter.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.653767] (cpp4_tf_listener) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.656779] (cpp4_tf_listener) CommandEnded: {'returncode': 2}
+[5.671100] (cpp4_tf_listener) JobEnded: {'identifier': 'cpp4_tf_listener', 'rc': 2}
+[5.681768] (-) EventReactorShutdown: {}

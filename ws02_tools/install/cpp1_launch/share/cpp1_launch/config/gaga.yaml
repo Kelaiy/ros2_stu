@@ -1,0 +1,16 @@
+/ns/t1:
+  ros__parameters:
+    background_b: 255
+    background_g: 0
+    background_r: 0
+    holonomic: false
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    start_type_description_service: true
+    use_sim_time: false
+

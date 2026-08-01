@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[0.046s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.268s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.286s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.290s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.409s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.475s] -- Found tf2: 0.45.7 (/opt/ros/lyrical/share/tf2/cmake)
+[0.510s] -- Found tf2_ros: 0.45.7 (/opt/ros/lyrical/share/tf2_ros/cmake)
+[0.614s] -- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)
+[0.636s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.748s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/include>
+[0.748s] -- Configured cppcheck exclude dirs and/or files: 
+[0.748s] -- Added test 'lint_cmake' to check CMake code style
+[0.749s] -- Added test 'uncrustify' to check C / C++ code style
+[0.750s] -- Configured uncrustify additional arguments: 
+[0.750s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done (0.7s)
+[0.778s] -- Generating done (0.0s)
+[0.815s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster
+[0.857s] [ 16%] [32mBuilding CXX object CMakeFiles/demo3_point_tf.dir/src/demo3_point_tf.cpp.o[0m
+[0.874s] [ 50%] Built target demo1_tf_static
+[0.876s] [ 83%] Built target demo2_tf_dynamic
+[3.454s] gmake[2]: *** [CMakeFiles/demo3_point_tf.dir/build.make:79: CMakeFiles/demo3_point_tf.dir/src/demo3_point_tf.cpp.o] 中断
+[3.455s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/demo3_point_tf.dir/all] 中断
+[3.455s] gmake: *** [Makefile:146: all] 中断
+[3.497s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16

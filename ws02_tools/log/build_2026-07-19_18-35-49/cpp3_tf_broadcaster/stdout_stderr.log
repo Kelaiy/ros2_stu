@@ -1,0 +1,26 @@
+[ 66%] Built target demo2_tf_dynamic
+[ 66%] Built target demo1_tf_static
+[ 83%] [32mBuilding CXX object CMakeFiles/demo3_point_tf.dir/src/demo3_point_tf.cpp.o[0m
+[100%] [1m[32mLinking CXX executable demo3_point_tf[0m
+[100%] Built target demo3_point_tf
+-- Install configuration: ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo1_tf_static
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo2_tf_dynamic
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo3_point_tf
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo3_point_tf" to ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp3_tf_broadcaster
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp3_tf_broadcaster
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.bash
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.fish
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.zsh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/packages/cpp3_tf_broadcaster
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig-version.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.xml

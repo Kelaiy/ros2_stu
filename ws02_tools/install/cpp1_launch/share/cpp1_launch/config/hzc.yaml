@@ -1,0 +1,18 @@
+# 2026 ros2 用的 ros2 param dump /hzc_node_name >> src/cpp1_launch/config/hzc.yaml
+# 之前的是 ros2 param dump hzc_node_name --output src/cpp1_launch/config
+/hzc_node_name:
+  ros__parameters:
+    background_b: 100
+    background_g: 55
+    background_r: 100
+    holonomic: false
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    start_type_description_service: true
+    use_sim_time: false
+

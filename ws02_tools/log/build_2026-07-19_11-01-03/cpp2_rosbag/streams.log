@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag -- -j16 -l16
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_writer.dir/src/demo1_writer.cpp.o[0m
+[0.097s] [ 75%] Built target demo1_reader
+[7.714s] [100%] [1m[32mLinking CXX executable demo1_writer[0m
+[8.027s] [100%] Built target demo1_writer
+[8.041s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag -- -j16 -l16
+[8.053s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag
+[8.063s] -- Install configuration: ""
+[8.063s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_writer
+[8.070s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_writer" to ""
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_reader
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp2_rosbag
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp2_rosbag
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/ament_prefix_path.sh
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/ament_prefix_path.dsv
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/path.sh
+[8.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/path.dsv
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.bash
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.fish
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.sh
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.zsh
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.dsv
+[8.072s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/package.dsv
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/packages/cpp2_rosbag
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/cmake/cpp2_rosbagConfig.cmake
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/cmake/cpp2_rosbagConfig-version.cmake
+[8.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/package.xml
+[8.073s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp2_rosbag

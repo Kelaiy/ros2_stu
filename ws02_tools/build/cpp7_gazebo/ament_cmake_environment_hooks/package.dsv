@@ -1,0 +1,5 @@
+source;share/cpp7_gazebo/local_setup.bash
+source;share/cpp7_gazebo/local_setup.dsv
+source;share/cpp7_gazebo/local_setup.fish
+source;share/cpp7_gazebo/local_setup.sh
+source;share/cpp7_gazebo/local_setup.zsh

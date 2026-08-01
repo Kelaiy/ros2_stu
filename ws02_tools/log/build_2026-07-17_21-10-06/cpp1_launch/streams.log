@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp1_launch -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch
+[0.076s] -- The C compiler identification is GNU 15.2.0
+[0.147s] -- The CXX compiler identification is GNU 15.2.0
+[0.156s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.104s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.179s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.200s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.378s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.386s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.559s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.705s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.705s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.707s] -- Added test 'lint_cmake' to check CMake code style
+[1.709s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.713s] -- Added test 'xmllint' to check XML markup files
+[1.718s] -- Configuring done (1.7s)
+[1.725s] -- Generating done (0.0s)
+[1.748s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch
+[1.758s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp1_launch -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch
+[1.759s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch -- -j16 -l16
+[1.810s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch -- -j16 -l16
+[1.822s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch
+[1.834s] -- Install configuration: ""
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py1_helloword_launch.py
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml
+[1.834s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/package_run_dependencies/cpp1_launch
+[1.835s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/parent_prefix_path/cpp1_launch
+[1.835s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/ament_prefix_path.sh
+[1.835s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/ament_prefix_path.dsv
+[1.835s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/path.sh
+[1.835s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/path.dsv
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.bash
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.fish
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.sh
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.zsh
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.dsv
+[1.836s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/package.dsv
+[1.837s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/packages/cpp1_launch
+[1.837s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/cmake/cpp1_launchConfig.cmake
+[1.837s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/cmake/cpp1_launchConfig-version.cmake
+[1.837s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/package.xml
+[1.840s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch

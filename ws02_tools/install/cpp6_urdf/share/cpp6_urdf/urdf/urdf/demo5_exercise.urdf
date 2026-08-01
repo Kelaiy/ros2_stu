@@ -1,0 +1,132 @@
+<!-- 
+    创建机器人四轮模型
+    参数 车 长1.6 宽0.7 高0.01 轮胎半径0.1 宽度0.08 离地间距0.10 米
+    语法检查 check_urdf demo5_exercise.urdf
+    生成pdf解析文件 urdf_to_graphviz demo5_exercise.urdf
+
+    
+-->
+
+<robot name="my_car">
+    <!-- 1.抽取颜色 -->
+    <material name="yellow">
+        <color rgba="0.9 0.6 0.0 0.5"/>
+    </material>    
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/>
+    </material>    
+
+    <!-- 2.设置base_footprint -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <!-- 3.设置base_link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="1.6 0.7 0.01"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+    <!-- 4.joint关联俩者 -->
+    <joint name="base_linkbase_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <!-- z偏移 = 车体高度/2 + 离地间距 -->
+        <origin xyz="0.0 0.0 0.105"/>
+    </joint>
+    <!-- 创建摄像头link -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.05"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <!-- 3.通过joint关联底盘与摄像头 -->
+    <joint name="camera_base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <!-- 设置平移量旋转度 -->
+        <origin xyz="0.8 0.0 0.03"/>
+        <!-- 坐标轴旋转 -->
+        <axis xyz="0.0 0.0 1"/>
+    </joint>
+
+    <!-- 5.左前轮 -->
+    <link name="left_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.08"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+    <joint name="left_frontbase_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_front_wheel"/>
+        <origin xyz="0.65 0.39 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!-- 6.右前轮 -->
+    <link name="right_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.08"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+    <joint name="right_frontbase_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_front_wheel"/>
+        <origin xyz="0.65 -0.39 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!-- 7.左后轮 -->
+    <link name="left_back_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.08"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+    <joint name="left_backbase_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_back_wheel"/>
+        <origin xyz="-0.65 0.39 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!-- 8.右后轮 -->
+    <link name="right_back_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.08"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+    <joint name="right_backbase_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_back_wheel"/>
+        <origin xyz="-0.65 -0.39 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+</robot>

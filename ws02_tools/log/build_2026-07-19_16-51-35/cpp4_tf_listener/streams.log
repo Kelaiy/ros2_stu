@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j16 -l16
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o[0m
+[2.656s] In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+[2.656s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.656s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+[2.656s]                  from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:12[m[K:
+[2.656s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::[01;32m[Kon_timer[m[K()[m[K’:
+[2.656s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.656s]    35 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+[2.656s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.273s] gmake[2]: *** [CMakeFiles/demo1_tf_listener.dir/build.make:79：CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o] 错误 1
+[5.274s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_listener.dir/all] 错误 2
+[5.274s] gmake: *** [Makefile:146：all] 错误 2
+[5.274s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j16 -l16

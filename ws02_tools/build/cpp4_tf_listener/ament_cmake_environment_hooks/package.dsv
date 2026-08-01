@@ -1,0 +1,5 @@
+source;share/cpp4_tf_listener/local_setup.bash
+source;share/cpp4_tf_listener/local_setup.dsv
+source;share/cpp4_tf_listener/local_setup.fish
+source;share/cpp4_tf_listener/local_setup.sh
+source;share/cpp4_tf_listener/local_setup.zsh

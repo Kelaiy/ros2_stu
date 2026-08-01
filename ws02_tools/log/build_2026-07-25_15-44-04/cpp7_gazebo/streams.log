@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo
+[0.030s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.234s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.234s]   By not providing "Findros2_launch.cmake" in CMAKE_MODULE_PATH this project
+[0.235s]   has asked CMake to find a package configuration file provided by
+[0.235s]   "ros2_launch", but CMake did not find one.
+[0.235s] 
+[0.235s]   Could not find a package configuration file provided by "ros2_launch" with
+[0.235s]   any of the following names:
+[0.235s] 
+[0.235s]     ros2_launchConfig.cmake
+[0.235s]     ros2_launch-config.cmake
+[0.235s] 
+[0.235s]   Add the installation prefix of "ros2_launch" to CMAKE_PREFIX_PATH or set
+[0.235s]   "ros2_launch_DIR" to a directory containing one of the above files.  If
+[0.235s]   "ros2_launch" provides a separate development package or SDK, be sure it
+[0.236s]   has been installed.
+[0.236s] 
+[0.236s] [0m
+[0.236s] -- Configuring incomplete, errors occurred!
+[0.240s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo

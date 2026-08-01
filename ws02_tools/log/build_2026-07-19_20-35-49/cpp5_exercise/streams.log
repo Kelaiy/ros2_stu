@@ -1,0 +1,34 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise -- -j16 -l16
+[0.081s] [ 16%] [32mBuilding CXX object CMakeFiles/exer1_spawn.dir/src/exer1_spawn.cpp.o[0m
+[0.094s] [ 66%] [32mBuilding CXX object CMakeFiles/exer3_tf_listener.dir/src/exer3_tf_listener.cpp.o[0m
+[0.094s] [ 66%] Built target exer2_tf_broadcaster
+[3.784s] [ 83%] [1m[32mLinking CXX executable exer3_tf_listener[0m
+[3.939s] [ 83%] Built target exer3_tf_listener
+[4.736s] [100%] [1m[32mLinking CXX executable exer1_spawn[0m
+[4.929s] [100%] Built target exer1_spawn
+[4.947s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise -- -j16 -l16
+[4.961s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise
+[4.971s] -- Install configuration: ""
+[4.975s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/lib/cpp5_exercise/exer1_spawn
+[4.975s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/lib/cpp5_exercise/exer1_spawn" to ""
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/lib/cpp5_exercise/exer2_tf_broadcaster
+[4.975s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/lib/cpp5_exercise/exer3_tf_listener
+[4.975s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/lib/cpp5_exercise/exer3_tf_listener" to ""
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/launch
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/ament_index/resource_index/package_run_dependencies/cpp5_exercise
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/ament_index/resource_index/parent_prefix_path/cpp5_exercise
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/environment/ament_prefix_path.sh
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/environment/ament_prefix_path.dsv
+[4.975s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/environment/path.sh
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/environment/path.dsv
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/local_setup.bash
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/local_setup.fish
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/local_setup.sh
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/local_setup.zsh
+[4.976s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/local_setup.dsv
+[4.976s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/package.dsv
+[4.977s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/ament_index/resource_index/packages/cpp5_exercise
+[4.977s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/cmake/cpp5_exerciseConfig.cmake
+[4.977s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/cmake/cpp5_exerciseConfig-version.cmake
+[4.977s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise/share/cpp5_exercise/package.xml
+[4.980s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise

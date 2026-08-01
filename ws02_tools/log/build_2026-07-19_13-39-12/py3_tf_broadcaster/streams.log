@@ -1,0 +1,35 @@
+[0.844s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py3_tf_broadcaster': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py3_tf_broadcaster build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/install.log --single-version-externally-managed install_data
+[1.135s] running egg_info
+[1.157s] creating ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info
+[1.157s] writing ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/PKG-INFO
+[1.157s] writing dependency_links to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/dependency_links.txt
+[1.157s] writing entry points to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/entry_points.txt
+[1.158s] writing requirements to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/requires.txt
+[1.158s] writing top-level names to ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/top_level.txt
+[1.158s] writing manifest file '../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.203s] running build_py
+[1.204s] creating /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+[1.204s] copying py3_tf_broadcaster/demo1_tf_static_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+[1.204s] copying py3_tf_broadcaster/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+[1.204s] copying py3_tf_broadcaster/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster
+[1.204s] running install
+[1.208s] running install_lib
+[1.230s] creating /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster
+[1.230s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster
+[1.230s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster/demo1_tf_static_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster
+[1.230s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build/lib/py3_tf_broadcaster/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster
+[1.231s] byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster/demo1_tf_static_py.py to demo1_tf_static_py.cpython-314.pyc
+[1.231s] byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster/__init__.py to __init__.cpython-314.pyc
+[1.231s] running install_data
+[1.231s] creating /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/share/ament_index/resource_index/packages
+[1.232s] copying resource/py3_tf_broadcaster -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/share/ament_index/resource_index/packages
+[1.232s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/share/py3_tf_broadcaster
+[1.232s] running install_egg_info
+[1.254s] Copying ../../build/py3_tf_broadcaster/py3_tf_broadcaster.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages/py3_tf_broadcaster-0.0.0-py3.14.egg-info
+[1.255s] running install_scripts
+[1.366s] Installing demo1_tf_static_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/py3_tf_broadcaster
+[1.367s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/install.log'
+[1.408s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py3_tf_broadcaster' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py3_tf_broadcaster build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py3_tf_broadcaster/install.log --single-version-externally-managed install_data

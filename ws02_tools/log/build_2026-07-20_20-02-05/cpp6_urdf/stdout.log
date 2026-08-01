@@ -1,0 +1,9 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/launch

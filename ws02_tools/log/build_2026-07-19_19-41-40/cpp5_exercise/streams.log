@@ -1,0 +1,58 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp5_exercise -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise
+[0.080s] -- The C compiler identification is GNU 15.2.0
+[0.155s] -- The CXX compiler identification is GNU 15.2.0
+[0.165s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.436s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.315s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.397s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.424s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.621s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.629s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.814s] -- Found tf2: 0.45.7 (/opt/ros/lyrical/share/tf2/cmake)
+[1.871s] -- Found tf2_ros: 0.45.7 (/opt/ros/lyrical/share/tf2_ros/cmake)
+[2.056s] -- Found turtlesim_msgs: 1.10.9 (/opt/ros/lyrical/share/turtlesim_msgs/cmake)
+[2.084s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.235s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.236s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws02_tools/src/cpp5_exercise/include>
+[2.236s] -- Configured cppcheck exclude dirs and/or files: 
+[2.237s] -- Added test 'lint_cmake' to check CMake code style
+[2.240s] -- Added test 'uncrustify' to check C / C++ code style
+[2.241s] -- Configured uncrustify additional arguments: 
+[2.243s] -- Added test 'xmllint' to check XML markup files
+[2.248s] -- Configuring done (2.2s)
+[2.275s] -- Generating done (0.0s)
+[2.319s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise
+[2.330s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp5_exercise -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp5_exercise
+[2.331s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise -- -j16 -l16
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/exer1_spawn.dir/src/exer1_spawn.cpp.o[0m
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/exer3_tf_listener.dir/src/exer3_tf_listener.cpp.o[0m
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/exer2_tf_broadcaster.dir/src/exer2_tf_broadcaster.cpp.o[0m
+[2.428s] [ 83%] [1m[32mLinking CXX executable exer3_tf_listener[0m
+[2.429s] [ 83%] [1m[32mLinking CXX executable exer2_tf_broadcaster[0m
+[2.646s] /usr/bin/x86_64-linux-gnu-ld.bfd: /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.647s] (.text+0x1b): undefined reference to `main'
+[2.647s] /usr/bin/x86_64-linux-gnu-ld.bfd: /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.647s] (.text+0x1b): undefined reference to `main'
+[2.651s] collect2: error: ld returned 1 exit status
+[2.651s] collect2: error: ld returned 1 exit status
+[2.653s] gmake[2]: *** [CMakeFiles/exer2_tf_broadcaster.dir/build.make:221：exer2_tf_broadcaster] 错误 1
+[2.653s] gmake[2]: *** [CMakeFiles/exer3_tf_listener.dir/build.make:221：exer3_tf_listener] 错误 1
+[2.653s] gmake[1]: *** [CMakeFiles/Makefile2:191：CMakeFiles/exer2_tf_broadcaster.dir/all] 错误 2
+[2.653s] gmake[1]: *** 正在等待未完成的任务....
+[2.653s] gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/exer3_tf_listener.dir/all] 错误 2
+[5.966s] [100%] [1m[32mLinking CXX executable exer1_spawn[0m
+[6.117s] [100%] Built target exer1_spawn
+[6.120s] gmake: *** [Makefile:146：all] 错误 2
+[6.124s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp5_exercise -- -j16 -l16

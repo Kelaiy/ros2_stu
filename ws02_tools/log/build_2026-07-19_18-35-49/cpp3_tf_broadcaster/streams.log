@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[0.078s] [ 66%] Built target demo2_tf_dynamic
+[0.078s] [ 66%] Built target demo1_tf_static
+[0.098s] [ 83%] [32mBuilding CXX object CMakeFiles/demo3_point_tf.dir/src/demo3_point_tf.cpp.o[0m
+[5.196s] [100%] [1m[32mLinking CXX executable demo3_point_tf[0m
+[5.414s] [100%] Built target demo3_point_tf
+[5.429s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[5.442s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster
+[5.451s] -- Install configuration: ""
+[5.451s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo1_tf_static
+[5.451s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo2_tf_dynamic
+[5.452s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo3_point_tf
+[5.454s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/lib/cpp3_tf_broadcaster/demo3_point_tf" to ""
+[5.454s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp3_tf_broadcaster
+[5.454s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp3_tf_broadcaster
+[5.454s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.sh
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/ament_prefix_path.dsv
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.sh
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/environment/path.dsv
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.bash
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.fish
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.sh
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.zsh
+[5.455s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/local_setup.dsv
+[5.456s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.dsv
+[5.456s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/ament_index/resource_index/packages/cpp3_tf_broadcaster
+[5.456s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig.cmake
+[5.456s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/cmake/cpp3_tf_broadcasterConfig-version.cmake
+[5.456s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp3_tf_broadcaster/share/cpp3_tf_broadcaster/package.xml
+[5.458s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster

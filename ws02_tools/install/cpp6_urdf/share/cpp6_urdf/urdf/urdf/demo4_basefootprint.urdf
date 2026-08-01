@@ -1,0 +1,57 @@
+<!-- 
+    底盘 摄像头 摄像头可旋转
+    启动    
+    控制旋转 ros2 run joint_state_publisher_gui joint_state_publisher_gui
+-->
+
+
+<robot name="demo3_joint">
+    <!-- 抽取颜色 -->
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.0 0.8"/>
+    </material>
+    <material name="red">
+        <color rgba="0.9 0.0 0.0 0.8"/>
+    </material>
+    <!-- 初始化link -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link>
+    <!-- 1.创建底坐link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.3 0.1"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+    </link>
+    <!-- 设置关节连接初始化link和底座 设置底座偏移 base_link上移 -->
+    <joint name="base_linkbase_foorpeintt" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.05"/>
+    </joint>
+    <!-- 2.创建摄像头link -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.05"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <!-- 3.通过joint关联底盘与摄像头 -->
+    <joint name="camera2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <!-- 设置平移量旋转度 -->
+        <origin xyz="0.2 0.0 0.075"/>
+        <!-- 坐标轴旋转 -->
+        <axis xyz="0.0 0.0 1"/>
+    </joint>
+</robot>

@@ -1,0 +1,7 @@
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo2_tf_dynamic.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim_msgs/msg/pose.hpp: 没有那个文件或目录
+   14 | #include [01;31m[K"turtlesim_msgs/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo2_tf_dynamic.dir/build.make:79：CMakeFiles/demo2_tf_dynamic.dir/src/demo2_tf_dynamic.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/demo2_tf_dynamic.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

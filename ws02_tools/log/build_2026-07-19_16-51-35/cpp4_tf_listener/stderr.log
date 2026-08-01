@@ -1,0 +1,11 @@
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:12[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::[01;32m[Kon_timer[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   35 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo1_tf_listener.dir/build.make:79：CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

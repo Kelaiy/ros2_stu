@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 抽取参数 -->
+    <arg name="turtle_back" default="turtle_back"/>
+    <arg name="turtle_left" default="turtle_left"/>
+    <arg name="turtle_right" default="turtle_right"/>
+    
+    <!-- 创建 turtlesim 节点 -->
+    <node pkg="turtlesim" exec="turtlesim_node"/>
+    
+    <!-- 生成三只护航乌龟 -->
+    <node pkg="py5_exercise" exec="exer1_spawn_py" name="spawn_back">
+        <param name="x" value="2.0"/>
+        <param name="y" value="5.0"/>
+        <param name="turtle_name" value="$(var turtle_back)"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer1_spawn_py" name="spawn_left">
+        <param name="x" value="3.0"/>
+        <param name="y" value="9.0"/>
+        <param name="turtle_name" value="$(var turtle_left)"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer1_spawn_py" name="spawn_right">
+        <param name="x" value="4.0"/>
+        <param name="y" value="2.0"/>
+        <param name="turtle_name" value="$(var turtle_right)"/>
+    </node>
+
+    <!-- 坐标变换 -->
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="turtle1_world"/>
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="back_world">
+        <param name="turtle" value="$(var turtle_back)"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="left_world">
+        <param name="turtle" value="$(var turtle_left)"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer2_tf_broadcaster_py" name="right_world">
+        <param name="turtle" value="$(var turtle_right)"/>
+    </node>
+
+    <!-- 静态坐标点 -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="escort_goal_back">
+        <param name="frame-id" value="turtle1"/>
+        <param name="child-frame-id" value="escort_goal_back"/>
+        <param name="x" value="-1.5"/>
+        <param name="y" value="0.0"/>
+        <param name="z" value="0.0"/>
+        <param name="roll" value="0.0"/>
+        <param name="pitch" value="0.0"/>
+        <param name="yaw" value="0.0"/>
+    </node>
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="escort_goal_left">
+        <param name="frame-id" value="turtle1"/>
+        <param name="child-frame-id" value="escort_goal_left"/>
+        <param name="x" value="0.0"/>
+        <param name="y" value="1.5"/>
+        <param name="z" value="0.0"/>
+        <param name="roll" value="0.0"/>
+        <param name="pitch" value="0.0"/>
+        <param name="yaw" value="0.0"/>
+    </node>
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="escort_goal_right">
+        <param name="frame-id" value="turtle1"/>
+        <param name="child-frame-id" value="escort_goal_right"/>
+        <param name="x" value="0.0"/>
+        <param name="y" value="-1.5"/>
+        <param name="z" value="0.0"/>
+        <param name="roll" value="0.0"/>
+        <param name="pitch" value="0.0"/>
+        <param name="yaw" value="0.0"/>
+    </node>
+
+    <!-- 监听坐标变换 -->
+    <node pkg="py5_exercise" exec="exer3_tf_listener_py" name="back_escort_goal_back">
+        <param name="father_frame" value="$(var turtle_back)"/>
+        <param name="child_frame" value="escort_goal_back"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer3_tf_listener_py" name="back_escort_goal_left">
+        <param name="father_frame" value="$(var turtle_left)"/>
+        <param name="child_frame" value="escort_goal_left"/>
+    </node>
+    <node pkg="py5_exercise" exec="exer3_tf_listener_py" name="back_escort_goal_right">
+        <param name="father_frame" value="$(var turtle_right)"/>
+        <param name="child_frame" value="escort_goal_right"/>
+    </node>
+</launch>

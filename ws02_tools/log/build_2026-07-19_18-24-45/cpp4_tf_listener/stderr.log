@@ -1,0 +1,41 @@
+In file included from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:15[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:[m[K In constructor ‘[01m[KTFPointListener::[01;32m[KTFPointListener[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:37:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::subscribe(TFPointListener*, const char [5])[m[K’
+   37 |         [01;31m[Kpoint_sub.subscribe(this,"pont")[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:37:28:[m[K [01;36m[Knote: [m[Kthere are 7 candidates
+In file included from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo2_msg_filter.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:238:8:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class NodeT> void message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(NodeT*, const std::string&, const rclcpp::QoS&) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >][m[K[m[K’
+  238 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:238:8:[m[K [01;36m[Knote: [m[Kcandidate expects 3 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:246:8:[m[K [01;36m[Knote: [m[Kcandidate 2: ‘[01m[Ktemplate<class NodeT> void message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(std::shared_ptr<_Yp>, const std::string&, const rclcpp::QoS&) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >][m[K[m[K’
+  246 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:246:8:[m[K [01;36m[Knote: [m[Kcandidate expects 3 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:295:8:[m[K [01;36m[Knote: [m[Kcandidate 3: ‘[01m[Ktemplate<class NodeT> void message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(NodeT*, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >][m[K[m[K’
+  295 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:295:8:[m[K [01;36m[Knote: [m[Kcandidate expects 4 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:304:8:[m[K [01;36m[Knote: [m[Kcandidate 4: ‘[01m[Ktemplate<class NodeT> void message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(std::shared_ptr<_Yp>, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >][m[K[m[K’
+  304 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:304:8:[m[K [01;36m[Knote: [m[Kcandidate expects 4 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:230:8:[m[K [01;36m[Knote: [m[Kcandidate 5: ‘[01m[Kvoid message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(message_filters::SubscriberBase::RequiredInterfaces, const std::string&, const rclcpp::QoS&) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; message_filters::SubscriberBase::RequiredInterfaces = rclcpp::node_interfaces::NodeInterfaces<rclcpp::node_interfaces::NodeParametersInterface, rclcpp::node_interfaces::NodeTopicsInterface>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’
+  230 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:230:8:[m[K [01;36m[Knote: [m[Kcandidate expects 3 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:263:8:[m[K [01;36m[Knote: [m[Kcandidate 6: ‘[01m[Kvoid message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K(message_filters::SubscriberBase::RequiredInterfaces, const std::string&, const rclcpp::QoS&, rclcpp::SubscriptionOptions) [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; message_filters::SubscriberBase::RequiredInterfaces = rclcpp::node_interfaces::NodeInterfaces<rclcpp::node_interfaces::NodeParametersInterface, rclcpp::node_interfaces::NodeTopicsInterface>; std::string = std::__cxx11::basic_string<char>; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+  263 |   void [01;36m[Ksubscribe[m[K(
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:263:8:[m[K [01;36m[Knote: [m[Kcandidate expects 4 arguments, 2 provided
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:315:8:[m[K [01;36m[Knote: [m[Kcandidate 7: ‘[01m[Kvoid message_filters::Subscriber<M>::[01;32m[Ksubscribe[m[K() [35m[K[with M = geometry_msgs::msg::PointStamped_<std::allocator<void> >][m[K[m[K’
+  315 |   void [01;36m[Ksubscribe[m[K() override
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/lyrical/include/message_filters/message_filters/subscriber.hpp:315:8:[m[K [01;36m[Knote: [m[Kcandidate expects 0 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/demo2_msg_filter.dir/build.make:79：CMakeFiles/demo2_msg_filter.dir/src/demo2_msg_filter.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/demo2_msg_filter.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

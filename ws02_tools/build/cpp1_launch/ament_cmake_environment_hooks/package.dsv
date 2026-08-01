@@ -1,0 +1,5 @@
+source;share/cpp1_launch/local_setup.bash
+source;share/cpp1_launch/local_setup.dsv
+source;share/cpp1_launch/local_setup.fish
+source;share/cpp1_launch/local_setup.sh
+source;share/cpp1_launch/local_setup.zsh

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/demo3_point_tf.dir/build.make:79: CMakeFiles/demo3_point_tf.dir/src/demo3_point_tf.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/demo3_point_tf.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

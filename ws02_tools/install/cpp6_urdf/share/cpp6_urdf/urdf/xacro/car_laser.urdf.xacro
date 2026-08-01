@@ -1,0 +1,32 @@
+<!-- 雷达 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 1.声明参数 -->
+    <xacro:property name="laser_radius" value="0.08"/>
+    <xacro:property name="laser_length" value="0.08"/>
+    <!-- 关节偏移量 -->
+    <xacro:property name="laser_joint_x" value="0"/>
+    <xacro:property name="laser_joint_y" value="0"/>
+    <xacro:property name="laser_joint_z" value="${car_height/2 + laser_length/2}"/>
+    <!-- 2.设置link joint -->
+    <link name="laser">
+        <visual>
+            <geometry>
+                <cylinder radius="${laser_radius}" length="${laser_length}"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0.1 0.1 0.7 0.8"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${laser_radius}" length="${laser_length}"/>
+            </geometry>
+        </collision>
+    </link> 
+    <joint name="laser_base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser"/>
+        <origin xyz="${laser_joint_x} ${laser_joint_y} ${laser_joint_z}"/>
+    </joint>
+    
+</robot>

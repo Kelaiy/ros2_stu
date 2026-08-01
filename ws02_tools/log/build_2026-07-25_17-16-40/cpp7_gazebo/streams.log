@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo -- -j16 -l16
+[0.058s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo -- -j16 -l16
+[0.071s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/launch
+[0.081s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/launch/display_launch.py
+[0.081s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/launch/display_gazebo_launch.py
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/urdf
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_urdf.xacro
+[0.082s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_base.urdf.xacro
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_head.xacro
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_camera.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_laser.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/ament_index/resource_index/package_run_dependencies/cpp7_gazebo
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/ament_index/resource_index/parent_prefix_path/cpp7_gazebo
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/environment/path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/environment/path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/local_setup.bash
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/local_setup.fish
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/local_setup.sh
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/local_setup.zsh
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/local_setup.dsv
+[0.085s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/package.dsv
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/ament_index/resource_index/packages/cpp7_gazebo
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/cmake/cpp7_gazeboConfig.cmake
+[0.086s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/cmake/cpp7_gazeboConfig-version.cmake
+[0.086s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/package.xml
+[0.086s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo

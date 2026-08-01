@@ -1,0 +1,4 @@
+<!-- include包含别的xacro -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo3_include">
+    <xacro:include filename="demo2_base_pro.urdf.xacro"/>
+</robot>

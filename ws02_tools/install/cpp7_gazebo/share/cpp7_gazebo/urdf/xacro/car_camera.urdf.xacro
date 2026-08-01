@@ -1,0 +1,33 @@
+<!-- 摄像头 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 1.声明参数 -->
+    <xacro:property name="camera_x" value="0.035"/>
+    <xacro:property name="camera_y" value="0.12"/>
+    <xacro:property name="camera_z" value="0.02"/>
+    <xacro:property name="camera_mass" value="1.65"/>
+    <!-- 关节偏移量 -->
+    <xacro:property name="camera_joint_x" value="${car_length/2 - 0.0175}"/>
+    <xacro:property name="camera_joint_y" value="0"/>
+    <xacro:property name="camera_joint_z" value="${car_height/2 + camera_z/2}"/>
+    <!-- 2.设置link joint -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="${camera_x} ${camera_y} ${camera_z}"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_x} ${camera_y} ${camera_z}"/>
+            </geometry>
+        </collision>
+        <!-- 调用惯性矩阵 -->
+        <xacro:box_inertia m="${camera_mass}" w="${camera_x}" h="${camera_y}" d="${camera_z}"/>
+    </link> 
+    <joint name="camera_base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <origin xyz="${camera_joint_x} ${camera_joint_y} ${camera_joint_z}"/>
+    </joint>
+    
+</robot>

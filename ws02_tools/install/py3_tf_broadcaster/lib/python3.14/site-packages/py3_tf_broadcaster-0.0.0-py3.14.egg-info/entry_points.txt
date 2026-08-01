@@ -1,0 +1,4 @@
+[console_scripts]
+demo1_tf_static_py = py3_tf_broadcaster.demo1_tf_static_py:main
+demo2_tf_dynamic_py = py3_tf_broadcaster.demo2_tf_dynamic_py:main
+demo3_point_tf_py = py3_tf_broadcaster.demo3_point_tf_py:main

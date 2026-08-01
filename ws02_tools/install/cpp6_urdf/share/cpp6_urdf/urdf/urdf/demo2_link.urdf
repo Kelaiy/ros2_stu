@@ -1,0 +1,29 @@
+<!-- 
+    需求生成不同形状机器人部件    
+
+-->
+<robot name="demo2_link">
+    <link name="base_link">
+        <!-- 外观 -->
+        <visual>
+            <!-- 形状 -->
+            <geometry>
+            <!-- 盒子状 -->
+             <!-- <box size="0.5 0.2 0.1"/> -->
+            <!-- 球 -->
+            <!-- <sphere radius="0.5"/> -->
+            <!-- 圆柱 -->
+            <!-- <cylinder radius="0.2" length="2.0"/> -->
+            <!-- 调用外部皮肤 -->
+            <mesh filename="package://cpp6_urdf/meshes/burger_base.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <!-- 平移量旋转度 -->
+            <origin xyz="1 1 1" rpy="0.0 0.0 0.0"/>
+            <!-- 颜色 -->                
+            <material name="yellow">
+                <color rgba="0.8 0.6 0.2 1.0"/>
+            </material>
+
+        </visual>
+    </link>    
+</robot>

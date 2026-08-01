@@ -1,0 +1,15 @@
+<!-- 主文件 -->
+ <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
+   <!-- 惯性矩阵文件 -->
+   <xacro:include filename="car_head.xacro"/>
+
+   <xacro:include filename="car_base.urdf.xacro"/>
+   <xacro:include filename="car_camera.urdf.xacro"/>
+   <xacro:include filename="car_laser.urdf.xacro"/>
+   <!-- 运动控制 --> 
+   <xacro:include filename="../gazebo/car_move.urdf.xacro"/>
+
+ </robot>
+
+
+ 

@@ -1,0 +1,7 @@
+launch:
+- let:
+    name: "bg_b"
+    value: "0"
+- include:
+
+    file: "$(find-pkg-share cpp1_launch)/launch/yaml/yaml4_args_launch.yaml"

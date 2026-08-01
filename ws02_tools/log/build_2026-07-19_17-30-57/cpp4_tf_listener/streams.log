@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j16 -l16
+[0.048s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.263s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.280s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.361s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.362s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found tf2: 0.45.7 (/opt/ros/lyrical/share/tf2/cmake)
+[0.484s] -- Found tf2_ros: 0.45.7 (/opt/ros/lyrical/share/tf2_ros/cmake)
+[0.596s] -- Found tf2_geometry_msgs: 0.45.7 (/opt/ros/lyrical/share/tf2_geometry_msgs/cmake)
+[0.622s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.731s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.731s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/include>
+[0.731s] -- Configured cppcheck exclude dirs and/or files: 
+[0.732s] -- Added test 'lint_cmake' to check CMake code style
+[0.733s] -- Added test 'uncrustify' to check C / C++ code style
+[0.733s] -- Configured uncrustify additional arguments: 
+[0.733s] -- Added test 'xmllint' to check XML markup files
+[0.733s] -- Configuring done (0.7s)
+[0.757s] -- Generating done (0.0s)
+[0.793s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener
+[0.834s] [ 25%] [32mBuilding CXX object CMakeFiles/demo2_msg_filter.dir/src/demo2_msg_filter.cpp.o[0m
+[0.854s] [ 75%] Built target demo1_tf_listener
+[4.426s] [100%] [1m[32mLinking CXX executable demo2_msg_filter[0m
+[4.566s] [100%] Built target demo2_msg_filter
+[4.585s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j16 -l16
+[4.595s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener
+[4.608s] -- Install configuration: ""
+[4.608s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo1_tf_listener
+[4.609s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo2_msg_filter
+[4.609s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo2_msg_filter" to ""
+[4.609s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp4_tf_listener
+[4.609s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp4_tf_listener
+[4.609s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/ament_prefix_path.sh
+[4.609s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/ament_prefix_path.dsv
+[4.609s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/path.sh
+[4.609s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/path.dsv
+[4.610s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.bash
+[4.610s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.fish
+[4.610s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.sh
+[4.610s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.zsh
+[4.610s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.dsv
+[4.611s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/package.dsv
+[4.611s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/packages/cpp4_tf_listener
+[4.612s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/cmake/cpp4_tf_listenerConfig.cmake
+[4.612s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/cmake/cpp4_tf_listenerConfig-version.cmake
+[4.613s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/package.xml
+[4.613s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener

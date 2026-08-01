@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/py5_exercise/py5_exercise.egg-info/PKG-INFO
+writing dependency_links to ../../build/py5_exercise/py5_exercise.egg-info/dependency_links.txt
+writing entry points to ../../build/py5_exercise/py5_exercise.egg-info/entry_points.txt
+writing requirements to ../../build/py5_exercise/py5_exercise.egg-info/requires.txt
+writing top-level names to ../../build/py5_exercise/py5_exercise.egg-info/top_level.txt
+reading manifest file '../../build/py5_exercise/py5_exercise.egg-info/SOURCES.txt'
+writing manifest file '../../build/py5_exercise/py5_exercise.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py5_exercise/exer1_spawn_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+copying py5_exercise/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+copying py5_exercise/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+running install
+running install_lib
+copying /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise/exer1_spawn_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise
+byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise/exer1_spawn_py.py to exer1_spawn_py.cpython-314.pyc
+running install_data
+copying resource/py5_exercise -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/py5_exercise
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py5_exercise/py5_exercise.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise-0.0.0-py3.14.egg-info
+running install_scripts
+Installing exer1_spawn_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+Installing exer2_tf_broadcaster_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+Installing exer3_tf_listener_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/install.log'

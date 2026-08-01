@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o[0m
+[2.429s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:[m[K In constructor ‘[01m[KTFStatic::[01;32m[KTFStatic[m[K(char**)[m[K’:
+[2.429s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.429s]    28 |     [01;31m[K}[m[K
+[2.429s]       |     [01;31m[K^[m[K
+[4.132s] gmake[2]: *** [CMakeFiles/demo1_tf_static.dir/build.make:79：CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o] 错误 1
+[4.132s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_static.dir/all] 错误 2
+[4.132s] gmake: *** [Makefile:146：all] 错误 2
+[4.135s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16

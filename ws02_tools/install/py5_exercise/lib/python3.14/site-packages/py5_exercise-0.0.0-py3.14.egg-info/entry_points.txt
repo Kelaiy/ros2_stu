@@ -1,0 +1,4 @@
+[console_scripts]
+exer1_spawn_py = py5_exercise.exer1_spawn_py:main
+exer2_tf_broadcaster_py = py5_exercise.exer2_tf_broadcaster_py:main
+exer3_tf_listener_py = py5_exercise.exer3_tf_listener_py:main

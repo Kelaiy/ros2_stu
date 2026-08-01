@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o[0m
+[2.413s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:[m[K In constructor ‘[01m[KTFStatic::[01;32m[KTFStatic[m[K(const char**)[m[K’:
+[2.413s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:25:23:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[K[01;32m[Kconst char**[m[K[m[K’ to ‘[01m[K[01;34m[Kchar**[m[K[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.413s]    25 |         pub_static_tf([01;32m[Ka[m[K[01;32m[Kr[m[K[01;32m[Kg[m[K[01;32m[Kv[m[K)
+[2.413s]       |                       [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[2.413s]       |                       [01;32m[K|[m[K
+[2.413s]       |                       [01;32m[Kconst char**[m[K
+[2.413s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:31:31:[m[K [01;36m[Knote: [m[Kinitializing argument 1 of ‘[01m[Kvoid TFStatic::[01;32m[Kpub_static_tf[m[K(char**)[m[K’
+[2.413s]    31 |     void pub_static_tf([01;34m[Kc[m[K[01;34m[Kh[m[K[01;34m[Ka[m[K[01;34m[Kr[m[K[01;34m[K [m[K[01;34m[K*[m[K[01;34m[K [m[K[01;34m[Ka[m[K[01;34m[Kr[m[K[01;34m[Kg[m[K[01;34m[Kv[m[K[01;34m[K[[m[K[01;34m[K][m[K){
+[2.414s]       |                        [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+[2.414s] [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.414s]    28 |     [01;31m[K}[m[K
+[2.414s]       |     [01;31m[K^[m[K
+[4.116s] gmake[2]: *** [CMakeFiles/demo1_tf_static.dir/build.make:79：CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o] 错误 1
+[4.116s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_static.dir/all] 错误 2
+[4.117s] gmake: *** [Makefile:146：all] 错误 2
+[4.119s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp3_tf_broadcaster -- -j16 -l16

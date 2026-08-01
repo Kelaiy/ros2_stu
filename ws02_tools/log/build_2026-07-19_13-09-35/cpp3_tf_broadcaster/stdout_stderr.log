@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:[m[K In constructor ‘[01m[KTFStatic::[01;32m[KTFStatic[m[K(char**)[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp3_tf_broadcaster/src/demo1_tf_static.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo1_tf_static.dir/build.make:79：CMakeFiles/demo1_tf_static.dir/src/demo1_tf_static.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_static.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

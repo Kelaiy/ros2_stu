@@ -1,0 +1,23 @@
+digraph G {
+node [shape=box];
+"base_footprint" [label="base_footprint"];
+"base_link" [label="base_link"];
+"camera" [label="camera"];
+"left_back_wheel" [label="left_back_wheel"];
+"left_front_wheel" [label="left_front_wheel"];
+"right_back_wheel" [label="right_back_wheel"];
+"right_front_wheel" [label="right_front_wheel"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_footprint" -> "base_linkbase_footprint" [label="xyz: 0 0 0.105 \nrpy: 0 -0 0"]
+"base_linkbase_footprint" -> "base_link"
+"base_link" -> "camera_base_link" [label="xyz: 0.8 0 0.03 \nrpy: 0 -0 0"]
+"camera_base_link" -> "camera"
+"base_link" -> "left_backbase_link" [label="xyz: -0.65 0.39 0 \nrpy: 0 -0 0"]
+"left_backbase_link" -> "left_back_wheel"
+"base_link" -> "left_frontbase_link" [label="xyz: 0.65 0.39 0 \nrpy: 0 -0 0"]
+"left_frontbase_link" -> "left_front_wheel"
+"base_link" -> "right_backbase_link" [label="xyz: -0.65 -0.39 0 \nrpy: 0 -0 0"]
+"right_backbase_link" -> "right_back_wheel"
+"base_link" -> "right_frontbase_link" [label="xyz: 0.65 -0.39 0 \nrpy: 0 -0 0"]
+"right_frontbase_link" -> "right_front_wheel"
+}

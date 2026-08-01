@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.45.7 (/opt/ros/lyrical/share/tf2/cmake)
+-- Found tf2_ros: 0.45.7 (/opt/ros/lyrical/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o[0m
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:[m[K In constructor ‘[01m[KTFListener::[01;32m[KTFListener[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:27:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   27 |       timer_ = this->create_wall_timer(1s,std::bind(&TFListener::on_timer,this)[01;31m[K;[m[K
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:27:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   27 |       timer_ = this->create_wall_timer[01;36m[K([m[K1s,std::bind(&TFListener::on_timer,this);
+      |                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:12[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::[01;32m[Kon_timer[m[K()[m[K’:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:9:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’
+   35 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174[m[K:
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/node.hpp:145:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  145 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K:
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   35 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger,
+      |                           [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   35 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger,
+      |                           [01;31m[K^[m[K
+[01m[K/home/hzc/linux/ros2/stu/ws02_tools/src/cpp4_tf_listener/src/demo1_tf_listener.cpp:35:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   35 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger,
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo1_tf_listener.dir/build.make:79：CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/demo1_tf_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

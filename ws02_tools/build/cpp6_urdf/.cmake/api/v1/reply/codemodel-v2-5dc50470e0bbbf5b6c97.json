@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::Interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__Interpreter-d7965a113bade30cc76f.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::InterpreterMultiConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-817cf6f5637d50667600.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-818bf910d56c5b324ef1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp6_urdf",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp6_urdf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp6_urdf_uninstall-a5c89391ab1bfb83b8d3.json",
+					"name" : "cpp6_urdf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c6c5d6a44e687d670871.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf",
+		"source" : "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp6_urdf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

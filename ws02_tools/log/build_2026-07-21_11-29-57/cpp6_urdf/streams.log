@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf -- -j16 -l16
+[0.062s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf -- -j16 -l16
+[0.073s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf
+[0.082s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/launch
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/launch/display_launch.py
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/rviz
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/rviz/urdf.rviz
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/urdf
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/urdf/urdf
+[0.083s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/urdf/urdf/demo2_link.urdf
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/urdf/urdf/demo1_student.urdf
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/urdf/xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/meshes
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/meshes/burger_base.stl
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/ament_index/resource_index/package_run_dependencies/cpp6_urdf
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/ament_index/resource_index/parent_prefix_path/cpp6_urdf
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/environment/path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/environment/path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/local_setup.bash
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/local_setup.fish
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/local_setup.sh
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/local_setup.zsh
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/local_setup.dsv
+[0.085s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/package.dsv
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/ament_index/resource_index/packages/cpp6_urdf
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/cmake/cpp6_urdfConfig.cmake
+[0.086s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/cmake/cpp6_urdfConfig-version.cmake
+[0.086s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp6_urdf/share/cpp6_urdf/package.xml
+[0.086s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp6_urdf
