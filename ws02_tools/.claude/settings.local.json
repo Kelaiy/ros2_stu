@@ -10,7 +10,9 @@
       "Read(//opt/ros/lyrical/**)",
       "WebFetch(domain:gazebosim.org)",
       "Bash(ros2 pkg *)",
-      "Bash(ros2 run *)"
+      "Bash(ros2 run *)",
+      "WebFetch(domain:sdformat.org)",
+      "Bash(gz topic *)"
     ]
   },
   "disabledMcpjsonServers": [

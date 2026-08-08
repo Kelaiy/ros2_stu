@@ -1,0 +1,33 @@
+<!-- 摄像头 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 1.声明参数 -->
+    <xacro:property name="kinect_x" value="0.02"/>
+    <xacro:property name="kinect_y" value="0.02"/>
+    <xacro:property name="kinect_z" value="0.02"/>
+    <xacro:property name="kinect_mass" value="1.65"/>
+    <!-- 关节偏移量 -->
+    <xacro:property name="kinect_joint_x" value="${car_length/2 - 0.0175}"/>
+    <xacro:property name="kinect_joint_y" value="0"/>
+    <xacro:property name="kinect_joint_z" value="${car_height/2 + kinect_z/2 + camera_z}"/>
+    <!-- 2.设置link joint -->
+    <link name="kinect">
+        <visual>
+            <geometry>
+                <box size="${kinect_x} ${kinect_y} ${kinect_z}"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${kinect_x} ${kinect_y} ${kinect_z}"/>
+            </geometry>
+        </collision>
+        <!-- 调用惯性矩阵 -->
+        <xacro:box_inertia m="${kinect_mass}" w="${kinect_x}" h="${kinect_y}" d="${kinect_z}"/>
+    </link> 
+    <joint name="kinect_base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="kinect"/>
+        <origin xyz="${kinect_joint_x} ${kinect_joint_y} ${kinect_joint_z}"/>
+    </joint>
+    
+</robot>

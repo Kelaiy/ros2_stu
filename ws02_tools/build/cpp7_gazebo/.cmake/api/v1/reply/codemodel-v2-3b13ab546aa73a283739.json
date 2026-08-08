@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::Interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__Interpreter-d7965a113bade30cc76f.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::InterpreterMultiConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-817cf6f5637d50667600.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cd778802178b70f7f899.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp7_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp7_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp7_gazebo_uninstall-7de2d1e9ed2d7fa6f416.json",
+					"name" : "cpp7_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-daadfaff50f4b7c98502.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hzc/linux/ros2/stu/ws02_tools/build/cpp7_gazebo",
+		"source" : "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

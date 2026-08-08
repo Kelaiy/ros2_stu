@@ -1,0 +1,21 @@
+<robot name="my_sensors" xmlns:xacro="http://wiki.ros.org/xacro">
+    <gazebo reference="kinect">
+      <sensor type="rgbd_camera" name="kinect">
+        <update_rate>20.0</update_rate>
+        <topic>kinect</topic>
+        <gz_frame_id>kinect</gz_frame_id>
+        <camera>
+          <horizontal_fov>${60.0*PI/180.0}</horizontal_fov>
+          <image>
+            <format>R8G8B8</format>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>8.0</far>
+          </clip>
+        </camera>
+      </sensor>
+    </gazebo>
+</robot>

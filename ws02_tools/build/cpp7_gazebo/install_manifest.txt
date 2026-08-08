@@ -4,10 +4,15 @@
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_urdf.xacro
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_base.urdf.xacro
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_head.xacro
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_kinect.urdf.xacro
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_camera.urdf.xacro
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/xacro/car_laser.urdf.xacro
-/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/gazebo/car_move.urdf.xacro
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/gazebo/laser.xacro
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/gazebo/move.xacro
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/gazebo/camera.xacro
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/urdf/gazebo/kinect.xacro
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/worlds/box_house.world
+/home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/rviz/urdf.rviz
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/ament_index/resource_index/package_run_dependencies/cpp7_gazebo
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/ament_index/resource_index/parent_prefix_path/cpp7_gazebo
 /home/hzc/linux/ros2/stu/ws02_tools/install/cpp7_gazebo/share/cpp7_gazebo/environment/ament_prefix_path.sh

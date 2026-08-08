@@ -109,12 +109,49 @@ def generate_launch_description():
             "/model/my_car/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist",
             "/model/my_car/odometry@nav_msgs/msg/Odometry@gz.msgs.Odometry",
             "/model/my_car/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V",
+            "/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan",
         ],
         remappings=[
             ("/model/my_car/cmd_vel", "/cmd_vel"),
             ("/model/my_car/odometry", "/odom"),
             ("/model/my_car/tf", "/tf"),
         ],
+        output="screen",
+    )
+    # 5.3 桥接摄像头图像
+    # image_raw 用 ros_gz_image（对图像更高效），camera_info 用 parameter_bridge（类型转换）
+    image_bridge = Node(
+        package="ros_gz_image",
+        executable="image_bridge",
+        arguments=["/camera/image_raw"],
+        output="screen",
+    )
+    camera_info_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=["/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo"],
+        output="screen",
+    )
+    # 5.4 桥接 Kinect 深度摄像头
+    # RGB 图像（ros_gz_image 自动也桥接 camera_info）
+    kinect_image_bridge = Node(
+        package="ros_gz_image",
+        executable="image_bridge",
+        arguments=["/kinect/image"],
+        output="screen",
+    )
+    # 深度图像
+    kinect_depth_bridge = Node(
+        package="ros_gz_image",
+        executable="image_bridge",
+        arguments=["/kinect/depth_image"],
+        output="screen",
+    )
+    # 点云
+    kinect_points_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=["/kinect/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked"],
         output="screen",
     )
 
@@ -128,4 +165,9 @@ def generate_launch_description():
         spawn_model,
         clock_bridge,
         gz_bridge,
+        image_bridge,
+        camera_info_bridge,
+        kinect_image_bridge,
+        kinect_depth_bridge,
+        kinect_points_bridge,
     ])

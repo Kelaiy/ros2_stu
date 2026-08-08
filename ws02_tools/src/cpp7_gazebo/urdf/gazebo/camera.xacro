@@ -1,0 +1,30 @@
+<robot name="my_sensors" xmlns:xacro="http://wiki.ros.org/xacro">
+  <!-- 摄像头 -->
+  <gazebo reference="camera">
+    <!-- 类型设置为 camara -->
+    <sensor type="camera" name="camera_node">
+      <update_rate>30.0</update_rate> <!-- 更新频率 -->
+      <topic>camera/image_raw</topic>
+      <gz_frame_id>camera</gz_frame_id>
+      <!-- 摄像头基本信息设置 -->
+      <camera name="head">
+        <camera_info_topic>camera/camera_info</camera_info_topic>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>1280</width>
+          <height>720</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+    </sensor>
+  </gazebo>
+</robot>

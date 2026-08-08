@@ -6,8 +6,15 @@
    <xacro:include filename="car_base.urdf.xacro"/>
    <xacro:include filename="car_camera.urdf.xacro"/>
    <xacro:include filename="car_laser.urdf.xacro"/>
+   <xacro:include filename="car_kinect.urdf.xacro"/>
    <!-- 运动控制 --> 
-   <xacro:include filename="../gazebo/car_move.urdf.xacro"/>
+   <xacro:include filename="../gazebo/move.xacro"/>
+   <!-- 雷达 -->
+   <xacro:include filename="../gazebo/laser.xacro"/>
+   <!-- 摄像头 -->
+   <xacro:include filename="../gazebo/camera.xacro"/>
+   <!-- 深度摄像头 -->
+   <xacro:include filename="../gazebo/kinect.xacro"/>
 
  </robot>
 

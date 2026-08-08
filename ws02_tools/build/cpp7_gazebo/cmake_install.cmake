@@ -47,6 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo/launch"
     "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo/urdf"
     "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo/worlds"
+    "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp7_gazebo/rviz"
     )
 endif()
 

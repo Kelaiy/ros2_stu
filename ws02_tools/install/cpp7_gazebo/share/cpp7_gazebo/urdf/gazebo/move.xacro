@@ -1,0 +1,43 @@
+<robot name="my_car_move" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 四轮控制器 -->
+    <!-- 传动实现:用于连接控制器与关节 -->
+    <xacro:macro name="joint_trans" params="joint_name">
+        <!-- Transmission is important to link the joints and the controller -->
+        <transmission name="${joint_name}_trans">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="${joint_name}">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="${joint_name}_motor">
+                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+                <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
+    </xacro:macro>
+
+    <!-- 每一个驱动轮都需要配置传动装置 -->
+    <xacro:joint_trans joint_name="back_left" />
+    <xacro:joint_trans joint_name="back_right" />
+
+    <!-- 控制器 -->
+    <gazebo>
+        <plugin
+            filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+            <left_joint>back_leftbase_link</left_joint>
+            <left_joint>front_leftbase_link</left_joint>
+            <right_joint>front_rightbase_link</right_joint>
+            <right_joint>back_rightbase_link</right_joint>
+            <wheel_separation>${car_width}</wheel_separation>
+            <wheel_radius>${wheel_radius}</wheel_radius>
+            <odom_publish_frequency>50</odom_publish_frequency>
+            <topic>/model/my_car/cmd_vel</topic>
+            <odom_topic>/model/my_car/odometry</odom_topic>
+            <tf_topic>/model/my_car/tf</tf_topic>
+            <!-- 显式指定 TF frame 名，避免 Gazebo 自动加 my_car/ 前缀导致 TF 树断裂 -->
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_footprint</child_frame_id>
+        </plugin>
+    </gazebo>
+
+</robot>
