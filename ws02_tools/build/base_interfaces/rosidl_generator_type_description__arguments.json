@@ -1,0 +1,14 @@
+{
+  "package_name": "base_interfaces",
+  "output_dir": "/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces/rosidl_generator_type_description/base_interfaces",
+  "idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces/rosidl_adapter/base_interfaces:srv/FaceDetector.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/lyrical/share/sensor_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "geometry_msgs:/opt/ros/lyrical/share/geometry_msgs/",
+    "std_msgs:/opt/ros/lyrical/share/std_msgs/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/"
+  ]
+}

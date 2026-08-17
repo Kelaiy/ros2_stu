@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces
+[0.029s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.222s] -- Found sensor_msgs: 5.9.2 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[0.238s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.330s] -- Found rosidl_adapter: 5.2.0 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[0.573s] [31mCMake Error at /opt/ros/lyrical/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.573s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.573s]   base_interfaces --arguments-file
+[0.573s]   /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces/rosidl_adapter__arguments__base_interfaces.json
+[0.573s]   --output-dir
+[0.573s]   /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces/rosidl_adapter/base_interfaces
+[0.573s]   --output-file
+[0.573s]   /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces/rosidl_adapter/base_interfaces.idls)
+[0.573s]   returned error code 1:
+[0.574s] 
+[0.574s]   Error with: base_interfaces FaceDetector_Response int32[]
+[0.574s] 
+[0.574s]   Traceback (most recent call last):
+[0.574s] 
+[0.574s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.574s]     File "<frozen runpy>", line 88, in _run_code
+[0.574s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.574s]       main()
+[0.574s]       ~~~~^^
+[0.574s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/main.py", line 54, in main
+[0.574s]       abs_idl_file = convert_to_idl(
+[0.574s]           pathlib.Path(basepath), args.package_name,
+[0.574s]           pathlib.Path(relative_path), output_dir)
+[0.575s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/__init__.py", line 27, in convert_to_idl
+[0.575s]       return convert_srv_to_idl(
+[0.575s]           package_dir, package_name, interface_file, output_dir / 'srv')
+[0.575s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/srv/__init__.py", line 31, in convert_srv_to_idl
+[0.575s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.575s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 911, in parse_service_string
+[0.575s]       response_message = parse_message_string(
+[0.575s]           pkg_name, srv_name + SERVICE_RESPONSE_MESSAGE_SUFFIX, response_message_string)
+[0.575s]     File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 548, in parse_message_string
+[0.575s]       raise InvalidFieldDefinition(line)
+[0.575s] 
+[0.575s]   rosidl_adapter.parser.InvalidFieldDefinition: int32[]
+[0.575s] 
+[0.575s] Call Stack (most recent call first):
+[0.575s]   /opt/ros/lyrical/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.576s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.576s] 
+[0.576s] [0m
+[0.576s] -- Configuring incomplete, errors occurred!
+[0.578s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces

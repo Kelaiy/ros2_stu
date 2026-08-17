@@ -1,0 +1,236 @@
+[0.011s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces
+[0.029s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.221s] -- Found sensor_msgs: 5.9.2 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[0.242s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.246s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.329s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.335s] -- Found rosidl_adapter: 5.2.0 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.172s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[2.243s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[2.248s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.302s] -- Added test 'lint_cmake' to check CMake code style
+[2.305s] -- Added test 'xmllint' to check XML markup files
+[2.310s] -- Configuring done (2.3s)
+[2.357s] -- Generating done (0.0s)
+[2.380s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces
+[2.388s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces
+[2.389s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces -- -j16 -l16
+[2.445s] [  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[2.445s] [  5%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[2.628s] [  5%] Built target base_interfaces__rosidl_generator_type_description
+[2.640s] [  8%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.653s] [ 11%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.668s] [ 11%] Built target base_interfaces__rs
+[2.929s] [ 11%] Built target base_interfaces__cpp
+[2.962s] [ 20%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/face_detector__description.c.o[0m
+[2.962s] [ 20%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/face_detector__functions.c.o[0m
+[2.963s] [ 20%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[3.034s] [ 22%] [1m[32mLinking C shared library libbase_interfaces__rosidl_generator_c.so[0m
+[3.076s] [ 22%] Built target base_interfaces__rosidl_generator_c
+[3.088s] [ 40%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[3.088s] [ 40%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[3.088s] [ 40%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[3.088s] [ 40%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.089s] [ 40%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.089s] [ 40%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[3.339s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.351s] [ 45%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.383s] [ 48%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[3.395s] [ 51%] [1m[32mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so[0m
+[3.408s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[3.440s] [ 57%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[3.445s] [ 57%] Built target base_interfaces__rosidl_typesupport_c
+[3.448s] [ 60%] [1m[32mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.451s] [ 62%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[3.488s] [ 62%] Built target base_interfaces__rosidl_typesupport_introspection_c
+[4.039s] [ 65%] [1m[32mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.052s] [ 68%] [1m[32mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so[0m
+[4.098s] [ 68%] Built target base_interfaces__rosidl_typesupport_fastrtps_c
+[4.155s] [ 68%] Built target base_interfaces__rosidl_typesupport_cpp
+[4.207s] [ 71%] [1m[32mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.296s] [ 71%] Built target base_interfaces__rosidl_typesupport_introspection_cpp
+[4.350s] [ 74%] [1m[32mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.431s] [ 74%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.454s] [ 74%] Built target base_interfaces
+[4.478s] [ 77%] [1m[34mGenerating Python code for ROS interfaces[0m
+[4.915s] [ 77%] Built target base_interfaces__py
+[4.940s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/srv/_face_detector_s.c.o[0m
+[4.949s] [ 80%] Built target ament_cmake_python_sync_base_interfaces
+[5.147s] [ 82%] [1m[32mLinking C shared library libbase_interfaces__rosidl_generator_py.so[0m
+[5.190s] running egg_info
+[5.200s] [ 82%] Built target base_interfaces__rosidl_generator_py
+[5.210s] creating base_interfaces.egg-info
+[5.210s] writing base_interfaces.egg-info/PKG-INFO
+[5.211s] writing dependency_links to base_interfaces.egg-info/dependency_links.txt
+[5.211s] writing top-level names to base_interfaces.egg-info/top_level.txt
+[5.211s] writing manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[5.223s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.223s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.224s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.276s] reading manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[5.277s] writing manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[5.314s] [ 91%] Built target ament_cmake_python_build_base_interfaces_egg
+[5.330s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so[0m
+[5.339s] [100%] [1m[32mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.340s] [100%] [1m[32mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.368s] [100%] Built target base_interfaces_s__rosidl_typesupport_c
+[5.384s] [100%] Built target base_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.384s] [100%] Built target base_interfaces_s__rosidl_typesupport_introspection_c
+[5.399s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces -- -j16 -l16
+[5.410s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces
+[5.420s] -- Install configuration: ""
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/srv/FaceDetector.json
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__functions.c
+[5.421s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__type_support.c
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__description.c
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__type_support.h
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__struct.h
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__functions.h
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/face_detector.h
+[5.422s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[5.423s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.423s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/library_path.sh
+[5.423s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/library_path.dsv
+[5.423s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so
+[5.424s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""
+[5.424s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.424s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.424s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.425s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[5.425s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[5.425s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.425s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.425s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.425s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.425s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.426s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/face_detector.hpp
+[5.426s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.426s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__builder.hpp
+[5.426s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__type_support.hpp
+[5.426s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__struct.hpp
+[5.426s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__traits.hpp
+[5.426s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[5.427s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.427s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.427s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.427s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.427s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[5.427s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps
+[5.427s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[5.427s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.428s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.428s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.428s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.428s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.428s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.428s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[5.428s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__type_support.c
+[5.428s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[5.429s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.429s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so
+[5.429s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.429s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so
+[5.429s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""
+[5.429s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces
+[5.430s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[5.430s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[5.430s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__type_support.cpp
+[5.430s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[5.430s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.431s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.431s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so
+[5.431s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.432s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh
+[5.432s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv
+[5.432s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.432s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.433s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.433s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.433s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so
+[5.434s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.434s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so
+[5.434s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/ament_index/resource_index/rust_packages/base_interfaces
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/src
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/src/srv
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/src/srv/rmw.rs
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/src/srv.rs
+[5.435s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/src/lib.rs
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/build.rs
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/rust/Cargo.toml
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/srv/FaceDetector.idl
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/srv/FaceDetector.srv
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces
+[5.436s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces
+[5.437s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh
+[5.437s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv
+[5.437s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/path.sh
+[5.437s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/environment/path.dsv
+[5.437s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/local_setup.bash
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/local_setup.fish
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/local_setup.sh
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/local_setup.zsh
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/local_setup.dsv
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/package.dsv
+[5.438s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces
+[5.439s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake
+[5.439s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.439s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.439s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake
+[5.440s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.440s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.440s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.440s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.441s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake
+[5.441s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.441s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.441s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.441s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake
+[5.442s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.442s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake
+[5.442s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.442s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces-0.0.0-py3.14.egg-info
+[5.442s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces-0.0.0-py3.14.egg-info/PKG-INFO
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces-0.0.0-py3.14.egg-info/top_level.txt
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt
+[5.443s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv/_face_detector.py
+[5.443s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv/__init__.py
+[5.444s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv/_face_detector_s.c
+[5.444s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/py.typed
+[5.444s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.444s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/__init__.py
+[5.444s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so
+[5.444s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.445s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.445s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.445s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
+[5.494s] Listing '/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces'...
+[5.494s] Compiling '/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/__init__.py'...
+[5.494s] Listing '/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv'...
+[5.494s] Compiling '/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv/__init__.py'...
+[5.494s] Compiling '/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages/base_interfaces/srv/_face_detector.py'...
+[5.502s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.502s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.502s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.502s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake
+[5.503s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake
+[5.504s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/share/base_interfaces/package.xml
+[5.506s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces

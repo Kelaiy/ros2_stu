@@ -1,25 +1,5 @@
 <robot name="my_car_move" xmlns:xacro="http://wiki.ros.org/xacro">
-    <!-- 四轮控制器 -->
-    <!-- 传动实现:用于连接控制器与关节 -->
-    <xacro:macro name="joint_trans" params="joint_name">
-        <!-- Transmission is important to link the joints and the controller -->
-        <transmission name="${joint_name}_trans">
-            <type>transmission_interface/SimpleTransmission</type>
-            <joint name="${joint_name}">
-                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-            </joint>
-            <actuator name="${joint_name}_motor">
-                <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-                <mechanicalReduction>1</mechanicalReduction>
-            </actuator>
-        </transmission>
-    </xacro:macro>
-
-    <!-- 每一个驱动轮都需要配置传动装置 -->
-    <xacro:joint_trans joint_name="back_left" />
-    <xacro:joint_trans joint_name="back_right" />
-
-    <!-- 控制器 -->
+    <!-- 控制器：使用 Gazebo Sim 原生 DiffDrive 插件，直接读取 joint，无需 transmission -->
     <gazebo>
         <plugin
             filename="gz-sim-diff-drive-system"

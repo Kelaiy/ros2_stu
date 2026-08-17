@@ -1,0 +1,6 @@
+{
+  "package_name": "base_interfaces",
+  "non_idl_tuples": [
+    "/home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces:srv/FaceDetector.srv"
+  ]
+}

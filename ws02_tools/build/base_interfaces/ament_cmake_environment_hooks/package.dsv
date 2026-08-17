@@ -1,0 +1,5 @@
+source;share/base_interfaces/local_setup.bash
+source;share/base_interfaces/local_setup.dsv
+source;share/base_interfaces/local_setup.fish
+source;share/base_interfaces/local_setup.sh
+source;share/base_interfaces/local_setup.zsh

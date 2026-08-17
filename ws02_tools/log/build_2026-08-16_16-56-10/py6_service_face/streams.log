@@ -1,0 +1,22 @@
+[0.747s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py6_service_face': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/prefix_override:/home/hzc/linux/ros2/stu/ws02_tools/src/face/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /home/hzc/linux/ros2/stu/ws02_tools/src/face/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py6_service_face build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/install.log --install-scripts $base/lib/py6_service_face --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.040s] writing ../../build/py6_service_face/py6_service_face.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../../build/py6_service_face/py6_service_face.egg-info/dependency_links.txt
+[1.041s] writing entry points to ../../build/py6_service_face/py6_service_face.egg-info/entry_points.txt
+[1.041s] writing requirements to ../../build/py6_service_face/py6_service_face.egg-info/requires.txt
+[1.042s] writing top-level names to ../../build/py6_service_face/py6_service_face.egg-info/top_level.txt
+[1.085s] reading manifest file '../../build/py6_service_face/py6_service_face.egg-info/SOURCES.txt'
+[1.085s] adding license file 'LICENSE'
+[1.086s] writing manifest file '../../build/py6_service_face/py6_service_face.egg-info/SOURCES.txt'
+[1.086s] running build
+[1.086s] running build_py
+[1.087s] copying py6_service_face/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.087s] copying py6_service_face/learn_face_detect.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.087s] copying py6_service_face/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.087s] running install
+[1.091s] running install_lib
+[1.112s] running install_data
+[1.112s] copying resource/py6_service_face -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/ament_index/resource_index/packages
+[1.112s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/py6_service_face
+[1.113s] error: can't copy 'resource/image.jpg': doesn't exist or not a regular file
+[1.135s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py6_service_face' returned '1': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/prefix_override:/home/hzc/linux/ros2/stu/ws02_tools/src/face/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /home/hzc/linux/ros2/stu/ws02_tools/src/face/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py6_service_face build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/install.log --install-scripts $base/lib/py6_service_face --single-version-externally-managed install_data

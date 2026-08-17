@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces
+[0.091s] -- The C compiler identification is GNU 15.2.0
+[0.162s] -- The CXX compiler identification is GNU 15.2.0
+[0.173s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.383s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.398s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.416s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.932s] -- Found sensor_msgs: 5.9.2 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[1.003s] -- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.234s] -- Found rosidl_adapter: 5.2.0 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.240s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfeces):
+[1.240s]   Unknown CMake command "rosidl_generate_interfeces".
+[1.241s] 
+[1.241s] [0m
+[1.241s] -- Configuring incomplete, errors occurred!
+[1.247s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/base_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces

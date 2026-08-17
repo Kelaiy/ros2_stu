@@ -1,0 +1,5 @@
+  File "/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages/py6_service_face/face_detect_node.py", line 39
+    cv_image = cv2.imread(self.default_image_path)z
+                                                  ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,4 @@
+[console_scripts]
+face_detect_client_node = py6_service_face.face_detect_client_node:main
+face_detect_node = py6_service_face.face_detect_node:main
+learn_face_detect = py6_service_face.learn_face_detect:main

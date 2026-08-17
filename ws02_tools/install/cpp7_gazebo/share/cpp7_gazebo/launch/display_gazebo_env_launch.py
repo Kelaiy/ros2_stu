@@ -95,6 +95,7 @@ def generate_launch_description():
     # 5.1 桥接时钟（提供仿真时钟源，让 use_sim_time 节点能同步时钟）
     # 注意: Gazebo 实际发布在 /world/<world_name>/clock，需 remap 到 ROS2 标准的 /clock
     clock_bridge = Node(
+        name="clock_bridge",
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=["/world/default/clock@rosgraph_msgs/msg/Clock@gz.msgs.Clock"],
@@ -103,6 +104,7 @@ def generate_launch_description():
     )
     # 5.2 桥接业务话题
     gz_bridge = Node(
+        name="gz_bridge",
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
@@ -121,12 +123,14 @@ def generate_launch_description():
     # 5.3 桥接摄像头图像
     # image_raw 用 ros_gz_image（对图像更高效），camera_info 用 parameter_bridge（类型转换）
     image_bridge = Node(
+        name="image_bridge",
         package="ros_gz_image",
         executable="image_bridge",
         arguments=["/camera/image_raw"],
         output="screen",
     )
     camera_info_bridge = Node(
+        name="camera_info_bridge",
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=["/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo"],
@@ -135,6 +139,7 @@ def generate_launch_description():
     # 5.4 桥接 Kinect 深度摄像头
     # RGB 图像（ros_gz_image 自动也桥接 camera_info）
     kinect_image_bridge = Node(
+        name="kinect_image_bridge",
         package="ros_gz_image",
         executable="image_bridge",
         arguments=["/kinect/image"],
@@ -142,6 +147,7 @@ def generate_launch_description():
     )
     # 深度图像
     kinect_depth_bridge = Node(
+        name="kinect_depth_bridge",
         package="ros_gz_image",
         executable="image_bridge",
         arguments=["/kinect/depth_image"],
@@ -149,6 +155,7 @@ def generate_launch_description():
     )
     # 点云
     kinect_points_bridge = Node(
+        name="kinect_points_bridge",
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=["/kinect/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked"],

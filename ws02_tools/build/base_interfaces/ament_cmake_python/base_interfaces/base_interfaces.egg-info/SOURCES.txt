@@ -1,0 +1,9 @@
+setup.py
+base_interfaces/__init__.py
+base_interfaces/py.typed
+base_interfaces.egg-info/PKG-INFO
+base_interfaces.egg-info/SOURCES.txt
+base_interfaces.egg-info/dependency_links.txt
+base_interfaces.egg-info/top_level.txt
+base_interfaces/srv/__init__.py
+base_interfaces/srv/_face_detector.py
