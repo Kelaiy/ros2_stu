@@ -15,6 +15,14 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
  /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/lyrical/include/geometry_msgs/geometry_msgs/msg/twist.hpp
  /opt/ros/lyrical/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp
  /opt/ros/lyrical/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp
  /opt/ros/lyrical/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp
@@ -355,6 +363,38 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /opt/ros/lyrical/include/rmw/rmw/topic_endpoint_info_array.h
  /opt/ros/lyrical/include/rmw/rmw/types.h
  /opt/ros/lyrical/include/rmw/rmw/visibility_control.h
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/converter.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/reader.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp
+ /opt/ros/lyrical/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/message_definition.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/qos.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_options.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp
+ /opt/ros/lyrical/include/rosbag2_storage/rosbag2_storage/yaml.hpp
  /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer.hpp
  /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer_impl_base.hpp
  /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/cpu_buffer_impl.hpp
@@ -471,9 +511,12 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/c++/15/bits/fs_path.h
  /usr/include/c++/15/bits/functexcept.h
  /usr/include/c++/15/bits/functional_hash.h
+ /usr/include/c++/15/bits/gslice.h
+ /usr/include/c++/15/bits/gslice_array.h
  /usr/include/c++/15/bits/hash_bytes.h
  /usr/include/c++/15/bits/hashtable.h
  /usr/include/c++/15/bits/hashtable_policy.h
+ /usr/include/c++/15/bits/indirect_array.h
  /usr/include/c++/15/bits/invoke.h
  /usr/include/c++/15/bits/ios_base.h
  /usr/include/c++/15/bits/istream.tcc
@@ -487,6 +530,7 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/c++/15/bits/locale_facets_nonio.h
  /usr/include/c++/15/bits/locale_facets_nonio.tcc
  /usr/include/c++/15/bits/localefwd.h
+ /usr/include/c++/15/bits/mask_array.h
  /usr/include/c++/15/bits/max_size_type.h
  /usr/include/c++/15/bits/memory_resource.h
  /usr/include/c++/15/bits/memoryfwd.h
@@ -516,6 +560,7 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/c++/15/bits/shared_ptr.h
  /usr/include/c++/15/bits/shared_ptr_atomic.h
  /usr/include/c++/15/bits/shared_ptr_base.h
+ /usr/include/c++/15/bits/slice_array.h
  /usr/include/c++/15/bits/specfun.h
  /usr/include/c++/15/bits/sstream.tcc
  /usr/include/c++/15/bits/std_abs.h
@@ -562,6 +607,10 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/c++/15/bits/uses_allocator.h
  /usr/include/c++/15/bits/uses_allocator_args.h
  /usr/include/c++/15/bits/utility.h
+ /usr/include/c++/15/bits/valarray_after.h
+ /usr/include/c++/15/bits/valarray_array.h
+ /usr/include/c++/15/bits/valarray_array.tcc
+ /usr/include/c++/15/bits/valarray_before.h
  /usr/include/c++/15/bits/vector.tcc
  /usr/include/c++/15/bits/version.h
  /usr/include/c++/15/cassert
@@ -658,6 +707,7 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/c++/15/unordered_map
  /usr/include/c++/15/unordered_set
  /usr/include/c++/15/utility
+ /usr/include/c++/15/valarray
  /usr/include/c++/15/variant
  /usr/include/c++/15/vector
  /usr/include/ctype.h
@@ -825,6 +875,37 @@ CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o
  /usr/include/x86_64-linux-gnu/sys/time.h
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/include/x86_64-linux-gnu/sys/ucontext.h
+ /usr/include/yaml-cpp/binary.h
+ /usr/include/yaml-cpp/dll.h
+ /usr/include/yaml-cpp/emitter.h
+ /usr/include/yaml-cpp/emitterdef.h
+ /usr/include/yaml-cpp/emittermanip.h
+ /usr/include/yaml-cpp/emitterstyle.h
+ /usr/include/yaml-cpp/exceptions.h
+ /usr/include/yaml-cpp/mark.h
+ /usr/include/yaml-cpp/node/convert.h
+ /usr/include/yaml-cpp/node/detail/impl.h
+ /usr/include/yaml-cpp/node/detail/iterator.h
+ /usr/include/yaml-cpp/node/detail/iterator_fwd.h
+ /usr/include/yaml-cpp/node/detail/memory.h
+ /usr/include/yaml-cpp/node/detail/node.h
+ /usr/include/yaml-cpp/node/detail/node_data.h
+ /usr/include/yaml-cpp/node/detail/node_iterator.h
+ /usr/include/yaml-cpp/node/detail/node_ref.h
+ /usr/include/yaml-cpp/node/emit.h
+ /usr/include/yaml-cpp/node/impl.h
+ /usr/include/yaml-cpp/node/iterator.h
+ /usr/include/yaml-cpp/node/node.h
+ /usr/include/yaml-cpp/node/parse.h
+ /usr/include/yaml-cpp/node/ptr.h
+ /usr/include/yaml-cpp/node/type.h
+ /usr/include/yaml-cpp/noexcept.h
+ /usr/include/yaml-cpp/null.h
+ /usr/include/yaml-cpp/ostream_wrapper.h
+ /usr/include/yaml-cpp/parser.h
+ /usr/include/yaml-cpp/stlemitter.h
+ /usr/include/yaml-cpp/traits.h
+ /usr/include/yaml-cpp/yaml.h
  /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdalign.h
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h

@@ -1,0 +1,45 @@
+<!-- 老版本 -->
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <!-- 宏定义：Gazebo差速驱动控制插件 -->
+    <xacro:macro name="gazebo_control_plugin">
+        <gazebo>
+            <!-- 差速驱动插件：来自gazebo_ros_pkgs的libgazebo_ros_diff_drive.so -->
+            <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+                
+                <!-- ROS通信设置 -->
+                <ros>
+                    <namespace>/</namespace>                              <!-- 根命名空间 -->
+                    <remapping>cmd_vel:=cmd_vel</remapping>              <!-- 速度指令话题 -->
+                    <remapping>odom:=odom</remapping>                    <!-- 里程计输出话题 -->
+                </ros>
+                
+                <!-- 插件更新频率（Hz），控制里程计发布速率 -->
+                <update_rate>30</update_rate>
+                
+                <!-- 车轮关节名称（须与URDF中的关节定义一致） -->
+                <left_joint>left_wheel_joint</left_joint>                <!-- 左驱动轮关节 -->
+                <right_joint>right_wheel_joint</right_joint>             <!-- 右驱动轮关节 -->
+                
+                <!-- 运动学参数 -->
+                <wheel_separation>0.2</wheel_separation>                 <!-- 左右轮间距（米） -->
+                <wheel_diameter>0.064</wheel_diameter>                   <!-- 车轮直径（米） -->
+                
+                <!-- 驱动限制参数 -->
+                <max_wheel_torque>20</max_wheel_torque>                  <!-- 最大车轮扭矩（牛·米） -->
+                <max_wheel_acceleration>1.0</max_wheel_acceleration>    <!-- 最大角加速度（弧度/秒²） -->
+                
+                <!-- 输出配置 -->
+                <publish_odom>true</publish_odom>                        <!-- 发布/odom里程计话题 -->
+                <publish_odom_tf>true</publish_odom_tf>                  <!-- 发布odom→base_footprint的TF变换 -->
+                <publish_wheel_tf>true</publish_wheel_tf>                <!-- 发布车轮TF变换（用于可视化） -->
+
+                <!-- 坐标框架名称 -->
+                <odometry_frame>odom</odometry_frame>                    <!-- 里程计固定坐标系 -->
+                <robot_base_frame>base_footprint</robot_base_frame>      <!-- 机器人基座坐标系（须与URDF一致） -->
+                
+            </plugin>
+        </gazebo>
+   </xacro:macro>
+</robot>

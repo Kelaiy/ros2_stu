@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo1_writer.dir/src/demo1_writer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo1_reader.dir/src/demo1_reader.cpp.o[0m
+[ 75%] [1m[32mLinking CXX executable demo1_reader[0m
+[ 75%] Built target demo1_reader
+[100%] [1m[32mLinking CXX executable demo1_writer[0m
+[100%] Built target demo1_writer
+-- Install configuration: ""
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_writer
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_writer" to ""
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_reader
+-- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/lib/cpp2_rosbag/demo1_reader" to ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp2_rosbag
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp2_rosbag
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/path.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/environment/path.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.bash
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.fish
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.sh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.zsh
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/local_setup.dsv
+-- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/package.dsv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/ament_index/resource_index/packages/cpp2_rosbag
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/cmake/cpp2_rosbagConfig.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/cmake/cpp2_rosbagConfig-version.cmake
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp2_rosbag/share/cpp2_rosbag/package.xml

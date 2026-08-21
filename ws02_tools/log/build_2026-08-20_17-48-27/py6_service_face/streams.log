@@ -1,0 +1,33 @@
+[1.070s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py6_service_face': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py6_service_face build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/install.log --single-version-externally-managed install_data
+[1.417s] running egg_info
+[1.437s] writing ../../build/py6_service_face/py6_service_face.egg-info/PKG-INFO
+[1.438s] writing dependency_links to ../../build/py6_service_face/py6_service_face.egg-info/dependency_links.txt
+[1.438s] writing entry points to ../../build/py6_service_face/py6_service_face.egg-info/entry_points.txt
+[1.439s] writing requirements to ../../build/py6_service_face/py6_service_face.egg-info/requires.txt
+[1.439s] writing top-level names to ../../build/py6_service_face/py6_service_face.egg-info/top_level.txt
+[1.483s] reading manifest file '../../build/py6_service_face/py6_service_face.egg-info/SOURCES.txt'
+[1.483s] adding license file 'LICENSE'
+[1.484s] writing manifest file '../../build/py6_service_face/py6_service_face.egg-info/SOURCES.txt'
+[1.484s] running build
+[1.485s] running build_py
+[1.485s] copying py6_service_face/face_detect_client_node.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.485s] copying py6_service_face/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.485s] copying py6_service_face/learn_face_detect.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.485s] copying py6_service_face/face_detect_node.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.485s] copying py6_service_face/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build/lib/py6_service_face
+[1.486s] running install
+[1.490s] running install_lib
+[1.511s] running install_data
+[1.511s] copying resource/py6_service_face -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/ament_index/resource_index/packages
+[1.511s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/py6_service_face
+[1.511s] copying resource/image.jpg -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/py6_service_face/resource
+[1.513s] copying resource/image1.jpg -> /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/share/py6_service_face/resource
+[1.515s] running install_egg_info
+[1.535s] removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages/py6_service_face-0.0.0-py3.14.egg-info' (and everything under it)
+[1.536s] Copying ../../build/py6_service_face/py6_service_face.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages/py6_service_face-0.0.0-py3.14.egg-info
+[1.537s] running install_scripts
+[1.641s] Installing face_detect_client_node script to /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/py6_service_face
+[1.641s] Installing face_detect_node script to /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/py6_service_face
+[1.641s] Installing learn_face_detect script to /home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/py6_service_face
+[1.642s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/install.log'
+[1.688s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py6_service_face' returned '0': AMENT_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face/lib/python3.14/site-packages:/home/hzc/linux/ros2/stu/ws02_tools/install/base_interfaces/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py6_service_face build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py6_service_face/install.log --single-version-externally-managed install_data

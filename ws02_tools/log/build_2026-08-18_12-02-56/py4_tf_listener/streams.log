@@ -1,0 +1,35 @@
+[2.305s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py4_tf_listener': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py4_tf_listener build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/install.log --single-version-externally-managed install_data
+[2.660s] running egg_info
+[2.680s] creating ../../build/py4_tf_listener/py4_tf_listener.egg-info
+[2.681s] writing ../../build/py4_tf_listener/py4_tf_listener.egg-info/PKG-INFO
+[2.681s] writing dependency_links to ../../build/py4_tf_listener/py4_tf_listener.egg-info/dependency_links.txt
+[2.682s] writing entry points to ../../build/py4_tf_listener/py4_tf_listener.egg-info/entry_points.txt
+[2.682s] writing requirements to ../../build/py4_tf_listener/py4_tf_listener.egg-info/requires.txt
+[2.682s] writing top-level names to ../../build/py4_tf_listener/py4_tf_listener.egg-info/top_level.txt
+[2.682s] writing manifest file '../../build/py4_tf_listener/py4_tf_listener.egg-info/SOURCES.txt'
+[2.732s] reading manifest file '../../build/py4_tf_listener/py4_tf_listener.egg-info/SOURCES.txt'
+[2.732s] writing manifest file '../../build/py4_tf_listener/py4_tf_listener.egg-info/SOURCES.txt'
+[2.732s] running build
+[2.732s] running build_py
+[2.732s] creating /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+[2.732s] copying py4_tf_listener/demo1_tf_listener_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+[2.732s] copying py4_tf_listener/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+[2.732s] copying py4_tf_listener/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+[2.732s] running install
+[2.738s] running install_lib
+[2.762s] creating /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener
+[2.762s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener
+[2.763s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener/demo1_tf_listener_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener
+[2.763s] copying /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener
+[2.763s] byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener/demo1_tf_listener_py.py to demo1_tf_listener_py.cpython-314.pyc
+[2.764s] byte-compiling /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener/__init__.py to __init__.cpython-314.pyc
+[2.764s] running install_data
+[2.764s] creating /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/share/ament_index/resource_index/packages
+[2.764s] copying resource/py4_tf_listener -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/share/ament_index/resource_index/packages
+[2.764s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/share/py4_tf_listener
+[2.765s] running install_egg_info
+[2.787s] Copying ../../build/py4_tf_listener/py4_tf_listener.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener-0.0.0-py3.14.egg-info
+[2.787s] running install_scripts
+[2.928s] Installing demo1_tf_listener_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/py4_tf_listener
+[2.928s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/install.log'
+[3.025s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py4_tf_listener' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py4_tf_listener build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fishbot">  
+    <!-- 惯性矩阵计算公式 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/common_inertia.xacro"/>
+
+    <!-- 基础部分 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/base.urdf.xacro"/>
+    <!-- 传感器 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/sensor/camera.urdf.xacro"/>
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/sensor/imu.urdf.xacro"/>
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/sensor/laser.urdf.xacro"/>
+    <!--执行器 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/actuator/wheel.urdf.xacro"/>
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/actuator/caster.urdf.xacro"/>
+
+    <!-- Gazebo差速控制 关节状态 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/plugins/gazebo_control_plugin.xacro"/>
+    <!-- 传感器 -->
+    <xacro:include filename="$(find cpp8_urdf_plus)/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro"/>
+
+
+
+    <!-- 调用宏：生成差速驱动插件 + 关节状态发布插件 -->
+    <xacro:gazebo_control_plugin/>
+    <xacro:gazebo_joint_state_plugin/>
+
+
+
+    <xacro:base_xacro length="0.12" radius="0.10"/>
+    <xacro:imu_xacro xyz = "0.0 0.0 0.02"/>
+    <xacro:camera_xacro xyz = "0.10 0.0 0.06"/>
+    <xacro:laser_xacro xyz = "0.0 0.0 0.10"/>
+
+    <xacro:wheel_xacro wheel_name = "left_wheel" xyz = "0 0.10 -0.06"/>
+    <xacro:wheel_xacro wheel_name = "right_wheel" xyz = "0 -0.10 -0.06"/>
+
+    <xacro:caster_xacro caster_name = "front_caster" xyz = "0.08 0.0 -0.076"/>
+    <xacro:caster_xacro caster_name = "back_caster" xyz = "-0.08 0.0 -0.076"/>
+</robot>

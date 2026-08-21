@@ -1,0 +1,26 @@
+[1.965s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py2_rosbag': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_rosbag build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/install.log --single-version-externally-managed install_data
+[2.374s] running egg_info
+[2.398s] writing ../../build/py2_rosbag/py2_rosbag.egg-info/PKG-INFO
+[2.398s] writing dependency_links to ../../build/py2_rosbag/py2_rosbag.egg-info/dependency_links.txt
+[2.399s] writing entry points to ../../build/py2_rosbag/py2_rosbag.egg-info/entry_points.txt
+[2.399s] writing requirements to ../../build/py2_rosbag/py2_rosbag.egg-info/requires.txt
+[2.399s] writing top-level names to ../../build/py2_rosbag/py2_rosbag.egg-info/top_level.txt
+[2.448s] reading manifest file '../../build/py2_rosbag/py2_rosbag.egg-info/SOURCES.txt'
+[2.449s] writing manifest file '../../build/py2_rosbag/py2_rosbag.egg-info/SOURCES.txt'
+[2.449s] running build
+[2.449s] running build_py
+[2.449s] copying py2_rosbag/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+[2.449s] copying py2_rosbag/demo1_writer_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+[2.450s] copying py2_rosbag/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+[2.450s] running install
+[2.456s] running install_lib
+[2.481s] running install_data
+[2.482s] copying resource/py2_rosbag -> /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/share/ament_index/resource_index/packages
+[2.482s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/share/py2_rosbag
+[2.482s] running install_egg_info
+[2.505s] removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages/py2_rosbag-0.0.0-py3.14.egg-info' (and everything under it)
+[2.505s] Copying ../../build/py2_rosbag/py2_rosbag.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages/py2_rosbag-0.0.0-py3.14.egg-info
+[2.507s] running install_scripts
+[2.629s] Installing demo1_writer_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/py2_rosbag
+[2.629s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/install.log'
+[2.676s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py2_rosbag' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_rosbag build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus
+-- Install configuration: ""
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch/display_robot.launch.py
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch/gazebo_sim.launch.py
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_rebot.urdf
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_rebot.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/camera.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/laser.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/imu.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator/wheel.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator/caster.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/base.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/common_inertia.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/fishbot.urdf.xacro
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.pdf
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.gv
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/config
+-- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/config/robot_model.rviz
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp8_urdf_plus/wworld": No such
+  file or directory.
+
+[0m

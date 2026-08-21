@@ -1,0 +1,48 @@
+[0.056s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch -- -j12 -l12
+[0.689s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch -- -j12 -l12
+[0.697s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch
+[1.063s] -- Install configuration: ""
+[1.063s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch
+[1.064s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml
+[1.064s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml2_node_launch.yaml
+[1.065s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml4_args_launch.yaml
+[1.065s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml1_helloword_launch.yaml
+[1.065s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml5_group_launch.yaml
+[1.066s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml6_include_launch.yaml
+[1.066s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/yaml/yaml3_cmd_launch.yaml
+[1.066s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py
+[1.066s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py1_helloword_launch.py
+[1.067s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py5_include_launch.py
+[1.068s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py4_args_launch.py
+[1.068s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py6_group_launch.py
+[1.068s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py3_cmd_launch.py
+[1.069s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py7_event_launch.py
+[1.069s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/py/py2_node_launch.py
+[1.070s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml
+[1.070s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml3_cmd_launch.xml
+[1.070s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml1_helloword_launch.xml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml5_group_launch.xml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml6_include_launch.xml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml4_args_launch.xml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/launch/xml/xml2_node_launch.xml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/config
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/config/gaga.yaml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/config/xixi.yaml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/config/hzc.yaml
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/package_run_dependencies/cpp1_launch
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/parent_prefix_path/cpp1_launch
+[1.071s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/ament_prefix_path.sh
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/ament_prefix_path.dsv
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/path.sh
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/environment/path.dsv
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.bash
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.fish
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.sh
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.zsh
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/local_setup.dsv
+[1.072s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/package.dsv
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/ament_index/resource_index/packages/cpp1_launch
+[1.072s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/cmake/cpp1_launchConfig.cmake
+[1.073s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/cmake/cpp1_launchConfig-version.cmake
+[1.073s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp1_launch/share/cpp1_launch/package.xml
+[1.129s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp1_launch

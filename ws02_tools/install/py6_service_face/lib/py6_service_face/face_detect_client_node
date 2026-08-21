@@ -1,4 +1,4 @@
-#!/home/hzc/linux/ros2/stu/ws02_tools/src/face/bin/python3
+#!/usr/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'py6-service-face==0.0.0','console_scripts','face_detect_client_node'
 import re
 import sys

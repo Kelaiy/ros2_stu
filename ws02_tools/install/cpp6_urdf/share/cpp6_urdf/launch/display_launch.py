@@ -31,7 +31,8 @@ from launch.substitutions import Command
 def generate_launch_description():
     """
         需求:加载urdf文件
-        运行带参 ros2 launch cpp6_urdf display_launch.py model:="$(ros2 pkg prefix --share cpp6_urdf)/urdf/urdf/demo4_basefootprint.urdf"
+        运行带参 
+        ros2 launch cpp6_urdf display_launch.py model:="$(ros2 pkg prefix --share cpp6_urdf)/urdf/urdf/demo4_basefootprint.urdf"
     """
     # 1.启动robot_state_publisher节点 参数加载urdf文件内容
     model = DeclareLaunchArgument(name="model",default_value=get_package_share_directory("cpp6_urdf") + "/urdf/urdf/demo1_student.urdf")

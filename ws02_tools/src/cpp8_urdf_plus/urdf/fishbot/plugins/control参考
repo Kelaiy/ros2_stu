@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- ============================================================
+         深度摄像头传感器配置（Gazebo Classic 旧版）
+         ⚠️ 使用 libgazebo_ros_camera.so 插件（仅适用于 Gazebo Classic）
+    ============================================================ -->
+    <!-- 将传感器绑定到 camera_link -->
+    <gazebo reference="camera_link">
+        <!-- 传感器定义：type="depth" 深度摄像头 -->
+        <sensor type="depth" name="camera_sensor">
+            <!-- 插件：libgazebo_ros_camera.so（Gazebo Classic 专用） -->
+            <plugin name="depth_camera" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_optical_link</frame_name>  <!-- 图像坐标帧 -->
+            </plugin>
+            <!-- 始终运行 -->
+            <always_on>true</always_on>
+            <!-- 更新频率：10 Hz -->
+            <update_rate>10</update_rate>
+            <!-- 摄像头参数 -->
+            <camera name="camera">
+                <!-- 水平视场角：约 86° -->
+                <horizontal_fov>1.5009831567</horizontal_fov>
+                <!-- 图像尺寸：800×600，RGB 格式 -->
+                <image>
+                    <width>800</width>
+                    <height>600</height>
+                    <format>R8G8B8</format>
+                </image>
+                <!-- 畸变参数（全为 0 = 无畸变） -->
+                <distortion>
+                    <k1>0.0</k1>
+                    <k2>0.0</k2>
+                    <k3>0.0</k3>
+                    <p1>0.0</p1>
+                    <p2>0.0</p2>
+                    <center>0.5 0.5</center>
+                </distortion>
+            </camera>
+        </sensor>
+    </gazebo>
+</robot>

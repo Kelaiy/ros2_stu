@@ -1,0 +1,31 @@
+[0.046s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j12 -l12
+[0.671s] [ 25%] [32mBuilding CXX object CMakeFiles/demo1_tf_listener.dir/src/demo1_tf_listener.cpp.o[0m
+[10.050s] [ 50%] [1m[32mLinking CXX executable demo1_tf_listener[0m
+[10.449s] [ 50%] Built target demo1_tf_listener
+[10.496s] [ 75%] [32mBuilding CXX object CMakeFiles/demo2_msg_filter.dir/src/demo2_msg_filter.cpp.o[0m
+[18.806s] [100%] [1m[32mLinking CXX executable demo2_msg_filter[0m
+[19.163s] [100%] Built target demo2_msg_filter
+[19.175s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener -- -j12 -l12
+[19.177s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener
+[19.185s] -- Install configuration: ""
+[19.186s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo1_tf_listener
+[19.191s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo1_tf_listener" to ""
+[19.191s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo2_msg_filter
+[19.197s] -- Set non-toolchain portion of runtime path of "/home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/lib/cpp4_tf_listener/demo2_msg_filter" to ""
+[19.197s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp4_tf_listener
+[19.197s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp4_tf_listener
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/ament_prefix_path.sh
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/ament_prefix_path.dsv
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/path.sh
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/environment/path.dsv
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.bash
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.fish
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.sh
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.zsh
+[19.198s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/local_setup.dsv
+[19.198s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/package.dsv
+[19.200s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/ament_index/resource_index/packages/cpp4_tf_listener
+[19.200s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/cmake/cpp4_tf_listenerConfig.cmake
+[19.200s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/cmake/cpp4_tf_listenerConfig-version.cmake
+[19.200s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp4_tf_listener/share/cpp4_tf_listener/package.xml
+[19.203s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp4_tf_listener

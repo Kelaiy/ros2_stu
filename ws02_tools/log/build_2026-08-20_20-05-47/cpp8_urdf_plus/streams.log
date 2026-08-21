@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus -- -j12 -l12
+[0.062s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus -- -j12 -l12
+[0.073s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus
+[0.082s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch/display_robot.launch.py
+[0.082s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch/gazebo_sim.launch.py
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_rebot.urdf
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_rebot.xacro
+[0.082s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/plugins
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/plugins/control参考
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/plugins/sensor参考
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/camera.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/laser.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/sensor/imu.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/actuator/caster.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/base.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/common_inertia.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/fishbot/fishbot.urdf.xacro
+[0.083s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.pdf
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.gv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/config
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/config/robot_model.rviz
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/config/fishbot_bridge.yaml
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/world
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/world/warehouse_world.sdf
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/package_run_dependencies/cpp8_urdf_plus
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/parent_prefix_path/cpp8_urdf_plus
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/path.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/path.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.bash
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.fish
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.sh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.zsh
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.dsv
+[0.084s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/package.dsv
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/packages/cpp8_urdf_plus
+[0.084s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/cmake/cpp8_urdf_plusConfig.cmake
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/cmake/cpp8_urdf_plusConfig-version.cmake
+[0.085s] -- Up-to-date: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/package.xml
+[0.085s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus

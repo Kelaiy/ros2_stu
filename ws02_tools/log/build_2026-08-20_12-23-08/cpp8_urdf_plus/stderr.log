@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/hzc/linux/ros2/stu/ws02_tools/src/cpp8_urdf_plus/wworld": No such
+  file or directory.
+
+[0m

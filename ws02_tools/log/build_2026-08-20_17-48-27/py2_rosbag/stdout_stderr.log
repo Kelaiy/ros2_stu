@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/py2_rosbag/py2_rosbag.egg-info/PKG-INFO
+writing dependency_links to ../../build/py2_rosbag/py2_rosbag.egg-info/dependency_links.txt
+writing entry points to ../../build/py2_rosbag/py2_rosbag.egg-info/entry_points.txt
+writing requirements to ../../build/py2_rosbag/py2_rosbag.egg-info/requires.txt
+writing top-level names to ../../build/py2_rosbag/py2_rosbag.egg-info/top_level.txt
+reading manifest file '../../build/py2_rosbag/py2_rosbag.egg-info/SOURCES.txt'
+writing manifest file '../../build/py2_rosbag/py2_rosbag.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py2_rosbag/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+copying py2_rosbag/demo1_writer_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+copying py2_rosbag/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/build/lib/py2_rosbag
+running install
+running install_lib
+running install_data
+copying resource/py2_rosbag -> /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/share/py2_rosbag
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages/py2_rosbag-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py2_rosbag/py2_rosbag.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/python3.14/site-packages/py2_rosbag-0.0.0-py3.14.egg-info
+running install_scripts
+Installing demo1_writer_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py2_rosbag/lib/py2_rosbag
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py2_rosbag/install.log'

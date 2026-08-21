@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp8_urdf_plus -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus
+[0.132s] -- The C compiler identification is GNU 15.2.0
+[0.240s] -- The CXX compiler identification is GNU 15.2.0
+[0.250s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.192s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.331s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.331s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.333s] -- Added test 'lint_cmake' to check CMake code style
+[1.334s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.337s] -- Added test 'xmllint' to check XML markup files
+[1.340s] -- Configuring done (1.3s)
+[1.344s] -- Generating done (0.0s)
+[1.346s] -- Build files have been written to: /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus
+[1.352s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hzc/linux/ros2/stu/ws02_tools/src/cpp8_urdf_plus -DCMAKE_INSTALL_PREFIX=/home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus
+[1.353s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus -- -j12 -l12
+[1.394s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus -- -j12 -l12
+[1.404s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus
+[1.412s] -- Install configuration: ""
+[1.412s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch
+[1.412s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/launch/display_robot.launch.py
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_rebot.urdf
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.pdf
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/urdf/first_robot.gv
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/package_run_dependencies/cpp8_urdf_plus
+[1.413s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/parent_prefix_path/cpp8_urdf_plus
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/ament_prefix_path.sh
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/ament_prefix_path.dsv
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/path.sh
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/environment/path.dsv
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.bash
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.fish
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.sh
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.zsh
+[1.414s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/local_setup.dsv
+[1.415s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/package.dsv
+[1.415s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/ament_index/resource_index/packages/cpp8_urdf_plus
+[1.415s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/cmake/cpp8_urdf_plusConfig.cmake
+[1.415s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/cmake/cpp8_urdf_plusConfig-version.cmake
+[1.415s] -- Installing: /home/hzc/linux/ros2/stu/ws02_tools/install/cpp8_urdf_plus/share/cpp8_urdf_plus/package.xml
+[1.417s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzc/linux/ros2/stu/ws02_tools/install/py6_service_face:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise:/home/hzc/linux/ros2/stu/ws02_tools/install/py3_tf_broadcaster:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hzc/linux/ros2/stu/ws02_tools/build/cpp8_urdf_plus

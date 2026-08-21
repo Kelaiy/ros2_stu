@@ -1,0 +1,26 @@
+[2.357s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py1_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_launch build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/install.log --single-version-externally-managed install_data
+[2.797s] running egg_info
+[2.831s] writing ../../build/py1_launch/py1_launch.egg-info/PKG-INFO
+[2.831s] writing dependency_links to ../../build/py1_launch/py1_launch.egg-info/dependency_links.txt
+[2.832s] writing requirements to ../../build/py1_launch/py1_launch.egg-info/requires.txt
+[2.832s] writing top-level names to ../../build/py1_launch/py1_launch.egg-info/top_level.txt
+[2.903s] reading manifest file '../../build/py1_launch/py1_launch.egg-info/SOURCES.txt'
+[2.907s] writing manifest file '../../build/py1_launch/py1_launch.egg-info/SOURCES.txt'
+[2.907s] running build
+[2.907s] running build_py
+[2.907s] copying py1_launch/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/build/lib/py1_launch
+[2.907s] copying py1_launch/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/build/lib/py1_launch
+[2.907s] running install
+[2.914s] running install_lib
+[2.949s] running install_data
+[2.949s] copying resource/py1_launch -> /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/share/ament_index/resource_index/packages
+[2.950s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/share/py1_launch
+[2.950s] copying launch/py/py1_helloword_launch.py -> /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/share/py1_launch
+[2.951s] copying launch/xml/xml1_helloword_launch.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/share/py1_launch
+[2.951s] copying launch/yaml/yaml1_helloword_launch.yaml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/share/py1_launch
+[2.952s] running install_egg_info
+[2.986s] removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/lib/python3.14/site-packages/py1_launch-0.0.0-py3.14.egg-info' (and everything under it)
+[2.987s] Copying ../../build/py1_launch/py1_launch.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/lib/python3.14/site-packages/py1_launch-0.0.0-py3.14.egg-info
+[2.989s] running install_scripts
+[3.158s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/install.log'
+[3.266s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py1_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py1_launch/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_launch build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py1_launch/install.log --single-version-externally-managed install_data

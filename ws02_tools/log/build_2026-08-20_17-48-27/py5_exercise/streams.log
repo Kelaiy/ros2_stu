@@ -1,0 +1,32 @@
+[1.812s] Invoking command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py5_exercise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py5_exercise build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/install.log --single-version-externally-managed install_data
+[2.200s] running egg_info
+[2.222s] writing ../../build/py5_exercise/py5_exercise.egg-info/PKG-INFO
+[2.223s] writing dependency_links to ../../build/py5_exercise/py5_exercise.egg-info/dependency_links.txt
+[2.224s] writing entry points to ../../build/py5_exercise/py5_exercise.egg-info/entry_points.txt
+[2.224s] writing requirements to ../../build/py5_exercise/py5_exercise.egg-info/requires.txt
+[2.224s] writing top-level names to ../../build/py5_exercise/py5_exercise.egg-info/top_level.txt
+[2.273s] reading manifest file '../../build/py5_exercise/py5_exercise.egg-info/SOURCES.txt'
+[2.274s] writing manifest file '../../build/py5_exercise/py5_exercise.egg-info/SOURCES.txt'
+[2.274s] running build
+[2.274s] running build_py
+[2.274s] copying py5_exercise/exer3_tf_listener_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+[2.275s] copying py5_exercise/exer1_spawn_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+[2.275s] copying py5_exercise/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+[2.275s] copying py5_exercise/exer2_tf_broadcaster_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+[2.275s] copying py5_exercise/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build/lib/py5_exercise
+[2.275s] running install
+[2.279s] running install_lib
+[2.302s] running install_data
+[2.302s] copying resource/py5_exercise -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/ament_index/resource_index/packages
+[2.302s] copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/py5_exercise
+[2.302s] copying launch/follow.launch.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/py5_exercise
+[2.303s] copying launch/escort.launch.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/share/py5_exercise
+[2.303s] running install_egg_info
+[2.324s] removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise-0.0.0-py3.14.egg-info' (and everything under it)
+[2.324s] Copying ../../build/py5_exercise/py5_exercise.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages/py5_exercise-0.0.0-py3.14.egg-info
+[2.325s] running install_scripts
+[2.434s] Installing exer1_spawn_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+[2.435s] Installing exer2_tf_broadcaster_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+[2.435s] Installing exer3_tf_listener_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/py5_exercise
+[2.435s] writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/install.log'
+[2.485s] Invoked command in '/home/hzc/linux/ros2/stu/ws02_tools/src/py5_exercise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzc/linux/ros2/stu/ws02_tools/install/py5_exercise/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py5_exercise build --build-base /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/build install --record /home/hzc/linux/ros2/stu/ws02_tools/build/py5_exercise/install.log --single-version-externally-managed install_data

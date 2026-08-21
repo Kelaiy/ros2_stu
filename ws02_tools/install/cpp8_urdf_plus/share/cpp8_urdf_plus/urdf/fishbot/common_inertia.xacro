@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <!-- 1. 长方体惯性宏-->
+    <!-- m:质量(kg)  w:x轴尺寸(m)  h:y轴尺寸(m)  d:z轴尺寸(m) -->
+    <xacro:macro name="box_inertia" params="m w h d">
+        <inertial>
+            <mass value="${m}" />
+            <!--      绕X轴转动: 取决于 y 和 z 方向的尺寸       -->
+            <!--      绕Y轴转动: 取决于 x 和 z 方向的尺寸       -->
+            <!--      绕Z轴转动: 取决于 x 和 y 方向的尺寸       -->
+            <inertia ixx="${(m/12) * (h*h + d*d)}" ixy="0.0" ixz="0.0" 
+                     iyy="${(m/12) * (w*w + d*d)}" iyz="0.0" 
+                     izz="${(m/12) * (w*w + h*h)}" />
+        </inertial>
+    </xacro:macro>
+
+    <!-- 2. 圆柱体惯性宏 -->
+    <!-- m:质量(kg)  r:半径(m)  h:高度/长度(m) -->
+    <xacro:macro name="cylinder_inertia" params="m r h">
+        <inertial>
+            <mass value="${m}" />
+            <!--      绕X轴和Y轴(侧翻): 与半径和高度都有关       -->
+            <!--      绕Z轴(自转): 只与半径有关 (高度不影响自转) -->
+            <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy="0" ixz="0" 
+                     iyy="${(m/12) * (3*r*r + h*h)}" iyz="0" 
+                     izz="${(m/2) * (r*r)}" />
+        </inertial>
+    </xacro:macro>
+
+    <!-- 3. 球体惯性宏 -->
+    <!-- m:质量(kg)  r:半径(m) -->
+    <xacro:macro name="sphere_inertia" params="m r">
+        <inertial>
+            <mass value="${m}" />
+            <!--      球体完全对称: 绕X/Y/Z轴转动惯量完全一样      -->
+            <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" 
+                     iyy="${(2/5) * m * (r*r)}" iyz="0.0" 
+                     izz="${(2/5) * m * (r*r)}" />
+        </inertial>
+    </xacro:macro>
+
+</robot>

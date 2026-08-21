@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="first_robot">
+    <!-- 万向轮 --> 
+    <xacro:macro name="caster_xacro" params= "caster_name xyz">
+        <link name="${caster_name}_link">
+            <!-- 部件外观描述 -->
+            <visual>
+                <!-- 偏移 偏移量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+                <!-- 材质颜色 -->
+                <material name = "yellow">
+                    <color rgba="1.0 1.0 0.0 1.0"/>
+                </material>
+            </visual>
+            <!-- 碰撞属性 -->
+            <collision>
+                <!-- 偏移 偏移量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+                <!-- 材质颜色 -->
+                <material name = "yellow">
+                    <color rgba="1.0 1.0 0.0 1.0"/>
+                </material>
+            </collision>
+            <!-- 质量惯性 -->、
+            <xacro:sphere_inertia m = "0.05" r = "0.016"/>
+        </link>
+        <!-- 机器人关节  -->
+        <joint name="${caster_name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${caster_name}_link"/>
+        </joint>
+        <!-- 摩擦系数设计 -->
+        <gazebo reference="${caster_name}_link">
+            <mu1 value="0.0"/>
+            <mu2 value="0.0"/>
+            <kp value="1000000000.0"/>
+            <kd value="1.0"/>
+        </gazebo>
+    </xacro:macro>
+</robot>    

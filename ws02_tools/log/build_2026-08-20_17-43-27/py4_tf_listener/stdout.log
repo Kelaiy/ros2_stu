@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/py4_tf_listener/py4_tf_listener.egg-info/PKG-INFO
+writing dependency_links to ../../build/py4_tf_listener/py4_tf_listener.egg-info/dependency_links.txt
+writing entry points to ../../build/py4_tf_listener/py4_tf_listener.egg-info/entry_points.txt
+writing requirements to ../../build/py4_tf_listener/py4_tf_listener.egg-info/requires.txt
+writing top-level names to ../../build/py4_tf_listener/py4_tf_listener.egg-info/top_level.txt
+reading manifest file '../../build/py4_tf_listener/py4_tf_listener.egg-info/SOURCES.txt'
+writing manifest file '../../build/py4_tf_listener/py4_tf_listener.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py4_tf_listener/demo1_tf_listener_py.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+copying py4_tf_listener/__init__.py -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+copying py4_tf_listener/py.typed -> /home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/build/lib/py4_tf_listener
+running install
+running install_lib
+running install_data
+copying resource/py4_tf_listener -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/share/ament_index/resource_index/packages
+copying package.xml -> /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/share/py4_tf_listener
+running install_egg_info
+removing '/home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/py4_tf_listener/py4_tf_listener.egg-info to /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/python3.14/site-packages/py4_tf_listener-0.0.0-py3.14.egg-info
+running install_scripts
+Installing demo1_tf_listener_py script to /home/hzc/linux/ros2/stu/ws02_tools/install/py4_tf_listener/lib/py4_tf_listener
+writing list of installed files to '/home/hzc/linux/ros2/stu/ws02_tools/build/py4_tf_listener/install.log'

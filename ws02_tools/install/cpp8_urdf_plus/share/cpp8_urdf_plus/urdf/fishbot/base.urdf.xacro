@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="first_robot">
+
+    <!-- 机器人身体 -->
+    <xacro:macro name = "base_xacro" params="length radius">
+        <link name="base_footprint"/>
+
+        <link name="base_link">
+            <!-- 部件外观描述 -->
+            <visual>
+                <!-- 偏移 偏移量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- 圆柱体 半径 高度 m -->
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <!-- 材质颜色 -->
+                <material name = "white">
+                    <color rgba="1.0 1.0 1.0 1.0"/>
+                </material>
+            </visual>
+            <!-- 碰撞属性 -->
+            <collision>
+                <!-- 偏移 偏移量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- 圆柱体 半径 高度 m -->
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <!-- 材质颜色 -->
+                <material name = "white">
+                    <color rgba="1.0 1.0 1.0 1.0"/>
+                </material>
+            </collision>
+            <!-- 质量惯性 -->、
+            <xacro:cylinder_inertia m = "1.0" r = "${radius}" h = "${length}"/>
+        </link>
+
+
+        <joint name="joint_name" type="fixed">
+            <origin xyz="0.0 0.0 ${length/2.0 + 0.032 - 0.001}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_footprint"/>
+            <child link="base_link"/>
+        </joint>
+    </xacro:macro>
+</robot>

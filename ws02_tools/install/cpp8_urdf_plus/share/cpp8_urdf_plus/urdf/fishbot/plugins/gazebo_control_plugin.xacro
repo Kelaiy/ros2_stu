@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro  name="gazebo_control_plugin">
+        <gazebo>
+            <!-- 配置Gazebo的差速驱动系统插件 -->
+            <!-- 此插件用于在Gazebo仿真中控制机器人的差速驱动 -->
+            <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+            
+                <!-- 移除 <ros> 标签（在gz-sim中不再需要） -->
+
+                <!-- 车轮关节配置 -->
+                <!-- 定义左右驱动轮对应的关节名称（需与URDF中的关节名一致） -->
+                <left_joint>left_wheel_joint</left_joint>   <!-- 左轮关节 -->
+                <right_joint>right_wheel_joint</right_joint> <!-- 右轮关节 -->
+
+                <!-- 运动学参数 -->
+                <wheel_separation>0.2</wheel_separation> <!-- 左右轮间距（米） -->
+                <wheel_radius>0.033</wheel_radius>          <!-- 车轮半径（米），根据原插件中的<wheel_diameter>计算得出 -->
+
+                <!-- 运动限制参数 -->
+                <max_linear_acceleration>0.03</max_linear_acceleration> <!-- 最大线加速度（米/秒²），由原插件的车轮加速度限制换算而来 1.0 * 0.03 -->
+
+                <!-- 通信话题配置 -->
+                <topic>cmd_vel</topic>                      <!-- 速度控制指令的话题名称（原为<command_topic>） -->
+                <odom_topic>odom</odom_topic>               <!-- 里程计数据发布话题（原为<odometry_topic>） -->
+                
+                <!-- 坐标框架 -->
+                <frame_id>odom</frame_id>                   <!-- 里程计坐标系ID（原为<odometry_frame>） -->
+                <child_frame_id>base_footprint</child_frame_id> <!-- 机器人基座坐标系ID（原为<robot_base_frame>） -->
+                <odom_publisher_frequency>30</odom_publisher_frequency> <!-- 里程计发布频率（Hz），原为<update_rate> -->
+
+                <!-- TF变换配置 -->
+                <tf_topic>/tf</tf_topic>                    <!-- TF变换数据的话题（简写形式） -->
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <!-- 关节状态发布插件（新版） -->
+    <xacro:macro name="gazebo_joint_state_plugin">
+        <gazebo>
+            <plugin filename="gz-sim-joint-state-publisher-system" 
+                    name="gz::sim::systems::JointStatePublisher">
+                <topic>joint_states</topic>
+                <joint_name>left_wheel_joint</joint_name>
+                <joint_name>right_wheel_joint</joint_name>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+    
+</robot>

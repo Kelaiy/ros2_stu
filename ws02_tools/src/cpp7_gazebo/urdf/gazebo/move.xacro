@@ -12,7 +12,7 @@
             <wheel_radius>${wheel_radius}</wheel_radius>
             <odom_publish_frequency>50</odom_publish_frequency>
             <topic>/model/my_car/cmd_vel</topic>
-            <odom_topic>/model/my_car/odometry</odom_topic>
+            <odom_topic>/model/my_car/odometry</odom_topic> 
             <tf_topic>/model/my_car/tf</tf_topic>
             <!-- 显式指定 TF frame 名，避免 Gazebo 自动加 my_car/ 前缀导致 TF 树断裂 -->
             <frame_id>odom</frame_id>

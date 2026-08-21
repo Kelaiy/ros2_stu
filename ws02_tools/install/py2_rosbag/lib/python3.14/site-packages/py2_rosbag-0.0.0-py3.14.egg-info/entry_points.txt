@@ -1,0 +1,2 @@
+[console_scripts]
+demo1_writer_py = py2_rosbag.demo1_writer_py:main
