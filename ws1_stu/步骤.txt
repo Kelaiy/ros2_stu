@@ -1,0 +1,70 @@
+#1.gazebo模型
+mkdir -p ~/.gazebo
+cd ~/.gazebo
+git clone
+git clone https://gitee.com/ohhuo/gazebo_models.git ~/.gazebo/models
+rm -rf ~/.gazebo/models/.git
+
+
+
+source /opt/ros/humble/setup.bash
+source /workspace/ws1_stu/install/setup.bash   # 你的工作空间 install/setup.bash
+echo $GAZEBO_PLUGIN_PATH   # 应该能看到一串路径
+ros2 launch cpp1_gazebo gazebo_sim.launch.py
+
+#2启动slam建图 保存地图在当前文件夹
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+ros2 run nav2_map_server map_saver_cli -f room
+
+
+#3导航 拿取nav2配置文件
+cp /opt/ros/humble/share/nav2_bringup/params/nav2_params.yaml shared/ws1_stu/src/cpp3_nav2/config/
+改过口大小
+局部
+local_costmap
+    inflation_radius: 0.55            # 膨胀半径(m)
+全局
+global_costmap
+    inflation_radius
+行为树到点精度优化
+general_goal_checker:
+    stateful: True                      # 有状态检查
+    plugin: "nav2_controller::SimpleGoalChecker"
+    xy_goal_tolerance: 0.25             # XY位置容差(m)
+    yaw_goal_tolerance: 0.25            # 偏航角容差(rad)
+xy_goal_tolerance: 0.25             # XY目标容差
+手动发布初始位置
+ros2 topic pub /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "{header: {frame_id: map}, pose: {pose: {position: {x: 1.36, y: 0.93, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: -0.971, w: 0.239}}}}" --once
+
+
+
+# 改权限
+sudo chown -R hzc:hzc /home/hzc/linux/Docker/22.04/ws1_stu/src/cpp2_slam/
+
+
+#4 音频配置 - 让容器音频跟随主机默认输出设备（耳机/扬声器自动切换）
+# 主机端：编辑 ~/.config/pipewire/pipewire-pulse.conf，在 pulse.properties.server.address 启用 TCP 监听
+#   server.address = [
+#       "unix:native"
+#       "tcp:4713"
+#   ]
+# 重启主机 pipewire-pulse：systemctl --user restart pipewire-pulse.service
+
+如果想恢复出厂默认， 直接删掉用户级文件即可 ，PipeWire 会自动回退到 /usr/share/ 的系统默认：
+rm ~/.config/pipewire/pipewire-pulse.conf
+systemctl --user restart pipewire-pulse.service
+
+
+# 容器端：~/.bashrc 末尾追加（镜像已保存到 ros2_humble:audio）
+#   export PULSE_SERVER=tcp:localhost:4713
+#   /etc/asound.conf 配置为 type pulse server "tcp:localhost:4713"
+
+# 容器需用以下参数启动（关键：--pid=host 和 -v /run/user/1000）
+# docker run -d --name ros2_humble --privileged --network=host --pid=host \
+#   -v /home/hzc/linux/Docker/22.04:/shared \
+#   -v /tmp/.X11-unix:/tmp/.X11-unix \
+#   -v /run/user/$(id -u):/run/user/$(id -u) \
+#   ros2_humble:audio /bin/bash -c "sleep infinity"
+
+# 验证：docker exec ros2_humble bash -ic 'pactl info | grep "Default Sink"'
+# 应看到主机当前默认设备（如 bluez_output.xxx 蓝牙耳机），切换耳机/扬声器无需改容器

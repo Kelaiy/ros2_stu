@@ -1,0 +1,33 @@
+[1.060s] Invoking command in '/shared/ws1_stu/src/autopartol_car': PYTHONPATH=/shared/ws1_stu/build/autopartol_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_car build --build-base /shared/ws1_stu/build/autopartol_car/build install --record /shared/ws1_stu/build/autopartol_car/install.log --single-version-externally-managed install_data
+[1.249s] running egg_info
+[1.249s] creating ../../build/autopartol_car/autopartol_car.egg-info
+[1.249s] writing ../../build/autopartol_car/autopartol_car.egg-info/PKG-INFO
+[1.249s] writing dependency_links to ../../build/autopartol_car/autopartol_car.egg-info/dependency_links.txt
+[1.250s] writing entry points to ../../build/autopartol_car/autopartol_car.egg-info/entry_points.txt
+[1.250s] writing requirements to ../../build/autopartol_car/autopartol_car.egg-info/requires.txt
+[1.250s] writing top-level names to ../../build/autopartol_car/autopartol_car.egg-info/top_level.txt
+[1.250s] writing manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+[1.250s] reading manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+[1.250s] writing manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+[1.250s] running build
+[1.251s] running build_py
+[1.251s] creating /shared/ws1_stu/build/autopartol_car/build
+[1.251s] creating /shared/ws1_stu/build/autopartol_car/build/lib
+[1.251s] creating /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car
+[1.251s] copying autopartol_car/__init__.py -> /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car
+[1.251s] running install
+[1.251s] running install_lib
+[1.251s] creating /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car
+[1.252s] copying /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car/__init__.py -> /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car
+[1.252s] byte-compiling /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car/__init__.py to __init__.cpython-310.pyc
+[1.252s] running install_data
+[1.252s] creating /shared/ws1_stu/install/autopartol_car/share/ament_index
+[1.252s] creating /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index
+[1.252s] creating /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index/packages
+[1.252s] copying resource/autopartol_car -> /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index/packages
+[1.253s] copying package.xml -> /shared/ws1_stu/install/autopartol_car/share/autopartol_car
+[1.253s] running install_egg_info
+[1.253s] Copying ../../build/autopartol_car/autopartol_car.egg-info to /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car-0.0.0-py3.10.egg-info
+[1.254s] running install_scripts
+[1.275s] writing list of installed files to '/shared/ws1_stu/build/autopartol_car/install.log'
+[1.309s] Invoked command in '/shared/ws1_stu/src/autopartol_car' returned '0': PYTHONPATH=/shared/ws1_stu/build/autopartol_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_car build --build-base /shared/ws1_stu/build/autopartol_car/build install --record /shared/ws1_stu/build/autopartol_car/install.log --single-version-externally-managed install_data

@@ -1,0 +1,413 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75ac9bcd4f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75ac9bcd42e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75ac9bcd42e0>>, mixin_verb=('build',))
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.225s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.226s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.226s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/shared/ws1_stu'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_car) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_car' with type 'ros.ament_python' and name 'autopartol_car'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp1_gazebo) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp1_gazebo' with type 'ros.ament_cmake' and name 'cpp1_gazebo'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp2_slam) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp2_slam' with type 'ros.ament_cmake' and name 'cpp2_slam'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp3_nav2) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp3_nav2' with type 'ros.ament_cmake' and name 'cpp3_nav2'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/py1_car_application) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py1_car_application' with type 'ros.ament_python' and name 'py1_car_application'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py2_autopartol) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py2_autopartol' with type 'ros.ament_python' and name 'py2_autopartol'
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'autopartol_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/autopartol_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/autopartol_car', 'merge_install': False, 'path': '/shared/ws1_stu/src/autopartol_car', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp1_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'cpp1_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/cpp1_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/cpp1_gazebo', 'merge_install': False, 'path': '/shared/ws1_stu/src/cpp1_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp2_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'cpp2_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/cpp2_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/cpp2_slam', 'merge_install': False, 'path': '/shared/ws1_stu/src/cpp2_slam', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'cpp3_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'cpp3_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/cpp3_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/cpp3_nav2', 'merge_install': False, 'path': '/shared/ws1_stu/src/cpp3_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py1_car_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'py1_car_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/py1_car_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/py1_car_application', 'merge_install': False, 'path': '/shared/ws1_stu/src/py1_car_application', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py2_autopartol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'py2_autopartol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared/ws1_stu/build/py2_autopartol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared/ws1_stu/install/py2_autopartol', 'merge_install': False, 'path': '/shared/ws1_stu/src/py2_autopartol', 'symlink_install': False, 'test_result_base': None}
+[0.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/shared/ws1_stu/src/autopartol_car' with build type 'ament_python'
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_car', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared/ws1_stu/src/cpp1_gazebo' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared/ws1_stu/src/cpp1_gazebo'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared/ws1_stu/src/cpp2_slam' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared/ws1_stu/src/cpp2_slam'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared/ws1_stu/src/cpp3_nav2' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared/ws1_stu/src/cpp3_nav2'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/shared/ws1_stu/src/py1_car_application' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('py1_car_application', 'ament_prefix_path')
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/ament_prefix_path.ps1'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/ament_prefix_path.dsv'
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/ament_prefix_path.sh'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/shared/ws1_stu/src/py2_autopartol' with build type 'ament_python'
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('py2_autopartol', 'ament_prefix_path')
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/ament_prefix_path.ps1'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/ament_prefix_path.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/ament_prefix_path.sh'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/shared/ws1_stu/src/autopartol_car'
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp1_gazebo -- -j12 -l12
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp2_slam -- -j12 -l12
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp3_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp3_nav2 -- -j12 -l12
+[0.751s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/shared/ws1_stu/src/py1_car_application'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp2_slam -- -j12 -l12
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp2_slam
+[0.973s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/shared/ws1_stu/src/py2_autopartol'
+[0.973s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp3_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp3_nav2 -- -j12 -l12
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp3_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp3_nav2
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp1_gazebo -- -j12 -l12
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/build/cpp1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp1_gazebo
+[0.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp2_slam)
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam' for CMake module files
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam' for CMake config files
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp2_slam', 'cmake_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/lib/pkgconfig/cpp2_slam.pc'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/lib/python3.10/site-packages'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.sh'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.zsh'
+[1.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp2_slam/share/colcon-core/packages/cpp2_slam)
+[1.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp2_slam)
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam' for CMake module files
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam' for CMake config files
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp2_slam', 'cmake_prefix_path')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/hook/cmake_prefix_path.sh'
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp2_slam
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/bin'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/lib/pkgconfig/cpp2_slam.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/lib/python3.10/site-packages'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp2_slam/bin'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.zsh'
+[1.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp2_slam/share/colcon-core/packages/cpp2_slam)
+[1.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp3_nav2)
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2' for CMake module files
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp3_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp3_nav2
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2' for CMake config files
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp3_nav2', 'cmake_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/bin'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/lib/pkgconfig/cpp3_nav2.pc'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/lib/python3.10/site-packages'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/bin'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.bash'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp3_nav2/share/colcon-core/packages/cpp3_nav2)
+[1.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp3_nav2)
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2' for CMake module files
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2' for CMake config files
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp3_nav2', 'cmake_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/hook/cmake_prefix_path.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/bin'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/lib/pkgconfig/cpp3_nav2.pc'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp3_nav2/bin'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp3_nav2/share/cpp3_nav2/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp3_nav2/share/colcon-core/packages/cpp3_nav2)
+[1.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp1_gazebo)
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo' for CMake module files
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo' for CMake config files
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/build/cpp1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py2_autopartol:/shared/ws1_stu/install/autopartol_car:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp1_gazebo
+[1.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp1_gazebo', 'cmake_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/bin'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/lib/pkgconfig/cpp1_gazebo.pc'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/bin'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.sh'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.zsh'
+[1.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp1_gazebo/share/colcon-core/packages/cpp1_gazebo)
+[1.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp1_gazebo)
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo' for CMake module files
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo' for CMake config files
+[1.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp1_gazebo', 'cmake_prefix_path')
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/hook/cmake_prefix_path.sh'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/bin'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/lib/pkgconfig/cpp1_gazebo.pc'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/lib/python3.10/site-packages'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/cpp1_gazebo/bin'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.ps1'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.sh'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.bash'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/cpp1_gazebo/share/cpp1_gazebo/package.zsh'
+[1.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/cpp1_gazebo/share/colcon-core/packages/cpp1_gazebo)
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/src/py1_car_application': PYTHONPATH=/shared/ws1_stu/build/py1_car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_car_application build --build-base /shared/ws1_stu/build/py1_car_application/build install --record /shared/ws1_stu/build/py1_car_application/install.log --single-version-externally-managed install_data
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/src/autopartol_car': PYTHONPATH=/shared/ws1_stu/build/autopartol_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_car build --build-base /shared/ws1_stu/build/autopartol_car/build install --record /shared/ws1_stu/build/autopartol_car/install.log --single-version-externally-managed install_data
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared/ws1_stu/src/py2_autopartol': PYTHONPATH=/shared/ws1_stu/build/py2_autopartol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_autopartol build --build-base /shared/ws1_stu/build/py2_autopartol/build install --record /shared/ws1_stu/build/py2_autopartol/install.log --single-version-externally-managed install_data
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application' for CMake module files
+[1.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/src/py1_car_application' returned '0': PYTHONPATH=/shared/ws1_stu/build/py1_car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_car_application build --build-base /shared/ws1_stu/build/py1_car_application/build install --record /shared/ws1_stu/build/py1_car_application/install.log --single-version-externally-managed install_data
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application' for CMake config files
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application/lib'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application/bin'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application/lib/pkgconfig/py1_car_application.pc'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages'
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('py1_car_application', 'pythonpath')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/pythonpath.ps1'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/pythonpath.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/hook/pythonpath.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py1_car_application/bin'
+[1.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py1_car_application)
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/package.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/package.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/package.sh'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/package.bash'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py1_car_application/share/py1_car_application/package.zsh'
+[1.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/py1_car_application/share/colcon-core/packages/py1_car_application)
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car' for CMake module files
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/src/autopartol_car' returned '0': PYTHONPATH=/shared/ws1_stu/build/autopartol_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_car build --build-base /shared/ws1_stu/build/autopartol_car/build install --record /shared/ws1_stu/build/autopartol_car/install.log --single-version-externally-managed install_data
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car' for CMake config files
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car/lib'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car/lib/pkgconfig/autopartol_car.pc'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages'
+[1.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_car', 'pythonpath')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/pythonpath.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/pythonpath.dsv'
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/hook/pythonpath.sh'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/autopartol_car/bin'
+[1.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_car)
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/package.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/package.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/package.sh'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/package.bash'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/autopartol_car/share/autopartol_car/package.zsh'
+[1.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/autopartol_car/share/colcon-core/packages/autopartol_car)
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol' for CMake module files
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared/ws1_stu/src/py2_autopartol' returned '0': PYTHONPATH=/shared/ws1_stu/build/py2_autopartol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_autopartol build --build-base /shared/ws1_stu/build/py2_autopartol/build install --record /shared/ws1_stu/build/py2_autopartol/install.log --single-version-externally-managed install_data
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol' for CMake config files
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol/lib'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol/bin'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol/lib/pkgconfig/py2_autopartol.pc'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages'
+[1.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('py2_autopartol', 'pythonpath')
+[1.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/pythonpath.ps1'
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/pythonpath.dsv'
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/hook/pythonpath.sh'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/shared/ws1_stu/install/py2_autopartol/bin'
+[1.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py2_autopartol)
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/package.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/package.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/package.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/package.bash'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/shared/ws1_stu/install/py2_autopartol/share/py2_autopartol/package.zsh'
+[1.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared/ws1_stu/install/py2_autopartol/share/colcon-core/packages/py2_autopartol)
+[1.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.646s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.651s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.651s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.652s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.655s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.655s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared/ws1_stu/install/local_setup.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/shared/ws1_stu/install/_local_setup_util_ps1.py'
+[1.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared/ws1_stu/install/setup.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared/ws1_stu/install/local_setup.sh'
+[1.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/shared/ws1_stu/install/_local_setup_util_sh.py'
+[1.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared/ws1_stu/install/setup.sh'
+[1.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared/ws1_stu/install/local_setup.bash'
+[1.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared/ws1_stu/install/setup.bash'
+[1.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared/ws1_stu/install/local_setup.zsh'
+[1.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared/ws1_stu/install/setup.zsh'

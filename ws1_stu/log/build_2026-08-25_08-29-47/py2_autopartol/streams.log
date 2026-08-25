@@ -1,0 +1,26 @@
+[0.883s] Invoking command in '/shared/ws1_stu/src/py2_autopartol': PYTHONPATH=/shared/ws1_stu/build/py2_autopartol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_autopartol build --build-base /shared/ws1_stu/build/py2_autopartol/build install --record /shared/ws1_stu/build/py2_autopartol/install.log --single-version-externally-managed install_data
+[1.094s] running egg_info
+[1.095s] writing ../../build/py2_autopartol/py2_autopartol.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ../../build/py2_autopartol/py2_autopartol.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../build/py2_autopartol/py2_autopartol.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../build/py2_autopartol/py2_autopartol.egg-info/requires.txt
+[1.095s] writing top-level names to ../../build/py2_autopartol/py2_autopartol.egg-info/top_level.txt
+[1.098s] reading manifest file '../../build/py2_autopartol/py2_autopartol.egg-info/SOURCES.txt'
+[1.098s] adding license file 'LICENSE'
+[1.099s] writing manifest file '../../build/py2_autopartol/py2_autopartol.egg-info/SOURCES.txt'
+[1.099s] running build
+[1.099s] running build_py
+[1.099s] copying py2_autopartol/partol_node.py -> /shared/ws1_stu/build/py2_autopartol/build/lib/py2_autopartol
+[1.099s] running install
+[1.100s] running install_lib
+[1.101s] copying /shared/ws1_stu/build/py2_autopartol/build/lib/py2_autopartol/partol_node.py -> /shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages/py2_autopartol
+[1.101s] byte-compiling /shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages/py2_autopartol/partol_node.py to partol_node.cpython-310.pyc
+[1.103s] running install_data
+[1.103s] running install_egg_info
+[1.105s] removing '/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages/py2_autopartol-0.0.0-py3.10.egg-info' (and everything under it)
+[1.106s] Copying ../../build/py2_autopartol/py2_autopartol.egg-info to /shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages/py2_autopartol-0.0.0-py3.10.egg-info
+[1.106s] running install_scripts
+[1.129s] Installing partol_node script to /shared/ws1_stu/install/py2_autopartol/lib/py2_autopartol
+[1.129s] Installing speaker script to /shared/ws1_stu/install/py2_autopartol/lib/py2_autopartol
+[1.130s] writing list of installed files to '/shared/ws1_stu/build/py2_autopartol/install.log'
+[1.170s] Invoked command in '/shared/ws1_stu/src/py2_autopartol' returned '0': PYTHONPATH=/shared/ws1_stu/build/py2_autopartol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py2_autopartol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py2_autopartol build --build-base /shared/ws1_stu/build/py2_autopartol/build install --record /shared/ws1_stu/build/py2_autopartol/install.log --single-version-externally-managed install_data

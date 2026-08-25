@@ -1,0 +1,25 @@
+[0.815s] Invoking command in '/shared/ws1_stu/src/py1_car_application': PYTHONPATH=/shared/ws1_stu/build/py1_car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_car_application build --build-base /shared/ws1_stu/build/py1_car_application/build install --record /shared/ws1_stu/build/py1_car_application/install.log --single-version-externally-managed install_data
+[1.018s] running egg_info
+[1.019s] writing ../../build/py1_car_application/py1_car_application.egg-info/PKG-INFO
+[1.019s] writing dependency_links to ../../build/py1_car_application/py1_car_application.egg-info/dependency_links.txt
+[1.019s] writing entry points to ../../build/py1_car_application/py1_car_application.egg-info/entry_points.txt
+[1.019s] writing requirements to ../../build/py1_car_application/py1_car_application.egg-info/requires.txt
+[1.020s] writing top-level names to ../../build/py1_car_application/py1_car_application.egg-info/top_level.txt
+[1.021s] reading manifest file '../../build/py1_car_application/py1_car_application.egg-info/SOURCES.txt'
+[1.028s] adding license file 'LICENSE'
+[1.029s] writing manifest file '../../build/py1_car_application/py1_car_application.egg-info/SOURCES.txt'
+[1.029s] running build
+[1.029s] running build_py
+[1.029s] running install
+[1.030s] running install_lib
+[1.031s] running install_data
+[1.031s] running install_egg_info
+[1.032s] removing '/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages/py1_car_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.033s] Copying ../../build/py1_car_application/py1_car_application.egg-info to /shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages/py1_car_application-0.0.0-py3.10.egg-info
+[1.034s] running install_scripts
+[1.054s] Installing car_get_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+[1.054s] Installing car_init_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+[1.055s] Installing nav_to_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+[1.055s] Installing nav_to_poses script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+[1.055s] writing list of installed files to '/shared/ws1_stu/build/py1_car_application/install.log'
+[1.092s] Invoked command in '/shared/ws1_stu/src/py1_car_application' returned '0': PYTHONPATH=/shared/ws1_stu/build/py1_car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py1_car_application build --build-base /shared/ws1_stu/build/py1_car_application/build install --record /shared/ws1_stu/build/py1_car_application/install.log --single-version-externally-managed install_data

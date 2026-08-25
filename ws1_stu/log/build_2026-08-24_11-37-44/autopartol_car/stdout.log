@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/autopartol_car/autopartol_car.egg-info
+writing ../../build/autopartol_car/autopartol_car.egg-info/PKG-INFO
+writing dependency_links to ../../build/autopartol_car/autopartol_car.egg-info/dependency_links.txt
+writing entry points to ../../build/autopartol_car/autopartol_car.egg-info/entry_points.txt
+writing requirements to ../../build/autopartol_car/autopartol_car.egg-info/requires.txt
+writing top-level names to ../../build/autopartol_car/autopartol_car.egg-info/top_level.txt
+writing manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+reading manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+writing manifest file '../../build/autopartol_car/autopartol_car.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /shared/ws1_stu/build/autopartol_car/build
+creating /shared/ws1_stu/build/autopartol_car/build/lib
+creating /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car
+copying autopartol_car/__init__.py -> /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car
+running install
+running install_lib
+creating /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car
+copying /shared/ws1_stu/build/autopartol_car/build/lib/autopartol_car/__init__.py -> /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car
+byte-compiling /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /shared/ws1_stu/install/autopartol_car/share/ament_index
+creating /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index
+creating /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index/packages
+copying resource/autopartol_car -> /shared/ws1_stu/install/autopartol_car/share/ament_index/resource_index/packages
+copying package.xml -> /shared/ws1_stu/install/autopartol_car/share/autopartol_car
+running install_egg_info
+Copying ../../build/autopartol_car/autopartol_car.egg-info to /shared/ws1_stu/install/autopartol_car/lib/python3.10/site-packages/autopartol_car-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/shared/ws1_stu/build/autopartol_car/install.log'

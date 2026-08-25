@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py1_car_application/py1_car_application.egg-info/PKG-INFO
+writing dependency_links to ../../build/py1_car_application/py1_car_application.egg-info/dependency_links.txt
+writing entry points to ../../build/py1_car_application/py1_car_application.egg-info/entry_points.txt
+writing requirements to ../../build/py1_car_application/py1_car_application.egg-info/requires.txt
+writing top-level names to ../../build/py1_car_application/py1_car_application.egg-info/top_level.txt
+reading manifest file '../../build/py1_car_application/py1_car_application.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py1_car_application/py1_car_application.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages/py1_car_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py1_car_application/py1_car_application.egg-info to /shared/ws1_stu/install/py1_car_application/lib/python3.10/site-packages/py1_car_application-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_get_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+Installing car_init_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+Installing nav_to_pose script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+Installing nav_to_poses script to /shared/ws1_stu/install/py1_car_application/lib/py1_car_application
+writing list of installed files to '/shared/ws1_stu/build/py1_car_application/install.log'

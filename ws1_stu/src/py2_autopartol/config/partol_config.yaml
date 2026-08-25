@@ -1,0 +1,12 @@
+/partol_node:
+  ros__parameters:
+    init_point: [0.0, 0.0, 0.0]
+    tar_points: [
+      0,0, 0.0, 0.0,
+      1.0, 2.0, 4.0,
+      -6.0, 3.0, 1.5,
+      1.0, 5.0, 4.8]
+    use_sim_time: false
+
+
+# 输出 ros2 param dump /partol_node 

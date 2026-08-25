@@ -1,0 +1,4 @@
+Invoking command in '/shared/ws1_stu/build/cpp2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp2_slam -- -j12 -l12
+Invoked command in '/shared/ws1_stu/build/cpp2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp2_slam -- -j12 -l12
+Invoking command in '/shared/ws1_stu/build/cpp2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp2_slam
+Invoked command in '/shared/ws1_stu/build/cpp2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws1_stu/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp2_slam

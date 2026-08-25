@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /shared/ws1_stu/build/cpp2_slam
+-- Install configuration: ""
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/first_rebot.urdf
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/first_rebot.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/plugins
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/plugins/gazebo_sensor_plugin.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/plugins/gazebo_control_plugin.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/sensor
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/sensor/camera.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/sensor/laser.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/sensor/imu.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/actuator
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/actuator/wheel.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/actuator/caster.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/car.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/base.urdf.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/car_ros2_control.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/urdf/car/common_inertia.xacro
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/launch
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/launch/display_robot.launch.py
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/launch/gazebo_sim.launch.py
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/config
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/config/car_ros2_controller.yaml
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/config/display_mode.rviz
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/world
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/world/home
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/world/home/model.config
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/world/home/model.sdf
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/world/custom_home.world
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/ament_index/resource_index/package_run_dependencies/cpp2_slam
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/ament_index/resource_index/parent_prefix_path/cpp2_slam
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/environment/ament_prefix_path.sh
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/environment/ament_prefix_path.dsv
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/environment/path.sh
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/environment/path.dsv
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/local_setup.bash
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/local_setup.sh
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/local_setup.zsh
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/local_setup.dsv
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.dsv
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/ament_index/resource_index/packages/cpp2_slam
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/cmake/cpp2_slamConfig.cmake
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/cmake/cpp2_slamConfig-version.cmake
+-- Installing: /shared/ws1_stu/install/cpp2_slam/share/cpp2_slam/package.xml

@@ -1,0 +1,6 @@
+[console_scripts]
+car_get_pose = py1_car_application.car_get_pose:main
+car_init_pose = py1_car_application.car_init_pose:main
+nav_to_pose = py1_car_application.nav_to_pose:main
+nav_to_poses = py1_car_application.nav_to_poses:main
+
