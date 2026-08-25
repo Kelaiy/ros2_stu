@@ -4,3 +4,4 @@ log/
 CMakeFiles/
 CMakeCache.txt
 *.out
+*.claude
