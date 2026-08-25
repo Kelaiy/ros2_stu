@@ -1,4 +1,0 @@
-Invoking command in '/shared/ws1_stu/build/cpp3_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp3_nav2 -- -j12 -l12
-Invoked command in '/shared/ws1_stu/build/cpp3_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared/ws1_stu/build/cpp3_nav2 -- -j12 -l12
-Invoking command in '/shared/ws1_stu/build/cpp3_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp3_nav2
-Invoked command in '/shared/ws1_stu/build/cpp3_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared/ws1_stu/build/cpp3_nav2

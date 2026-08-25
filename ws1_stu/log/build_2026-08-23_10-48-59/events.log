@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000189] (-) JobUnselected: {'identifier': 'cpp1_gazebo'}
-[0.000230] (-) JobUnselected: {'identifier': 'cpp2_slam'}
-[0.000258] (-) JobUnselected: {'identifier': 'cpp3_nav2'}
-[0.000283] (-) EventReactorShutdown: {}

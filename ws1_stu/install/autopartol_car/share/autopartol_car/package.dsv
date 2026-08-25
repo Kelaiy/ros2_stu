@@ -1,6 +1,0 @@
-source;share/autopartol_car/hook/pythonpath.ps1
-source;share/autopartol_car/hook/pythonpath.dsv
-source;share/autopartol_car/hook/pythonpath.sh
-source;share/autopartol_car/hook/ament_prefix_path.ps1
-source;share/autopartol_car/hook/ament_prefix_path.dsv
-source;share/autopartol_car/hook/ament_prefix_path.sh
