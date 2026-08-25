@@ -36,8 +36,6 @@ xy_goal_tolerance: 0.25             # XY目标容差
 手动发布初始位置
 ros2 topic pub /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "{header: {frame_id: map}, pose: {pose: {position: {x: 1.36, y: 0.93, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: -0.971, w: 0.239}}}}" --once
 
-
-
 # 改权限
 sudo chown -R hzc:hzc /home/hzc/linux/Docker/22.04/ws1_stu/src/cpp2_slam/
 
