@@ -1,0 +1,4 @@
+[console_scripts]
+partol_node = py2_autopartol.partol_node:main
+speaker = py2_autopartol.speaker:main
+

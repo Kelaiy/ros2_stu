@@ -1,0 +1,26 @@
+[ 50%] Built target test_plugin
+[100%] Built target spin_motion_controller
+-- Install configuration: ""
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/lib/demo1_motion_control_system/test_plugin
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/lib/libspin_motion_controller.so
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include/
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system/spin_motion_controller.hpp
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system/motion_control_interface.hpp
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/spin_motion_plugins.xml
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/package_run_dependencies/demo1_motion_control_system
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/parent_prefix_path/demo1_motion_control_system
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/ament_prefix_path.sh
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/ament_prefix_path.dsv
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/path.sh
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/path.dsv
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.bash
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.sh
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.zsh
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.dsv
+-- Installing: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/package.dsv
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/packages/demo1_motion_control_system
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/demo1_motion_control_system__pluginlib__plugin/demo1_motion_control_system
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/cmake/demo1_motion_control_systemConfig.cmake
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/cmake/demo1_motion_control_systemConfig-version.cmake
+-- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/package.xml

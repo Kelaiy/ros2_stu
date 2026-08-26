@@ -1,0 +1,30 @@
+[0.041s] Invoking command in '/shared/ws2_pluginlib/build/demo1_motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws2_pluginlib/build/demo1_motion_control_system -- -j12 -l12
+[0.356s] [ 50%] Built target test_plugin
+[0.356s] [100%] Built target spin_motion_controller
+[0.648s] Invoked command in '/shared/ws2_pluginlib/build/demo1_motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws2_pluginlib/build/demo1_motion_control_system -- -j12 -l12
+[0.649s] Invoking command in '/shared/ws2_pluginlib/build/demo1_motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws2_pluginlib/build/demo1_motion_control_system
+[0.675s] -- Install configuration: ""
+[0.681s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/lib/demo1_motion_control_system/test_plugin
+[0.681s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/lib/libspin_motion_controller.so
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include/
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system/spin_motion_controller.hpp
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/include//demo1_motion_control_system/motion_control_interface.hpp
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/spin_motion_plugins.xml
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/package_run_dependencies/demo1_motion_control_system
+[0.685s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/parent_prefix_path/demo1_motion_control_system
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/ament_prefix_path.sh
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/ament_prefix_path.dsv
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/path.sh
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/environment/path.dsv
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.bash
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.sh
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.zsh
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/local_setup.dsv
+[0.686s] -- Installing: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/package.dsv
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/packages/demo1_motion_control_system
+[0.686s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/ament_index/resource_index/demo1_motion_control_system__pluginlib__plugin/demo1_motion_control_system
+[0.687s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/cmake/demo1_motion_control_systemConfig.cmake
+[0.687s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/cmake/demo1_motion_control_systemConfig-version.cmake
+[0.687s] -- Up-to-date: /shared/ws2_pluginlib/install/demo1_motion_control_system/share/demo1_motion_control_system/package.xml
+[0.755s] Invoked command in '/shared/ws2_pluginlib/build/demo1_motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws2_pluginlib/build/demo1_motion_control_system

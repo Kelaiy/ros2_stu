@@ -1,0 +1,80 @@
+[0.037s] Invoking command in '/shared/ws2_pluginlib/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake /shared/ws2_pluginlib/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/shared/ws2_pluginlib/install/nav2_custom_planner
+[0.348s] -- The C compiler identification is GNU 11.4.0
+[0.348s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.349s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.400s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.564s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.771s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[0.820s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.829s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.843s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.935s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.988s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.104s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.108s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.136s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.141s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.158s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.196s] -- Looking for pthread.h
+[1.281s] -- Looking for pthread.h - found
+[1.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.363s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.364s] -- Found Threads: TRUE  
+[1.661s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.661s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.760s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.871s] -- Configured cppcheck include dirs: /shared/ws2_pluginlib/src/nav2_custom_planner/include
+[1.871s] -- Configured cppcheck exclude dirs and/or files: 
+[1.872s] -- Added test 'lint_cmake' to check CMake code style
+[1.873s] -- Added test 'uncrustify' to check C / C++ code style
+[1.873s] -- Configured uncrustify additional arguments: 
+[1.874s] -- Added test 'xmllint' to check XML markup files
+[1.875s] -- Configuring done
+[1.944s] -- Generating done
+[1.951s] -- Build files have been written to: /shared/ws2_pluginlib/build/nav2_custom_planner
+[1.965s] Invoked command in '/shared/ws2_pluginlib/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake /shared/ws2_pluginlib/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/shared/ws2_pluginlib/install/nav2_custom_planner
+[1.966s] Invoking command in '/shared/ws2_pluginlib/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws2_pluginlib/build/nav2_custom_planner -- -j12 -l12
+[2.028s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[6.218s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[6.468s] [100%] Built target nav2_custom_planner_plugin
+[6.479s] Invoked command in '/shared/ws2_pluginlib/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --build /shared/ws2_pluginlib/build/nav2_custom_planner -- -j12 -l12
+[6.481s] Invoking command in '/shared/ws2_pluginlib/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws2_pluginlib/build/nav2_custom_planner
+[6.488s] -- Install configuration: ""
+[6.488s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[6.489s] -- Set runtime path of "/shared/ws2_pluginlib/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[6.489s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/include/
+[6.489s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/include//nav2_custom_planner
+[6.489s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[6.489s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[6.489s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[6.490s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[6.491s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[6.492s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[6.492s] -- Installing: /shared/ws2_pluginlib/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[6.494s] Invoked command in '/shared/ws2_pluginlib/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/shared/ws2_pluginlib/install/py2_autopartol:/shared/ws2_pluginlib/install/py1_car_application:/opt/ros/humble /usr/bin/cmake --install /shared/ws2_pluginlib/build/nav2_custom_planner

@@ -1,0 +1,2 @@
+source;share/nav2_custom_planner/environment/ament_prefix_path.sh
+source;share/nav2_custom_planner/environment/path.sh

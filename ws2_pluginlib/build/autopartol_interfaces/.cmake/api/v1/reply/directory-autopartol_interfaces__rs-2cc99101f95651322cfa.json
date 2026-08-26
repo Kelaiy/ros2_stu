@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopartol_interfaces__rs",
+		"source" : "/shared/ws2_pluginlib/build/autopartol_interfaces/autopartol_interfaces__rs"
+	}
+}
